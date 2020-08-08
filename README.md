@@ -1,4 +1,4 @@
-### Hi there, I'm Hua - aka aemooooon 👋
+# Hi, I'm Hua 👋
 
 <!--
 **aemooooon/aemooooon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
