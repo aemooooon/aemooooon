@@ -1,4 +1,4 @@
-# Hi, I'm Hua 👋
+## Hi, I'm Hua 👋
 
 [![Linkedin Badge](https://img.shields.io/badge/-aemooooon-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/aemooooon/)](https://www.linkedin.com/in/aemooooon/)
 
@@ -19,5 +19,5 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 
 
-
+## Hua's GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=aemooooon&hide=["stars"]&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
