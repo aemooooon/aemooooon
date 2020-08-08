@@ -16,3 +16,6 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - ⚡ Fun fact: ...
 
+
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=aemooooon&hide=["stars"]&show_icons=true)
