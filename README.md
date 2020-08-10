@@ -2,6 +2,7 @@
 
 I'm a Husband, Father, Developer, and student! Currently studying on Otago polytechnic with major Information techonology.
 
+<hr>
 
 ### Covered Skills
 
