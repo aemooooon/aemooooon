@@ -4,10 +4,10 @@
 
 
 ### Covered Skills
-<a href="https://www.python.org/" target="_blank"><img src="https://www.vectorlogo.zone/logos/python/python-ar21.svg"></a>
+<a href="https://www.python.org/" target="_blank"><img height="50" src="https://www.vectorlogo.zone/logos/python/python-ar21.svg"></a>
 <a href="https://www.linux.org/" target="_blank"><img src="https://www.vectorlogo.zone/logos/linux/linux-ar21.svg"></a></code>
 <a href="https://reactjs.org/" target="_blank"><img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg"></a></code>
-<a href="https://www.docker.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/docker/docker-official.svg"></a></code>
+<a href="https://www.docker.com/" target="_blank"><img height="50" src="https://www.vectorlogo.zone/logos/docker/docker-official.svg"></a></code>
 
 [![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat&logo=javascript&link=https://github.com/hritik5102)](https://github.com/hritik5102) 
 [![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white&link=https://github.com/hritik5102)](https://github.com/hritik5102) 
