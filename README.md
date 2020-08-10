@@ -9,6 +9,8 @@
 <img height="61" src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg">
 <img height="61" src="https://www.vectorlogo.zone/logos/docker/docker-official.svg">
 
+[![Python](https://www.vectorlogo.zone/logos/python/python-ar21.svg)](https://python.org)
+
 [![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat&logo=javascript&link=https://github.com/hritik5102)](https://github.com/hritik5102) 
 [![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white&link=https://github.com/hritik5102)](https://github.com/hritik5102) 
 [![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&link=https://github.com/hritik5102)](https://github.com/hritik5102) 
