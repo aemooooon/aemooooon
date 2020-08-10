@@ -12,6 +12,9 @@ I'm a Husband, Father, Developer, and student! Currently studying on Otago polyt
 
 <a><img height="50" src="https://www.vectorlogo.zone/logos/linux/linux-ar21.svg"></a>
 <a><img height="50" src="https://www.vectorlogo.zone/logos/docker/docker-ar21.svg"></a>
+<a><img height="50" src="https://www.vectorlogo.zone/logos/puppet/puppet-ar21.svg"></a>
+
+
 <a><img height="50" src="https://www.vectorlogo.zone/logos/mysql/mysql-ar21.svg"></a>
 <a><img height="50" src="https://www.vectorlogo.zone/logos/mariadb/mariadb-ar21.svg"></a>
 <a><img height="50" src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg"></a>
