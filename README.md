@@ -6,14 +6,14 @@ I'm a Husband, Father, Developer, and student! Currently studying on Otago polyt
 
 # Covered Skills
 
-<a><img width="120" height="50" src="https://www.vectorlogo.zone/logos/python/python-ar21.svg"></a>
-<a><img width="120" height="50" src="https://www.vectorlogo.zone/logos/numpy/numpy-ar21.svg"></a>
-<a><img width="120" height="50" src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.svg"></a>
+<a><img width="100" height="60" src="https://www.vectorlogo.zone/logos/python/python-ar21.svg"></a>
+<a><img width="100" height="60" src="https://www.vectorlogo.zone/logos/numpy/numpy-ar21.svg"></a>
+<a><img width="100" height="60" src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.svg"></a>
 
-<a><img width="120" height="50" src="https://www.vectorlogo.zone/logos/linux/linux-ar21.svg"></a>
-<a><img width="120" height="50" src="https://www.vectorlogo.zone/logos/docker/docker-ar21.svg"></a>
-<a><img width="120" height="50" src="https://www.vectorlogo.zone/logos/puppet/puppet-ar21.svg"></a>
-<a><img width="120" height="50" src="https://www.vectorlogo.zone/logos/php/php-ar21.svg"></a>
+<a><img width="100" height="60" src="https://www.vectorlogo.zone/logos/linux/linux-ar21.svg"></a>
+<a><img width="100" height="60" src="https://www.vectorlogo.zone/logos/docker/docker-ar21.svg"></a>
+<a><img width="100" height="60" src="https://www.vectorlogo.zone/logos/puppet/puppet-ar21.svg"></a>
+<a><img width="100" height="60" src="https://www.vectorlogo.zone/logos/php/php-ar21.svg"></a>
 
 <a><img height="50" src="https://www.vectorlogo.zone/logos/dotnet/dotnet-ar21.svg"></a>
 <a><img height="50" src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-ar21.svg"></a>
