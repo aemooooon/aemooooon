@@ -56,10 +56,9 @@ I'm a Husband, Father, Developer, and student! Currently studying on Otago polyt
 
 ### Get in touch
 
-![Wechat](https://github.com/aemooooon/Project-Portfolio/blob/master/assets/img/p/WeChatQRcode.jpg?raw=true)
-
-<img align="left" alt="Hua's wechat" width="37" src="https://github.com/aemooooon/Project-Portfolio/blob/master/assets/img/p/WeChatQRcode.jpg?raw=true" />
-
+<a href="https://github.com/aemooooon/Project-Portfolio/blob/master/assets/img/p/WeChatQRcode.jpg?raw=true">
+  <img align="left" alt="Hua's wechat" width="37" src="https://www.vectorlogo.zone/logos/wechat/wechat-tile.svg" />
+</a>
 <a href="https://linkedin.com/in/ashwanisng">
   <img align="left" alt="Hua's Linkdein" width="37px" src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" />
 </a>
