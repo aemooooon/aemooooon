@@ -1,10 +1,10 @@
-##  Hi, I'm Hua 👋 
+## Hi, I'm Hua 👋 
 
 I'm a Husband, Father, Developer, and student! Currently studying on Otago polytechnic with major Information techonology.
 
 <hr>
 
-### 👋  Covered Skills
+### Covered Skills
 
 <a><img height="50" src="https://www.vectorlogo.zone/logos/python/python-ar21.svg"></a>
 <a><img height="50" src="https://www.vectorlogo.zone/logos/numpy/numpy-ar21.svg"></a>
