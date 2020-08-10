@@ -56,18 +56,18 @@ I'm a Husband, Father, Developer, and student! Currently studying on Otago polyt
 
 ### Get in touch
 
-<a href="https://github.com/aemooooon/Project-Portfolio/blob/master/assets/img/p/WeChatQRcode.jpg?raw=true">
-  <img align="left" alt="Hua's wechat" width="37" src="https://www.vectorlogo.zone/logos/wechat/wechat-tile.svg" />
+<a target="_blank" href="https://github.com/aemooooon/Project-Portfolio/blob/master/assets/img/p/WeChatQRcode.jpg?raw=true">
+  <img align="left" alt="Hua's WeChat" width="37" src="https://www.vectorlogo.zone/logos/wechat/wechat-tile.svg" />
 </a>
-<a href="https://linkedin.com/in/ashwanisng">
+<a target="_blank" href="https://www.linkedin.com/in/hua-wang-739244190/">
   <img align="left" alt="Hua's Linkdein" width="37px" src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" />
 </a>
-<a href="https://github.com/ashwanisng">
+<a target="_blank" href="https://github.com/aemooooon">
   <img align="left" alt="Hua's Github" width="37px" src="https://www.vectorlogo.zone/logos/github/github-tile.svg" />
 </a>
-<a href="https://instagram.com/ashwanisng">
+<a target="_blank" href="https://www.instagram.com/aemooooon/">
   <img align="left" alt="Hua's Instagram" width="37px" src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg" />
 </a>
-<a href="https://www.facebook.com/ashwani1406">
+<a target="_blank" href="https://www.facebook.com/hua.wang.71">
   <img align="left" alt="Hua's Facebook" width="37px" src="https://www.vectorlogo.zone/logos/facebook/facebook-tile.svg" />
 </a>
