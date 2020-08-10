@@ -33,8 +33,8 @@ I'm a Husband, Father, Developer, and student! <br />Currently studying on Otago
 <a><img height="40" src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg"></a>
 
 # ⚡ Fun Facts
-* Swimming
-* Food
+* 🏊 Swimming
+* 🎂 Food
 
 # 🔭 Most Used Languages
 
