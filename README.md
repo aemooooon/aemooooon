@@ -34,8 +34,8 @@
 </a>
 
 
-<a href="https://github.com/ashwanisng/Covid-19-Data-Analysis">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ashwanisng&repo=Covid-19-Data-Analysis&theme=radical" />
+<a href="https://github.com/aemooooon/Data-Visualization">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aemooooon&repo=Data-Visualization&theme=radical" />
 </a> 
 
 ### Get in touch
