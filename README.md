@@ -4,16 +4,16 @@ I'm a Husband, Father, Developer, and student! Currently studying on Otago polyt
 
 <hr>
 
-### Covered Skills
+# Covered Skills
 
-<a><img height="50" src="https://www.vectorlogo.zone/logos/python/python-ar21.svg"></a>
-<a><img height="50" src="https://www.vectorlogo.zone/logos/numpy/numpy-ar21.svg"></a>
-<a><img height="50" src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.svg"></a>
+<a><img width="120" height="50" src="https://www.vectorlogo.zone/logos/python/python-ar21.svg"></a>
+<a><img width="120" height="50" src="https://www.vectorlogo.zone/logos/numpy/numpy-ar21.svg"></a>
+<a><img width="120" height="50" src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.svg"></a>
 
-<a><img height="50" src="https://www.vectorlogo.zone/logos/linux/linux-ar21.svg"></a>
-<a><img height="50" src="https://www.vectorlogo.zone/logos/docker/docker-ar21.svg"></a>
-<a><img height="50" src="https://www.vectorlogo.zone/logos/puppet/puppet-ar21.svg"></a>
-<a><img height="50" src="https://www.vectorlogo.zone/logos/php/php-ar21.svg"></a>
+<a><img width="120" height="50" src="https://www.vectorlogo.zone/logos/linux/linux-ar21.svg"></a>
+<a><img width="120" height="50" src="https://www.vectorlogo.zone/logos/docker/docker-ar21.svg"></a>
+<a><img width="120" height="50" src="https://www.vectorlogo.zone/logos/puppet/puppet-ar21.svg"></a>
+<a><img width="120" height="50" src="https://www.vectorlogo.zone/logos/php/php-ar21.svg"></a>
 
 <a><img height="50" src="https://www.vectorlogo.zone/logos/dotnet/dotnet-ar21.svg"></a>
 <a><img height="50" src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-ar21.svg"></a>
@@ -34,27 +34,27 @@ I'm a Husband, Father, Developer, and student! Currently studying on Otago polyt
 <a><img height="50" src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-ar21.svg"></a>
 <a><img height="50" src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg"></a>
 
-### Fun Facts
+# Fun Facts
 * Swimming
 * Food
 
-### Most Used Languages
+# Most Used Languages
 
 <a href="https://github.com/aemooooon">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aemooooon&theme=radical" />
 </a>
 
-### Latest repo
+# Latest repo
 
 <a href="https://github.com/aemooooon/Data-Visualization">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aemooooon&repo=Data-Visualization&theme=radical" />
 </a> 
 
-### Hua's GitHub Stats
+# Hua's GitHub Stats
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=aemooooon&hide=["stars"]&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
-### Get in touch
+# Get in touch
 
 <a target="_blank" href="https://github.com/aemooooon/Project-Portfolio/blob/master/assets/img/p/WeChatQRcode.jpg?raw=true">
   <img align="left" alt="Hua's WeChat" width="37" src="https://www.vectorlogo.zone/logos/wechat/wechat-tile.svg" />
