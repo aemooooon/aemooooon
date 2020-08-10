@@ -1,6 +1,6 @@
 ## Hi, I'm Hua 👋 
 
-I'm a Husband, Father, Developer, and student! Currently studying on Otago polytechnic with major Information techonology.
+I'm a Husband, Father, Developer, and student! <br />Currently studying on Otago polytechnic with major Information techonology.
 
 # ✨ Covered Skills
 
