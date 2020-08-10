@@ -13,24 +13,26 @@ I'm a Husband, Father, Developer, and student! Currently studying on Otago polyt
 <a><img height="50" src="https://www.vectorlogo.zone/logos/linux/linux-ar21.svg"></a>
 <a><img height="50" src="https://www.vectorlogo.zone/logos/docker/docker-ar21.svg"></a>
 <a><img height="50" src="https://www.vectorlogo.zone/logos/puppet/puppet-ar21.svg"></a>
+<a><img height="50" src="https://www.vectorlogo.zone/logos/php/php-ar21.svg"></a>
 
+<a><img height="50" src="https://www.vectorlogo.zone/logos/dotnet/dotnet-ar21.svg"></a>
+<a><img height="50" src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-ar21.svg"></a>
 
+<a><img height="50" src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg"></a>
 <a><img height="50" src="https://www.vectorlogo.zone/logos/mysql/mysql-ar21.svg"></a>
 <a><img height="50" src="https://www.vectorlogo.zone/logos/mariadb/mariadb-ar21.svg"></a>
-<a><img height="50" src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg"></a>
 
-<a><img height="50" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg"></a>
 <a><img height="50" src="https://www.vectorlogo.zone/logos/github/github-ar21.svg"></a>
 <a><img height="50" src="https://www.vectorlogo.zone/logos/gitlab/gitlab-ar21.svg"></a>
+<a><img height="50" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg"></a>
 
 <a><img height="50" src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg"></a>
 <a><img height="50" src="https://www.vectorlogo.zone/logos/netlifyapp_watercss/netlifyapp_watercss-ar21.svg"></a>
 <a><img height="50" src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg"></a>
 
-<a><img height="50" src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg"></a>
 <a><img height="50" src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg"></a>
 <a><img height="50" src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-ar21.svg"></a>
-
+<a><img height="50" src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg"></a>
 
 ### Fun Facts
 * Swimming
@@ -56,21 +58,15 @@ I'm a Husband, Father, Developer, and student! Currently studying on Otago polyt
 
 ![Wechat](https://github.com/aemooooon/Project-Portfolio/blob/master/assets/img/p/WeChatQRcode.jpg?raw=true)
 
- <a href="https://twitter.com/ashwanisng">
-  <img align="left" alt="Ashwani's Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
-</a>
 <a href="https://linkedin.com/in/ashwanisng">
-  <img align="left" alt="Ashwani's Linkdein" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
+  <img align="left" alt="Hua's Linkdein" width="37px" src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" />
 </a>
 <a href="https://github.com/ashwanisng">
-  <img align="left" alt="Ashwani's Github" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
+  <img align="left" alt="Hua's Github" width="22px" src="https://www.vectorlogo.zone/logos/github/github-tile.svg" />
 </a>
 <a href="https://instagram.com/ashwanisng">
-  <img align="left" alt="Ashwani's Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />
+  <img align="left" alt="Hua's Instagram" width="22px" src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg" />
 </a>
 <a href="https://www.facebook.com/ashwani1406">
-  <img align="left" alt="Ashwani's Facebook" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />
-</a>
-<a href="https://medium.com/@ashwanisng">
-  <img align="left" alt="Ashwani's Medium" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/medium.svg" />
+  <img align="left" alt="Hua's Facebook" width="22px" src="https://www.vectorlogo.zone/logos/facebook/facebook-tile.svg" />
 </a>
