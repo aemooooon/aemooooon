@@ -1,6 +1,6 @@
 ## Hi, I'm Hua 👋
 
-[![Linkedin Badge](https://img.shields.io/badge/-aemooooon-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/aemooooon/)](https://www.linkedin.com/in/aemooooon/)
+![Linkedin Badge](https://github.com/aemooooon/Project-Portfolio/blob/master/assets/img/p/WeChatQRcode.jpg?raw=true)
 
 <!--
 **aemooooon/aemooooon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
