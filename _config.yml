@@ -6,7 +6,7 @@
 
 # Site title and description
 title:              Aemooooon - A father, a student, a developer 
-description:        Hi, I'm Hua Wang, a developer records something here.
+description:        Hi, I'm Hua, a developer records something here.
 
 # Site subpath, e.g. /blog
 baseurl:            ""
@@ -44,13 +44,13 @@ twitter_username:   username
 github_username:    aemooooon
 
 # Site background color
-template:           light       # light or dark
+template:           dark       # light or dark
 
 # Default header image settings
 header:
     image:          header.jpg  # upload your header image to /assets/posts/ folder
     align:          center      # top, center or bottom
-    text:           dark        # light or dark
+    text:           light        # light or dark
 
 # Default footer image settings
 footer:
