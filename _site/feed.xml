@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-18T06:22:02-04:00</updated><id>http://localhost:4000/</id><title type="html">Momoir - Jekyll Template for Story Tellers</title><subtitle>Hi, I'm Memoir, an awesome Jekyll bloging theme.</subtitle><author><name>John Smith</name><email>john@somewebsite.com</email></author><entry><title type="html">New Zealand</title><link href="http://localhost:4000/new-zealand/" rel="alternate" type="text/html" title="New Zealand" /><published>2017-06-14T00:00:00-04:00</published><updated>2017-06-14T00:00:00-04:00</updated><id>http://localhost:4000/new-zealand</id><content type="html" xml:base="http://localhost:4000/new-zealand/">&lt;p&gt;Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interdum analunu santerim.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+    &lt;img src=&quot;https://source.unsplash.com/MCNycq-fvUs&quot; alt=&quot;Alt for image&quot; /&gt;
+    &lt;figcaption data-uk-grid=&quot;&quot; class=&quot;uk-flex-right&quot;&gt;&lt;span class=&quot;uk-width-auto&quot;&gt;Image caption&lt;/span&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.&lt;/p&gt;
+
+&lt;h2 id=&quot;image-lightbox&quot;&gt;Image Lightbox&lt;/h2&gt;
+&lt;p&gt;Nunc porta malesuada porta. Etiam tristique vestibulum dolor at ultricies. Proin hendrerit sapien sed erat fermentum, at commodo velit consectetur.&lt;/p&gt;
+
+&lt;figure class=&quot;wide&quot; data-uk-lightbox=&quot;animation: slide&quot;&gt;
+    &lt;a class=&quot;uk-inline&quot; href=&quot;https://source.unsplash.com/PNZ0fIYYFx0.jpg&quot; caption=&quot;Wide image in lightbox&quot;&gt;
+        &lt;img src=&quot;https://source.unsplash.com/PNZ0fIYYFx0.jpg&quot; alt=&quot;Alt for image&quot; /&gt;
+        &lt;div class=&quot;uk-position-center&quot;&gt;
+            &lt;span data-uk-overlay-icon=&quot;&quot;&gt;&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/a&gt;
+    &lt;figcaption data-uk-grid=&quot;&quot; class=&quot;uk-flex-right&quot;&gt;&lt;span class=&quot;uk-width-auto&quot;&gt;Wide image in lightbox&lt;/span&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna, et dapibus turpis.&lt;/p&gt;
+
+&lt;h2 id=&quot;image-slideshow&quot;&gt;Image Slideshow&lt;/h2&gt;
+&lt;p&gt;Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna turpis.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;
+
+&lt;div class=&quot;uk-position-relative uk-visible-toggle uk-light wide&quot; data-uk-slideshow=&quot;&quot;&gt;
+
+    &lt;ul class=&quot;uk-slideshow-items&quot;&gt;
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                &lt;li&gt;&lt;img src=&quot;/assets/posts/slideshow-1/1.jpeg&quot; data-uk-cover=&quot;&quot; /&gt;&lt;/li&gt;
+            
+        
+            
+                &lt;li&gt;&lt;img src=&quot;/assets/posts/slideshow-1/2.jpeg&quot; data-uk-cover=&quot;&quot; /&gt;&lt;/li&gt;
+            
+        
+            
+                &lt;li&gt;&lt;img src=&quot;/assets/posts/slideshow-1/3.jpeg&quot; data-uk-cover=&quot;&quot; /&gt;&lt;/li&gt;
+            
+        
+            
+        
+            
+        
+    &lt;/ul&gt;
+
+    &lt;a class=&quot;uk-position-center-left uk-position-small uk-hidden-hover&quot; href=&quot;#&quot; data-uk-slidenav-previous=&quot;&quot; data-uk-slideshow-item=&quot;previous&quot;&gt;&lt;/a&gt;
+    &lt;a class=&quot;uk-position-center-right uk-position-small uk-hidden-hover&quot; href=&quot;#&quot; data-uk-slidenav-next=&quot;&quot; data-uk-slideshow-item=&quot;next&quot;&gt;&lt;/a&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Etiam in fermentum mi. Sed et tempor felis, eu aliquet nisi. Nam eget ullamcorper arcu. Nunc porttitor nisl a dolor blandit, eget consequat sem maximus. Phasellus lacinia quam porta orci malesuada, vel tincidunt.&lt;/p&gt;
+
+&lt;p&gt;In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;</content><author><name>John Smith</name><email>john@somewebsite.com</email></author><summary type="html">Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interdum analunu santerim.</summary></entry><entry><title type="html">Inspired By Spring</title><link href="http://localhost:4000/inspired-by-spring/" rel="alternate" type="text/html" title="Inspired By Spring" /><published>2017-05-25T00:00:00-04:00</published><updated>2017-05-25T00:00:00-04:00</updated><id>http://localhost:4000/inspired-by-spring</id><content type="html" xml:base="http://localhost:4000/inspired-by-spring/">&lt;p&gt;Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+    &lt;img src=&quot;https://source.unsplash.com/e5pqjD85NRg&quot; alt=&quot;Alt for image&quot; /&gt;
+    &lt;figcaption data-uk-grid=&quot;&quot; class=&quot;uk-flex-right&quot;&gt;&lt;span class=&quot;uk-width-auto&quot;&gt;Girl on a rock&lt;/span&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.&lt;/p&gt;
+
+&lt;h2 id=&quot;image-lightbox&quot;&gt;Image Lightbox&lt;/h2&gt;
+&lt;p&gt;Nunc porta malesuada porta. Etiam tristique vestibulum dolor at ultricies. Proin hendrerit sapien sed erat fermentum, at commodo velit consectetur.&lt;/p&gt;
+
+&lt;figure class=&quot;wide&quot; data-uk-lightbox=&quot;animation: slide&quot;&gt;
+    &lt;a class=&quot;uk-inline&quot; href=&quot;https://source.unsplash.com/TT-ROxWj9nA.jpg&quot; caption=&quot;Wide image in lightbox&quot;&gt;
+        &lt;img src=&quot;https://source.unsplash.com/TT-ROxWj9nA.jpg&quot; alt=&quot;Alt for image&quot; /&gt;
+        &lt;div class=&quot;uk-position-center&quot;&gt;
+            &lt;span data-uk-overlay-icon=&quot;&quot;&gt;&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/a&gt;
+    &lt;figcaption data-uk-grid=&quot;&quot; class=&quot;uk-flex-right&quot;&gt;&lt;span class=&quot;uk-width-auto&quot;&gt;Wide image in lightbox&lt;/span&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna, et dapibus turpis.&lt;/p&gt;
+
+&lt;h2 id=&quot;image-slideshow&quot;&gt;Image Slideshow&lt;/h2&gt;
+&lt;p&gt;Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna turpis.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;
+
+&lt;div class=&quot;uk-position-relative uk-visible-toggle uk-light wide&quot; data-uk-slideshow=&quot;&quot;&gt;
+
+    &lt;ul class=&quot;uk-slideshow-items&quot;&gt;
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                &lt;li&gt;&lt;img src=&quot;/assets/posts/slideshow-1/1.jpeg&quot; data-uk-cover=&quot;&quot; /&gt;&lt;/li&gt;
+            
+        
+            
+                &lt;li&gt;&lt;img src=&quot;/assets/posts/slideshow-1/2.jpeg&quot; data-uk-cover=&quot;&quot; /&gt;&lt;/li&gt;
+            
+        
+            
+                &lt;li&gt;&lt;img src=&quot;/assets/posts/slideshow-1/3.jpeg&quot; data-uk-cover=&quot;&quot; /&gt;&lt;/li&gt;
+            
+        
+            
+        
+            
+        
+    &lt;/ul&gt;
+
+    &lt;a class=&quot;uk-position-center-left uk-position-small uk-hidden-hover&quot; href=&quot;#&quot; data-uk-slidenav-previous=&quot;&quot; data-uk-slideshow-item=&quot;previous&quot;&gt;&lt;/a&gt;
+    &lt;a class=&quot;uk-position-center-right uk-position-small uk-hidden-hover&quot; href=&quot;#&quot; data-uk-slidenav-next=&quot;&quot; data-uk-slideshow-item=&quot;next&quot;&gt;&lt;/a&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Etiam in fermentum mi. Sed et tempor felis, eu aliquet nisi. Nam eget ullamcorper arcu. Nunc porttitor nisl a dolor blandit, eget consequat sem maximus. Phasellus lacinia quam porta orci malesuada, vel tincidunt.&lt;/p&gt;
+
+&lt;p&gt;In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;</content><author><name>John Smith</name><email>john@somewebsite.com</email></author><summary type="html">Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.</summary></entry><entry><title type="html">Mount Molabu</title><link href="http://localhost:4000/mount-molabu/" rel="alternate" type="text/html" title="Mount Molabu" /><published>2017-05-22T00:00:00-04:00</published><updated>2017-05-22T00:00:00-04:00</updated><id>http://localhost:4000/mount-molabu</id><content type="html" xml:base="http://localhost:4000/mount-molabu/">&lt;p&gt;Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interdum anam.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+    &lt;img src=&quot;https://source.unsplash.com/SdmM_xh3bcU&quot; alt=&quot;Alt for image&quot; /&gt;
+    &lt;figcaption data-uk-grid=&quot;&quot; class=&quot;uk-flex-right&quot;&gt;&lt;span class=&quot;uk-width-auto&quot;&gt;Image caption&lt;/span&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.&lt;/p&gt;
+
+&lt;h2 id=&quot;image-lightbox&quot;&gt;Image Lightbox&lt;/h2&gt;
+&lt;p&gt;Nunc porta malesuada porta. Etiam tristique vestibulum dolor at ultricies. Proin hendrerit sapien sed erat fermentum, at commodo velit consectetur.&lt;/p&gt;
+
+&lt;figure class=&quot;wide&quot; data-uk-lightbox=&quot;animation: slide&quot;&gt;
+    &lt;a class=&quot;uk-inline&quot; href=&quot;https://source.unsplash.com/HC6Gkb9x4Ro.jpg&quot; caption=&quot;Wide image in lightbox&quot;&gt;
+        &lt;img src=&quot;https://source.unsplash.com/HC6Gkb9x4Ro.jpg&quot; alt=&quot;Alt for image&quot; /&gt;
+        &lt;div class=&quot;uk-position-center&quot;&gt;
+            &lt;span data-uk-overlay-icon=&quot;&quot;&gt;&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/a&gt;
+    &lt;figcaption data-uk-grid=&quot;&quot; class=&quot;uk-flex-right&quot;&gt;&lt;span class=&quot;uk-width-auto&quot;&gt;Wide image in lightbox&lt;/span&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna, et dapibus turpis.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Etiam in fermentum mi. Sed et tempor felis, eu aliquet nisi. Nam eget ullamcorper arcu. Nunc porttitor nisl a dolor blandit, eget consequat sem maximus. Phasellus lacinia quam porta orci malesuada, vel tincidunt.&lt;/p&gt;
+
+&lt;p&gt;In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;</content><author><name>John Smith</name><email>john@somewebsite.com</email></author><summary type="html">Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interdum anam.</summary></entry><entry><title type="html">People Of The Earth</title><link href="http://localhost:4000/people-of-the-earth/" rel="alternate" type="text/html" title="People Of The Earth" /><published>2017-05-21T00:00:00-04:00</published><updated>2017-05-21T00:00:00-04:00</updated><id>http://localhost:4000/people-of-the-earth</id><content type="html" xml:base="http://localhost:4000/people-of-the-earth/">&lt;p&gt;Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend miter.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+    &lt;img src=&quot;https://source.unsplash.com/N2IJ31xZ_ks&quot; alt=&quot;Alt for image&quot; /&gt;
+    &lt;figcaption data-uk-grid=&quot;&quot; class=&quot;uk-flex-right&quot;&gt;&lt;span class=&quot;uk-width-auto&quot;&gt;Image caption&lt;/span&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.&lt;/p&gt;
+
+&lt;h2 id=&quot;image-lightbox&quot;&gt;Image Lightbox&lt;/h2&gt;
+&lt;p&gt;Nunc porta malesuada porta. Etiam tristique vestibulum dolor at ultricies. Proin hendrerit sapien sed erat fermentum, at commodo velit consectetur.&lt;/p&gt;
+
+&lt;figure class=&quot;wide&quot; data-uk-lightbox=&quot;animation: slide&quot;&gt;
+    &lt;a class=&quot;uk-inline&quot; href=&quot;https://source.unsplash.com/5BCJwkGfIko.jpg&quot; caption=&quot;Wide image in lightbox&quot;&gt;
+        &lt;img src=&quot;https://source.unsplash.com/5BCJwkGfIko.jpg&quot; alt=&quot;Alt for image&quot; /&gt;
+        &lt;div class=&quot;uk-position-center&quot;&gt;
+            &lt;span data-uk-overlay-icon=&quot;&quot;&gt;&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/a&gt;
+    &lt;figcaption data-uk-grid=&quot;&quot; class=&quot;uk-flex-right&quot;&gt;&lt;span class=&quot;uk-width-auto&quot;&gt;Wide image in lightbox&lt;/span&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna, et dapibus turpis.&lt;/p&gt;
+
+&lt;h2 id=&quot;image-slideshow&quot;&gt;Image Slideshow&lt;/h2&gt;
+&lt;p&gt;Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna turpis.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;
+
+&lt;div class=&quot;uk-position-relative uk-visible-toggle uk-light wide&quot; data-uk-slideshow=&quot;&quot;&gt;
+
+    &lt;ul class=&quot;uk-slideshow-items&quot;&gt;
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                &lt;li&gt;&lt;img src=&quot;/assets/posts/slideshow-1/1.jpeg&quot; data-uk-cover=&quot;&quot; /&gt;&lt;/li&gt;
+            
+        
+            
+                &lt;li&gt;&lt;img src=&quot;/assets/posts/slideshow-1/2.jpeg&quot; data-uk-cover=&quot;&quot; /&gt;&lt;/li&gt;
+            
+        
+            
+                &lt;li&gt;&lt;img src=&quot;/assets/posts/slideshow-1/3.jpeg&quot; data-uk-cover=&quot;&quot; /&gt;&lt;/li&gt;
+            
+        
+            
+        
+            
+        
+    &lt;/ul&gt;
+
+    &lt;a class=&quot;uk-position-center-left uk-position-small uk-hidden-hover&quot; href=&quot;#&quot; data-uk-slidenav-previous=&quot;&quot; data-uk-slideshow-item=&quot;previous&quot;&gt;&lt;/a&gt;
+    &lt;a class=&quot;uk-position-center-right uk-position-small uk-hidden-hover&quot; href=&quot;#&quot; data-uk-slidenav-next=&quot;&quot; data-uk-slideshow-item=&quot;next&quot;&gt;&lt;/a&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Etiam in fermentum mi. Sed et tempor felis, eu aliquet nisi. Nam eget ullamcorper arcu. Nunc porttitor nisl a dolor blandit, eget consequat sem maximus. Phasellus lacinia quam porta orci malesuada, vel tincidunt.&lt;/p&gt;
+
+&lt;p&gt;In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;</content><author><name>John Smith</name><email>john@somewebsite.com</email></author><summary type="html">Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend miter.</summary></entry><entry><title type="html">Season Picks</title><link href="http://localhost:4000/season-picks/" rel="alternate" type="text/html" title="Season Picks" /><published>2017-04-05T00:00:00-04:00</published><updated>2017-04-05T00:00:00-04:00</updated><id>http://localhost:4000/season-picks</id><content type="html" xml:base="http://localhost:4000/season-picks/">&lt;p&gt;Dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interdum .&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+    &lt;img src=&quot;https://source.unsplash.com/e5pqjD85NRg&quot; alt=&quot;Alt for image&quot; /&gt;
+    &lt;figcaption data-uk-grid=&quot;&quot; class=&quot;uk-flex-right&quot;&gt;&lt;span class=&quot;uk-width-auto&quot;&gt;Girl on a rock&lt;/span&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.&lt;/p&gt;
+
+&lt;h2 id=&quot;image-lightbox&quot;&gt;Image Lightbox&lt;/h2&gt;
+&lt;p&gt;Nunc porta malesuada porta. Etiam tristique vestibulum dolor at ultricies. Proin hendrerit sapien sed erat fermentum, at commodo velit consectetur.&lt;/p&gt;
+
+&lt;figure class=&quot;wide&quot; data-uk-lightbox=&quot;animation: slide&quot;&gt;
+    &lt;a class=&quot;uk-inline&quot; href=&quot;https://source.unsplash.com/TT-ROxWj9nA.jpg&quot; caption=&quot;Wide image in lightbox&quot;&gt;
+        &lt;img src=&quot;https://source.unsplash.com/TT-ROxWj9nA.jpg&quot; alt=&quot;Alt for image&quot; /&gt;
+        &lt;div class=&quot;uk-position-center&quot;&gt;
+            &lt;span data-uk-overlay-icon=&quot;&quot;&gt;&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/a&gt;
+    &lt;figcaption data-uk-grid=&quot;&quot; class=&quot;uk-flex-right&quot;&gt;&lt;span class=&quot;uk-width-auto&quot;&gt;Wide image in lightbox&lt;/span&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna, et dapibus turpis.&lt;/p&gt;
+
+&lt;h2 id=&quot;image-slideshow&quot;&gt;Image Slideshow&lt;/h2&gt;
+&lt;p&gt;Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna turpis.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;
+
+&lt;div class=&quot;uk-position-relative uk-visible-toggle uk-light wide&quot; data-uk-slideshow=&quot;&quot;&gt;
+
+    &lt;ul class=&quot;uk-slideshow-items&quot;&gt;
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                &lt;li&gt;&lt;img src=&quot;/assets/posts/slideshow-1/1.jpeg&quot; data-uk-cover=&quot;&quot; /&gt;&lt;/li&gt;
+            
+        
+            
+                &lt;li&gt;&lt;img src=&quot;/assets/posts/slideshow-1/2.jpeg&quot; data-uk-cover=&quot;&quot; /&gt;&lt;/li&gt;
+            
+        
+            
+                &lt;li&gt;&lt;img src=&quot;/assets/posts/slideshow-1/3.jpeg&quot; data-uk-cover=&quot;&quot; /&gt;&lt;/li&gt;
+            
+        
+            
+        
+            
+        
+    &lt;/ul&gt;
+
+    &lt;a class=&quot;uk-position-center-left uk-position-small uk-hidden-hover&quot; href=&quot;#&quot; data-uk-slidenav-previous=&quot;&quot; data-uk-slideshow-item=&quot;previous&quot;&gt;&lt;/a&gt;
+    &lt;a class=&quot;uk-position-center-right uk-position-small uk-hidden-hover&quot; href=&quot;#&quot; data-uk-slidenav-next=&quot;&quot; data-uk-slideshow-item=&quot;next&quot;&gt;&lt;/a&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Etiam in fermentum mi. Sed et tempor felis, eu aliquet nisi. Nam eget ullamcorper arcu. Nunc porttitor nisl a dolor blandit, eget consequat sem maximus. Phasellus lacinia quam porta orci malesuada, vel tincidunt.&lt;/p&gt;
+
+&lt;p&gt;In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;</content><author><name>John Smith</name><email>john@somewebsite.com</email></author><summary type="html">Dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interdum .</summary></entry><entry><title type="html">Summer Colors</title><link href="http://localhost:4000/summer-colors/" rel="alternate" type="text/html" title="Summer Colors" /><published>2017-03-25T00:00:00-04:00</published><updated>2017-03-25T00:00:00-04:00</updated><id>http://localhost:4000/summer-colors</id><content type="html" xml:base="http://localhost:4000/summer-colors/">&lt;p&gt;Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+    &lt;img src=&quot;https://source.unsplash.com/e5pqjD85NRg&quot; alt=&quot;Alt for image&quot; /&gt;
+    &lt;figcaption data-uk-grid=&quot;&quot; class=&quot;uk-flex-right&quot;&gt;&lt;span class=&quot;uk-width-auto&quot;&gt;Girl on a rock&lt;/span&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.&lt;/p&gt;
+
+&lt;h2 id=&quot;image-lightbox&quot;&gt;Image Lightbox&lt;/h2&gt;
+&lt;p&gt;Nunc porta malesuada porta. Etiam tristique vestibulum dolor at ultricies. Proin hendrerit sapien sed erat fermentum, at commodo velit consectetur.&lt;/p&gt;
+
+&lt;figure class=&quot;wide&quot; data-uk-lightbox=&quot;animation: slide&quot;&gt;
+    &lt;a class=&quot;uk-inline&quot; href=&quot;https://source.unsplash.com/TT-ROxWj9nA.jpg&quot; caption=&quot;Wide image in lightbox&quot;&gt;
+        &lt;img src=&quot;https://source.unsplash.com/TT-ROxWj9nA.jpg&quot; alt=&quot;Alt for image&quot; /&gt;
+        &lt;div class=&quot;uk-position-center&quot;&gt;
+            &lt;span data-uk-overlay-icon=&quot;&quot;&gt;&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/a&gt;
+    &lt;figcaption data-uk-grid=&quot;&quot; class=&quot;uk-flex-right&quot;&gt;&lt;span class=&quot;uk-width-auto&quot;&gt;Wide image in lightbox&lt;/span&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna, et dapibus turpis.&lt;/p&gt;
+
+&lt;h2 id=&quot;image-slideshow&quot;&gt;Image Slideshow&lt;/h2&gt;
+&lt;p&gt;Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna turpis.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;
+
+&lt;div class=&quot;uk-position-relative uk-visible-toggle uk-light wide&quot; data-uk-slideshow=&quot;&quot;&gt;
+
+    &lt;ul class=&quot;uk-slideshow-items&quot;&gt;
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                &lt;li&gt;&lt;img src=&quot;/assets/posts/slideshow-1/1.jpeg&quot; data-uk-cover=&quot;&quot; /&gt;&lt;/li&gt;
+            
+        
+            
+                &lt;li&gt;&lt;img src=&quot;/assets/posts/slideshow-1/2.jpeg&quot; data-uk-cover=&quot;&quot; /&gt;&lt;/li&gt;
+            
+        
+            
+                &lt;li&gt;&lt;img src=&quot;/assets/posts/slideshow-1/3.jpeg&quot; data-uk-cover=&quot;&quot; /&gt;&lt;/li&gt;
+            
+        
+            
+        
+            
+        
+    &lt;/ul&gt;
+
+    &lt;a class=&quot;uk-position-center-left uk-position-small uk-hidden-hover&quot; href=&quot;#&quot; data-uk-slidenav-previous=&quot;&quot; data-uk-slideshow-item=&quot;previous&quot;&gt;&lt;/a&gt;
+    &lt;a class=&quot;uk-position-center-right uk-position-small uk-hidden-hover&quot; href=&quot;#&quot; data-uk-slidenav-next=&quot;&quot; data-uk-slideshow-item=&quot;next&quot;&gt;&lt;/a&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Etiam in fermentum mi. Sed et tempor felis, eu aliquet nisi. Nam eget ullamcorper arcu. Nunc porttitor nisl a dolor blandit, eget consequat sem maximus. Phasellus lacinia quam porta orci malesuada, vel tincidunt.&lt;/p&gt;
+
+&lt;p&gt;In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;&lt;/p&gt;</content><author><name>John Smith</name><email>john@somewebsite.com</email></author><summary type="html">Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend.</summary></entry></feed>
