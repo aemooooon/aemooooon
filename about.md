@@ -4,7 +4,7 @@ title: Hua Wang
 subtitle: student / developer
 permalink: /about/
 header:
-    image: https://source.unsplash.com/DMVD9RkZIwQ.jpg
+    image: https://github.com/aemooooon/aemooooon/blob/master/assets/img/hua-small.jpg?raw=true
     text: light
 ---
 
