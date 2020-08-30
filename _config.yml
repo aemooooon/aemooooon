@@ -5,8 +5,8 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site title and description
-title:              Momoir - Jekyll Template for Story Tellers
-description:        Hi, I'm Memoir, an awesome Jekyll bloging theme.
+title:              Aemooooon - A father, a student, a developer 
+description:        Hi, I'm Hua Wang, a developer records something here.
 
 # Site subpath, e.g. /blog
 baseurl:            ""
@@ -19,14 +19,14 @@ url:                ""
 
 # Site logo, image or text
 logo:               # e.g. logo.png, upload logo image file to /assets/img/ folder
-logo_text:          Memoir      # if the above "logo:" image variable  is not set, this text logo is displayed instead
+logo_text:          Aemooooon      # if the above "logo:" image variable  is not set, this text logo is displayed instead
 
 # Author settings, displayed on about page
 author:
-    name:           John Smith
-    bio:            Hi, I'm John, a web designer, human and the author of this blog.
-    email:          john@somewebsite.com
-    website:        http://somewebsite.com
+    name:           Hua Wang
+    bio:            Hi, I'm Hua, a web designer, human and the author of this blog.
+    email:          aemooooon@gmail.com
+    website:        http://aemon.wang
     facebook:       https://www.facebook.com/
     flickr:         https://flickr.com/
     dribbble:       https://dribbble.com/
@@ -41,7 +41,7 @@ author:
 
 # Social share buttons
 twitter_username:   username
-github_username:    username
+github_username:    aemooooon
 
 # Site background color
 template:           light       # light or dark
@@ -57,7 +57,7 @@ footer:
     image:          footer.jpg  # upload your header image to /assets/posts/ folder
     align:          center      #top, center or bottom
     text:           light       # light or dark
-    copyright:      Made by <a href="https://unbound.studio/">Unbound Studio</a> in London, UK.
+    copyright:      2020 @copy; All rights reserved.
 
 # Post settings
 post:
