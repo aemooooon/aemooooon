@@ -50,7 +50,7 @@ I'm a Husband, Father, Developer, and student! <br />Currently studying on Otago
 # 🌱 Latest repo
 
 <a href="https://github.com/aemooooon/2021S1STS2">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aemooooon&repo=Data-Visualization&theme=radical" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=aemooooon&repo=2021S1STS2&theme=radical" />
 </a> 
 
 # 🤔 Hua's GitHub Stats
