@@ -4,6 +4,7 @@ I'm a Husband, Father, Developer, and student! <br />Currently studying on Otago
 
 # ✨ Covered Skills
 
+<a><img height="40" src="https://www.vectorlogo.zone/logos/java/java-ar21.svg"></a>
 <a><img height="40" src="https://www.vectorlogo.zone/logos/python/python-ar21.svg"></a>
 <a><img height="40" src="https://www.vectorlogo.zone/logos/numpy/numpy-ar21.svg"></a>
 <a><img height="40" src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.svg"></a>
