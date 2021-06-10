@@ -6,6 +6,7 @@ I'm a Husband, Father, Developer, and student! <br />Currently studying on Otago
 
 <a><img height="40" src="https://www.vectorlogo.zone/logos/java/java-ar21.svg"></a>
 <a><img height="40" src="https://www.vectorlogo.zone/logos/springio/springio-ar21.svg"></a>
+<a><img height="40" src="https://www.vectorlogo.zone/logos/android/android-ar21.svg"></a>
 
 <a><img height="40" src="https://www.vectorlogo.zone/logos/python/python-ar21.svg"></a>
 <a><img height="40" src="https://www.vectorlogo.zone/logos/numpy/numpy-ar21.svg"></a>
