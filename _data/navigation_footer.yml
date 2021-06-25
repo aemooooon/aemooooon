@@ -1,10 +1,10 @@
 # Footer navigation links
 
-- title: Blog
+- title: Notes
   url: /
 
-- title: About
+- title: 我是?
   url: /about/
   
-- title: Contact
+- title: 我在哪儿?
   url: /contact/
