@@ -4,7 +4,7 @@ title: William John Smith
 subtitle: writer / photographer
 permalink: /about/
 header:
-    image: https://source.unsplash.com/DMVD9RkZIwQ.jpg
+    image: /assets/posts/about.jpg
     text: light
 ---
 
