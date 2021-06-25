@@ -1,6 +1,6 @@
 # Navbar left menu navigation links
 left:
-    - title: home
+    - title: Blog
       url: /
 
     - title: about
