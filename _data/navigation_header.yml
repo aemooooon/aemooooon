@@ -1,6 +1,6 @@
 # Navbar left menu navigation links
 left:
-    - title: Root
+    - title: /Root
       url: /
 
     - title: who am i
