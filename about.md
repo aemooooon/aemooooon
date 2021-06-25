@@ -1,7 +1,7 @@
 ---
 layout: about
-title: William John Smith
-subtitle: writer / photographer
+title: 东海 / 王华
+subtitle: aemooooon
 permalink: /about/
 header:
     image: about.jpg
