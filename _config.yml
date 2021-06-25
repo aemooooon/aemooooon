@@ -9,13 +9,13 @@ title:              Momoir - Jekyll Template for Story Tellers
 description:        Hi, I'm Memoir, an awesome Jekyll bloging theme.
 
 # Site subpath, e.g. /blog
-baseurl:            "/aemooooon/"
+baseurl:            "/aemooooon"
 
 # Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
 permalink:          /:title/
 
 # Site base hostname & protocol, e.g. http://example.com
-url:                ""
+url:                "https://aemooooon.github.io"
 
 # Site logo, image or text
 logo:               # e.g. logo.png, upload logo image file to /assets/img/ folder
