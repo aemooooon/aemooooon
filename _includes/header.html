@@ -20,7 +20,7 @@
     {% endif %}
 {% endif %}
 
-<header class="uk-background-{{ align }}-center uk-background-cover" style="background-image: url({% if image contains 'http' %}{{ image }}{% else %}{{ site.post_assets | absolute_url }}{{ image }}{% endif %});">
+<header class="uk-background-{{ align }}-center uk-background-cover" style="background-image: url({{ site.post_assets | absolute_url }}{{ image }});">
     <div class="uk-overlay-header uk-{{ text }}">
         <nav class="uk-navbar-container uk-navbar-transparent" data-uk-navbar>
             <div class="uk-navbar-center">
