@@ -52,7 +52,7 @@ footer:
     image:          footer.jpg  # upload your header image to /assets/posts/ folder
     align:          center      #top, center or bottom
     text:           light       # light or dark
-    copyright:      "&copy; 2021 aemooooon"
+    copyright:      "&copy; aemooooon"
 
 # Post settings
 post:

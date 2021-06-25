@@ -1,9 +1,9 @@
 # Navbar left menu navigation links
 left:
-    - title: Root
+    - title: home
       url: /
 
-    - title: 我
+    - title: about
       url: /about/
 
 # Navbar right menu navigation links
@@ -11,5 +11,5 @@ right:
     - title: Tags
       url: /categories/
 
-    - title: 飞鸽传书
+    - title: contact
       url: /contact/
