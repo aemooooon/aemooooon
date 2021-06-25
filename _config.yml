@@ -5,8 +5,8 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site title and description
-title:              Momoir - Jekyll Template for Story Tellers
-description:        Hi, I'm Memoir, an awesome Jekyll bloging theme.
+title:              aemooooon's notes
+description:        Kia ora, I'm aemooooon, a developer, a student and a father.
 
 # Site subpath, e.g. /blog
 baseurl:            ""
@@ -25,8 +25,8 @@ logo_text:          Memoir      # if the above "logo:" image variable  is not se
 author:
     name:           John Smith
     bio:            Hi, I'm John, a web designer, human and the author of this blog.
-    email:          john@somewebsite.com
-    website:        http://somewebsite.com
+    email:          aemooooon@gmail.com
+    website:        http://www.aemon.wang
     facebook:       https://www.facebook.com/
     flickr:         https://flickr.com/
     dribbble:       https://dribbble.com/
