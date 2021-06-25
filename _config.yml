@@ -45,13 +45,13 @@ template:           dark       # light or dark
 header:
     image:          header.jpg  # upload your header image to /assets/posts/ folder
     align:          center      # top, center or bottom
-    text:           dark        # light or dark
+    text:           light        # light or dark
 
 # Default footer image settings
 footer:
     image:          footer.jpg  # upload your header image to /assets/posts/ folder
     align:          center      #top, center or bottom
-    text:           dark       # light or dark
+    text:           light       # light or dark
     copyright:      copyright 2021 aemooooon
 
 # Post settings
@@ -69,7 +69,7 @@ google_analytics:
 google_maps_api_key: AIzaSyCk8Ge_26DbfrhHt8oMNYZDG1LMN-96eBM
 
 # Number of posts displayed on blog page
-paginate:           5
+paginate:           10
 
 # Path to post content assets directory i.e post images, pdfs etc
 post_assets:        /assets/posts/
