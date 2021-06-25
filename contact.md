@@ -1,11 +1,11 @@
 ---
 layout: contact
-title: Contact
+title: " "
 subtitle: Get in touch
 permalink: /contact/
 header:
     image: contact.jpg
-    text: dark
+    text: light
 formspree:
     email: aemooooon@gmail.com
     redirect: /thanks/
