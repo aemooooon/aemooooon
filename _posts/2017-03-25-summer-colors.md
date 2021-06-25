@@ -25,6 +25,12 @@ Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, te
 
 > Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet
 
+```javascript
+for(int i=0;i<100;i++>){
+    print('hello world!')
+}
+```
+
 In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
 
 {% include slideshow.html gallery="slideshow-1" style="wide" %}
