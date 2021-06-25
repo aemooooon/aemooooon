@@ -3,7 +3,7 @@ left:
     - title: /Root
       url: /
 
-    - title: who am i
+    - title: 我
       url: /about/
 
 # Navbar right menu navigation links
@@ -11,5 +11,5 @@ right:
     - title: Tags
       url: /categories/
 
-    - title: where am i
+    - title: 飞鸽传书
       url: /contact/

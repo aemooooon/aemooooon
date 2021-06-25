@@ -1,10 +1,10 @@
 # Footer navigation links
 
-- title: what am I doing
+- title: home
   url: /
 
-- title: who am I
+- title: about
   url: /about/
   
-- title: where am I
+- title: contact
   url: /contact/
