@@ -39,13 +39,13 @@ twitter_username:   username
 github_username:    username
 
 # Site background color
-template:           light       # light or dark
+template:           dark       # light or dark
 
 # Default header image settings
 header:
     image:          header.jpg  # upload your header image to /assets/posts/ folder
     align:          center      # top, center or bottom
-    text:           light        # light or dark
+    text:           dark        # light or dark
 
 # Default footer image settings
 footer:
