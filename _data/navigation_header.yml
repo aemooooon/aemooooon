@@ -1,15 +1,15 @@
 # Navbar left menu navigation links
 left:
     - title: Home
-      url: /
+      url: /aemooooon/
 
     - title: About
-      url: /about/
+      url: /aemooooon/about/
 
 # Navbar right menu navigation links
 right:
     - title: Categories
-      url: /categories/
+      url: /aemooooon/categories/
 
     - title: Contact
-      url: /contact/
+      url: /aemooooon/contact/
