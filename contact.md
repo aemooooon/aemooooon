@@ -21,4 +21,4 @@ Tel: 023-453-6578
 Gotham
 GH, 86105 USA
 
-{% include map.html latitude="40.6700" longitude="-73.9400" zoom="16" %}
+{% include map.html latitude="30.6700" longitude="110.9400" zoom="8" %}
