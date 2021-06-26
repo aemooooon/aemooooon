@@ -1,6 +1,6 @@
 ---
 layout: about
-title: 东海 / 王华
+title: 王华 / 东海
 subtitle: aemooooon
 permalink: /about/
 header:

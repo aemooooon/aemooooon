@@ -11,14 +11,12 @@ formspree:
     redirect: /thanks/
 ---
 
-#### Morbi varius in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla.
+#### where am i
 
-Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.
+Tel: 021-138-1630
 
-Tel: 023-453-6578
+12 Clifford Street
+Damole
+Dunedin, 9010 NZ
 
-7997 E 153st Street
-Gotham
-GH, 86105 USA
-
-{% include map.html latitude="30.6700" longitude="110.9400" zoom="8" %}
+{% include map.html latitude="-40.4339684" longitude="166.3306578," zoom="8" %}

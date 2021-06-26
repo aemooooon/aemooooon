@@ -1,8 +1,8 @@
 ---
 layout: categories
 permalink: /categories/
-title: Categories
-subtitle: all posts
+title: 标签分类 tags categories
+subtitle: 全部文章 all posts
 header:
     image: tags.jpg
     text: light
