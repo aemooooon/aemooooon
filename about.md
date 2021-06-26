@@ -8,12 +8,12 @@ header:
     text: light
 ---
 
-## 王华 a.k.a aemooooon/东海
+## 王华 a.k.a 东海 / aemooooon
 
-1984 甲子 癸酉 癸酉 甲子
+甲子 癸酉 癸酉 甲子
 
 {% include image.html img="hua.jpg" alt="Hua's photo" %}
 
-graduated at Otago Polytechnic in majar Bachelor of Information technology.
+Graduated at Otago Polytechnic in majar Bachelor of Information technology.
 
-currently is a developer as full stack in Web development.
+Currently is a developer as full stack in Web development.
