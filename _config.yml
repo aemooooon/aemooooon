@@ -25,15 +25,13 @@ logo_text:          化奭三爻      # if the above "logo:" image variable  is 
 author:
     name:           Wang Hua
     bio:            Kia ora, I'm Hua, a developer, a student and a father.
-    email:          aemooooon@gmail.com
+    email:          mailto:aemooooon@gmail.com
     website:        http://www.aemon.wang
-    facebook:       https://www.facebook.com/
-    github:         https://github.com/
-    instagram:      https://www.instagram.com/
-    linkedin:       https://www.linkedin.com/feed/
-    twitter:        https://twitter.com/
-    youtube:        https://www.youtube.com/
-
+    facebook:       https://www.facebook.com/hua.wang.71/
+    github:         https://github.com/aemooooon/
+    instagram:      https://www.instagram.com/aemooooon/
+    linkedin:       https://www.linkedin.com/in/hua-wang-739244190/
+    wechat:         https://github.com/aemooooon/Project-Portfolio/blob/master/assets/img/p/WeChatQRcode.jpg?raw=true
 # Social share buttons
 twitter_username:   username
 github_username:    username

@@ -8,9 +8,9 @@ header:
     text: light
 ---
 
-## 王华
+## 王华 a.k.a aemooooon/东海
 
-1984 甲子
+1984 甲子 癸酉 癸酉 甲子
 
 {% include image.html img="hua.jpg" alt="Hua's photo" %}
 
