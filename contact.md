@@ -1,6 +1,6 @@
 ---
 layout: contact
-title: " "
+title: "Say hello to me"
 subtitle: Get in touch
 permalink: /contact/
 header:
