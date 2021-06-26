@@ -4,7 +4,7 @@ title: 东海 / 王华
 subtitle: aemooooon
 permalink: /about/
 header:
-    image: about.jpg
+    image: about_hua.jpg
     text: light
 ---
 
