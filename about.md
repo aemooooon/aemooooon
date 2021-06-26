@@ -8,11 +8,11 @@ header:
     text: light
 ---
 
-## Who am I
-王华 
-甲子 1984
+## 王华
 
-{% include image.html img="http://api.aemon.wang/images/2021/06/26/78ed07b20302426fab91bb8bb55ab203.jpg" alt="Alt for image" %}
+1984 甲子
+
+{% include image.html img="hua.jpg" alt="Hua's photo" %}
 
 graduated at Otago Polytechnic in majar Bachelor of Information technology.
 
