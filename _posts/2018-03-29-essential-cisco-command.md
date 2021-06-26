@@ -8,6 +8,8 @@ header:
     text: light
 ---
 
+Here is a list of commonly used CISCO device configuration commands, because too many are hard to remember, so write here for enquiries when necessary.
+
 Enable privileged EXEC mode
 ```bash
 Router> enable
