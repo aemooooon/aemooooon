@@ -37,7 +37,7 @@ twitter_username:   username
 github_username:    username
 
 # Site background color
-template:           dark       # light or dark
+template:           light       # light or dark
 
 # Default header image settings
 header:
