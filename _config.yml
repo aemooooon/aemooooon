@@ -41,13 +41,13 @@ template:           light       # light or dark
 
 # Default header image settings
 header:
-    image:          footer.jpg  # upload your header image to /assets/posts/ folder
+    image:          header.jpg  # upload your header image to /assets/posts/ folder
     align:          center      # top, center or bottom
     text:           light        # light or dark
 
 # Default footer image settings
 footer:
-    image:          header.jpg  # upload your header image to /assets/posts/ folder
+    image:          footer.jpg  # upload your header image to /assets/posts/ folder
     align:          center      #top, center or bottom
     text:           light       # light or dark
     copyright:      "&copy; aemooooon"
