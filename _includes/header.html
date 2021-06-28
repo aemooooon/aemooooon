@@ -76,7 +76,7 @@
         <div class="uk-section section-hero">
             <div class="uk-container uk-text-center">
                 <h1 class="uk-heading-hero">{{ page.title | escape }}</h1>
-                {% if page.subtitle %}<p class="subtitle uk-text-uppercase">{{ page.subtitle | escape }}</p>{% endif %}
+                {% if page.subtitle %}<p class="subtitle uk-text-uppercase" style="margin-top:3rem;">{{ page.subtitle | escape }}</p>{% endif %}
                 <div class="uk-article-meta font-smoothing">
                     {% if page.id and site.author.name %}
                     by {{ site.author.name }}
@@ -93,7 +93,7 @@
                     </div>
                     {% endif %}
                 </div>
-                <p class="uk-container uk-text-center" style="width:6rem;margin-top: 6rem;">
+                <p class="uk-container uk-text-center" style="width:8rem; margin-top: 5rem;">
                     <lottie-player class="scroll-down" src="/assets/js/scrolldown.json" mode="bounce"
                         background="transparent" speed="1" loop autoplay></lottie-player>
                 </p>
