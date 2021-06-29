@@ -1,15 +1,15 @@
 # Navbar left menu navigation links
 left:
-    - title: Blog
-      url: /
+    - title: Home
+      url: https://www.aemon.wang
 
-    - title: about
-      url: /about/
+    # - title: about
+    #   url: /about/
 
 # Navbar right menu navigation links
 right:
     - title: Tags
       url: /categories/
 
-    - title: contact
-      url: /contact/
+    # - title: contact
+    #   url: /contact/
