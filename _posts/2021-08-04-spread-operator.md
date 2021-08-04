@@ -12,20 +12,20 @@ JavaScript 接收多个参数的形式是依次用逗号隔开，如果传入的
 
 * 扩展运算符将字符串转为真正的数组
 
-```
+```javascript
 console.log([...'聘聘袅袅十三余']) 
 // ["聘", "聘", "袅", "袅", "十", "三", "余"]
 ```
 
 * 比如 `Math.max` 函数
 
-```
+```javascript
 Math.max(14, 3, 77); // default
 Math.max.apply(null, [14, 3, 77]) // 传数组使用apply
 Math.max(...[14, 3, 77]) // 传数组 ES6 写法
 ```
 
-```
+```javascript
 function add(x, y) {
   return x + y;
 }
