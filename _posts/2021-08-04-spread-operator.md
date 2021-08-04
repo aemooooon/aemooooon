@@ -63,4 +63,23 @@ arr1.concat(arr2, arr3);
 // ES6的合并数组
 [...arr1, ...arr2, ...arr3]
 // [ 'a', 'b', 'c', 'd', 'e' ]
+
+
+* 当传入的参数不确定时，使用rest运算符
+
+function js(first,...arg) {
+
+　　console.log(first) // 0
+
+　　console.log(arg.length) // 7
+
+　　// 取出arg中的每一个值
+
+　　for (let val of arg) {
+　　　　console.log(val)
+　　}
+
+}
+
+// (0,1,2,3,4,5,6,7)
 ```
