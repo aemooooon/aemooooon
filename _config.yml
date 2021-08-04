@@ -37,19 +37,19 @@ twitter_username:   aemooooon
 github_username:    aemooooon
 
 # Site background color
-template:           light       # light or dark
+template:           dark       # light or dark
 
 # Default header image settings
 header:
     image:          header.jpg  # upload your header image to /assets/posts/ folder
     align:          center      # top, center or bottom
-    text:           dark        # light or dark
+    text:           light        # light or dark
 
 # Default footer image settings
 footer:
     image:          footer.jpg  # upload your header image to /assets/posts/ folder
     align:          center      #top, center or bottom
-    text:           dark       # light or dark
+    text:           light       # light or dark
     copyright:      "&copy; aemooooon"
 
 # Post settings
@@ -74,7 +74,7 @@ post_assets:        /assets/posts/
 
 # Build settings
 markdown:           kramdown
-highlighter:        Pygments
+highlighter:        Pygments #rouge
 
 gems:
   - jekyll-feed
