@@ -2,18 +2,11 @@
  * Syntax highlighting styles
  */
 
-.highlight {
+.highlight,
+.highlighter-rouge {
     color: #4271ae;
     margin-bottom: 2rem;
-}
-
-.highlighter-rouge {
-    color: #000;
-    margin-bottom: 2rem;
-    background-color: #fff799; 
-    padding-left: 1rem;
-    padding-right: 1rem;
-    font-family:monospace;
+    background: #f8f8f8;
 }
 
 .highlight > pre,
