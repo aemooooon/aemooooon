@@ -8,7 +8,7 @@ header:
     text: light
 ---
 
-JavaScript 接收多个参数的形式是依次用逗号隔开，如果传入的是数组`[a, b]`形式的参数，就必须使用 `apply` 来分解。ES6 的spread操作符更加简化了`apply`的作用。
+JavaScript 接收多个参数的形式是依次用逗号隔开，如果传入的是数组 `[a, b]` 形式的参数，就必须使用 `apply` 来分解。ES6 的 spread 操作符更加简化了 `apply` 的作用。
 
 * 扩展运算符将字符串转为真正的数组
 

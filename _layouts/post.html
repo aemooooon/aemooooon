@@ -4,9 +4,10 @@ layout: default
 
 <div class="uk-container uk-container-small">
     <article class="uk-article">
-        <div class="share-side uk-visible@m" uk-scrollspy="cls: uk-animation-fade; target: .share; repeat: true">
+        <!-- 以下注释关闭了  facebook 和 twitter 分享图标 -->
+        <!-- <div class="share-side uk-visible@m" uk-scrollspy="cls: uk-animation-fade; target: .share; repeat: true">
             <div class="share" uk-sticky="offset: 150; bottom: .uk-article-content;">{% include share.html %}</div>
-        </div>
+        </div> -->
         <div class="uk-article-content{% if site.post.dropcap == true %} dropcap{% endif %}">
             {{ content }}
             <div class="share uk-hidden@m uk-text-center uk-margin-large-top">{% include share.html %}</div>
