@@ -74,7 +74,7 @@ post_assets:        /assets/posts/
 
 # Build settings
 markdown:           kramdown
-highlighter:        Pygments #rouge
+highlighter:        rouge
 
 gems:
   - jekyll-feed
