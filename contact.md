@@ -4,7 +4,7 @@ title: "Say hello to me"
 subtitle: Get in touch
 permalink: /contact/
 header:
-    image: contact.jpg
+    image: header.jpg
     text: light
 formspree:
     email: aemooooon@gmail.com
