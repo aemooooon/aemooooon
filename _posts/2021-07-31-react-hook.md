@@ -8,15 +8,15 @@ header:
     text: light
 ---
 
-Some about CSS configruation in React.
+Hook 是 React 16.8 的新增特性。它可以让你在不编写 class 的情况下使用 state 以及其他的 React 特性。本文主要记录一下 Hook 的一些坑以及运行机制和使用技巧。
 
-# Using Bootstrap5+ in React App
+# Using Bootstrap5+ in React
 
 * Install bootstrap: `npm install bootstrap`
 
 * import it in index.js: `import 'bootstrap/dist/css/bootstrap.min.css';`
 
-# Using sass in React App
+# Using sass in React
 
 * Install sass: `npm install --save-dev sass`
 
@@ -164,6 +164,74 @@ export default UseEffect
 one more good example: https://codesandbox.io/s/jvvkoo8pq3
 
 https://www.robinwieruch.de/react-hooks-fetch-data
+
+
+# useMemo
+
+```js
+import React, { useState, useMemo, useEffect } from 'react'
+
+// 使用场景
+// 1. 当某个函数计算量非常大，十分耗费资源，需要考虑是否使用 useMemo 避免每次渲染都执行
+// 2. 
+
+const UseMem = () => {
+    const [number, setNumber] = useState(0);
+    const [dark, setDark] = useState(false);
+
+    // 如果直接调用 slowFunction ，则每次渲染都会执行大计算量的 slowFunction
+    // const doubleNumber = slowFunction(number);
+    // 使用 useMemo 如果依赖变量不发生变化，则不会执行 useMemo 里面的大计算量函数
+    const doubleNumber = useMemo(() => {
+        return slowFunction(number);
+    }, [number]);
+
+    // 由于 themeStyles 对象（数组，对象）是引用类型，所以如果作为 useEffect 的依赖，每次会因为变量引用的不一样，而每次都渲染
+    // ESLINT 提示： The 'themeStyles' object makes the dependencies of useEffect Hook (at line 27) change on every render. To fix this, wrap the initialization of 'themeStyles' in its own useMemo() Hook.
+
+    // const themeStyles = {
+    //     backgroundColor: dark ? 'black' : 'white',
+    //     color: dark ? 'white' : 'black'
+    // }
+    // useEffect(
+    //     () => {
+    //         console.log('Theme Changed')
+    //     }, [themeStyles]
+    // )
+
+    const themeStyles = useMemo(() => {
+        return {
+            backgroundColor: dark ? 'black' : 'white',
+            color: dark ? 'white' : 'black'
+        }
+    }, [dark]) // 这样就只会在 dark 改变的情况下，在 useEffect 里重新渲染
+
+    useEffect(
+        () => {
+            console.log('Theme Changed')
+        }, [themeStyles]
+    )
+
+    return (
+        <div>
+            <input type="number" value={number} onChange={e => setNumber(parseInt(e.target.value))} />
+            <button onClick={() => setDark(prevDark => !prevDark)}>Change Theme</button>
+            <div style={themeStyles}>{doubleNumber}</div>
+        </div>
+    )
+
+    function slowFunction(num) {
+        console.log('Calling Slow Function');
+        for (let i = 0; i < 1000000000; i++) {
+
+        }
+        return num * 2;
+    }
+}
+
+export default UseMem
+
+```
 
 # useRef
 
