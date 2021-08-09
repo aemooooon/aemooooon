@@ -166,6 +166,100 @@ one more good example: https://codesandbox.io/s/jvvkoo8pq3
 https://www.robinwieruch.de/react-hooks-fetch-data
 
 
+# useContext
+
+## Basic usage
+
+// app.js
+
+```java
+import React, {useState} from "react";
+import FunctionContextComponent from './component/FunctionContextComponent';
+import ClassContextComponent from './component/ClassContextComponent';
+
+export const ThemeContext = React.createContext();
+
+function App() {
+
+  const [darkTheme, setDarkTheme] = useState(true)
+
+  function toggleTheme(){
+    setDarkTheme(prevDarkTheme => ! prevDarkTheme)
+  }
+
+  return (
+    <div>
+      <ThemeContext.Provider value={darkTheme}>
+        <button onClick={toggleTheme}>Toggle Theme</button>
+        <FunctionContextComponent />
+        <ClassContextComponent />
+      </ThemeContext.Provider>
+    </div>
+  );
+}
+
+export default App;
+```
+
+// ClassContextComponent.js 类组件调用
+
+```java
+import React, { Component } from 'react';
+import { ThemeContext } from '../App'
+
+class ClassContextComponent extends Component {
+    themeStyles(dark){
+        return {
+            backgroundColor: dark ? '#333' : '#ccc',
+            color: dark ? '#ccc' : '#333',
+            padding: '2rem',
+            margin: '2rem'
+        }
+    }
+
+    render() {
+        return (
+            <ThemeContext.Consumer>
+                {
+                    darkTheme => {
+                        return <div style={this.themeStyles(darkTheme)}>Class Theme</div>
+                    }
+                }
+            </ThemeContext.Consumer>
+        );
+    }
+}
+
+export default ClassContextComponent;
+
+```
+
+// FunctionContextComponent.js 函数组件调用
+
+```java
+import React, {useContext} from 'react'
+import { ThemeContext } from '../App'
+
+const FunctionContextComponent = () => {
+    const darkTheme = useContext(ThemeContext)
+    const themeStyles ={
+        backgroundColor: darkTheme ? '#333' : '#ccc',
+        color: darkTheme ? '#ccc' : '#333',
+        padding: '2rem',
+        margin: '2rem'
+    }
+    return (
+        <div style={themeStyles}>
+            Function Theme
+        </div>
+    )
+}
+
+export default FunctionContextComponent
+
+```
+
+
 # useMemo
 
 ```js
