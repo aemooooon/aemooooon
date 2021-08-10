@@ -263,7 +263,7 @@ export default FunctionContextComponent
 
 1. Create a file `ThemeContext.js` under the `src`.
 
-```bash
+```python
 import React, { useContext, useState } from "react";
 
 const ThemeContext = React.createContext()
@@ -296,7 +296,7 @@ export function ThemeProvider({ children }) {
 
 2. `App.js`
 
-```bash
+```python
 import { ThemeProvider } from './ThemeContext'
 
   return (
@@ -311,7 +311,7 @@ import { ThemeProvider } from './ThemeContext'
 
 3. Child which is functional component calling
 
-```bash
+```javascript
 import React from 'react'
 import { useTheme, useThemeUpdate } from '../ThemeContext'
 
