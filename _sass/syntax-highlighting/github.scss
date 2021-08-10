@@ -6,14 +6,9 @@
 .highlighter-rouge {
     color: #4271ae;
     margin-bottom: 2rem;
-    // background: #f3f4f4;
+    background: #f3f4f4;
     padding: 8px;
     border-radius: 1rem;
-    background: white;
-    background: linear-gradient(to right bottom,
-            rgba(255, 255, 255, 0.5),
-            rgba(255, 255, 255, 0.3));
-    backdrop-filter: blur(2rem);
 }
 
 .highlight > pre,
@@ -28,10 +23,7 @@
     padding: 25px;
     border: none;
     border-radius: 1rem;
-    // background: #f8f8f8;
-    background     : linear-gradient(to right bottom,
-            rgba(255, 255, 255, 0.6),
-            rgba(255, 255, 255, 0.3));
+    background: #f8f8f8;
 }
 
 .highlight {
