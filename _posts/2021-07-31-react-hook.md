@@ -259,6 +259,85 @@ export default FunctionContextComponent
 
 ```
 
+## usage with custome hook
+
+1. Create a file `ThemeContext.js` under the `src`.
+
+```bash
+import React, { useContext, useState } from "react";
+
+const ThemeContext = React.createContext()
+const ThemeUpdateContext = React.createContext()
+
+export function useTheme() {
+    return useContext(ThemeContext)
+}
+
+export function useThemeUpdate() {
+    return useContext(ThemeUpdateContext)
+}
+
+export function ThemeProvider({ children }) {
+    const [darkTheme, setDarkTheme] = useState(true)
+
+    function toggleTheme() {
+        setDarkTheme(prevDarkTheme => !prevDarkTheme)
+    }
+
+    return (
+        <ThemeContext.Provider value={darkTheme}>
+            <ThemeUpdateContext.Provider value={toggleTheme}>
+                {children}
+            </ThemeUpdateContext.Provider>
+        </ThemeContext.Provider>
+    )
+}
+```
+
+2. `App.js`
+
+```bash
+import { ThemeProvider } from './ThemeContext'
+
+  return (
+    <div>
+      <ThemeProvider>
+        <FunctionContextComponent />
+      </ThemeProvider>
+    </div>
+  );
+
+```
+
+3. Child which is functional component calling
+
+```bash
+import React from 'react'
+import { useTheme, useThemeUpdate } from '../ThemeContext'
+
+const FunctionContextComponent = () => {
+    const darkTheme = useTheme()
+    const toggleTheme = useThemeUpdate()
+    const themeStyles = {
+        backgroundColor: darkTheme ? '#333' : '#ccc',
+        color: darkTheme ? '#ccc' : '#333',
+        padding: '2rem',
+        margin: '2rem'
+    }
+    return (
+        <>
+            <button onClick={toggleTheme}>Toggle Theme</button>
+            <div style={themeStyles}>
+                Function Theme
+            </div>
+        </>
+
+    )
+}
+
+export default FunctionContextComponent
+
+```
 
 # useMemo
 
