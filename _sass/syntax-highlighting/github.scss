@@ -4,46 +4,49 @@
 
 .highlight,
 .highlighter-rouge {
-    color: #4271ae;
-    background: #f3f4f4;
-    padding: 5px;
+    color        : #4271ae;
+    background   : #f3f4f4;
+    padding      : 5px;
     border-radius: 5px;
 }
 
-.highlight > pre,
-.highlighter-rouge > pre {
-    font-size: 1rem;
-    line-height: 1.6;
-    font-family: monospace;
-    color: #444;
+.highlight>pre,
+.highlighter-rouge>pre {
+    font-size    : 1rem;
+    line-height  : 1.6;
+    font-family  : monospace;
+    color        : #444;
     -moz-tab-size: 4;
-    tab-size: 4;
-    overflow: auto;
-    padding: 25px;
-    border: none;
+    tab-size     : 4;
+    overflow     : auto;
+    padding      : 1rem;
+    border       : none;
     border-radius: 5px;
-    background: #fff;
+    background   : #fff;
 }
 
 .highlight {
+
     /*
       * GitHub style for Pygments
       * Courtesy of GitHub.com
       */
-    .hll {
+    .highlight pre,
+    pre,
+    .highlight .hll {
         background-color: #f8f8f8;
-        border: 1px solid #ccc;
-        padding: 6px 10px;
-        border-radius: 3px;
+        border          : 1px solid #ccc;
+        padding         : 6px 10px;
+        border-radius   : 3px;
     }
 
     .c {
-        color: #999988;
+        color     : #999988;
         font-style: italic;
     }
 
     .err {
-        color: #a61717;
+        color           : #a61717;
         background-color: #e3d2d2;
     }
 
@@ -56,33 +59,33 @@
     }
 
     .cm {
-        color: #999988;
+        color     : #999988;
         font-style: italic;
     }
 
     .cp {
-        color: #999999;
+        color      : #999999;
         font-weight: bold;
     }
 
     .c1 {
-        color: #999988;
+        color     : #999988;
         font-style: italic;
     }
 
     .cs {
-        color: #999999;
+        color      : #999999;
         font-weight: bold;
-        font-style: italic;
+        font-style : italic;
     }
 
     .gd {
-        color: #000000;
+        color           : #000000;
         background-color: #ffdddd;
     }
 
     .gd .x {
-        color: #000000;
+        color           : #000000;
         background-color: #ffaaaa;
     }
 
@@ -99,12 +102,12 @@
     }
 
     .gi {
-        color: #000000;
+        color           : #000000;
         background-color: #ddffdd;
     }
 
     .gi .x {
-        color: #000000;
+        color           : #000000;
         background-color: #aaffaa;
     }
 
@@ -121,7 +124,7 @@
     }
 
     .gu {
-        color: #800080;
+        color      : #800080;
         font-weight: bold;
     }
 
@@ -150,7 +153,7 @@
     }
 
     .kt {
-        color: #445588;
+        color      : #445588;
         font-weight: bold;
     }
 
@@ -175,7 +178,7 @@
     }
 
     .nc {
-        color: #445588;
+        color      : #445588;
         font-weight: bold;
     }
 
@@ -188,12 +191,12 @@
     }
 
     .ne {
-        color: #990000;
+        color      : #990000;
         font-weight: bold;
     }
 
     .nf {
-        color: #990000;
+        color      : #990000;
         font-weight: bold;
     }
 
@@ -298,7 +301,7 @@
     }
 
     .gc {
-        color: #999;
+        color           : #999;
         background-color: #EAF2F5;
     }
 }
