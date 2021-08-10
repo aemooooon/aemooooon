@@ -21,7 +21,7 @@ Hook 是 React 16.8 的新增特性。它可以让你在不编写 class 的情�
 * Install sass: `npm install --save-dev sass`
 
 * create resources
-```sh
+```bash
 .
 ├── App.js
 ├── css
@@ -30,6 +30,7 @@ Hook 是 React 16.8 的新增特性。它可以让你在不编写 class 的情�
 └── sass
     └── app.scss
 ```
+
 
 * Import in App.js: `import './sass/app.scss'`
 
