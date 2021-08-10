@@ -33,7 +33,7 @@ Hook 是 React 16.8 的新增特性。它可以让你在不编写 class 的情�
 
 * Import in App.js: `import './sass/app.scss'`
 
-* Append in `package.json` after `scripts`: `"sass" : "sass src/Sass:src/Css --watch --no-source-map"`
+* Append in `package.json` after scripts: `"sass" : "sass src/Sass:src/Css --watch --no-source-map"`
 
 * Run with terminal: `npm run sass`
 

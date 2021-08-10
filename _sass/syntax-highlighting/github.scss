@@ -2,7 +2,8 @@
  * Syntax highlighting styles
  */
 
-.highlight {
+.highlight,
+.highlighter-rouge {
     color        : #4271ae;
     background   : #f3f4f4;
     padding      : 5px;
@@ -33,8 +34,8 @@
     .highlight pre,
     pre,
     .highlight .hll {
-        background-color: #f8f8f8;
-        border          : 1px solid #ccc;
+        background-color: #f3f4f4;
+        border          : none;
         padding         : 6px 10px;
         border-radius   : 3px;
     }
