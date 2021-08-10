@@ -2,11 +2,18 @@
  * Syntax highlighting styles
  */
 
+.language-plaintext{
+    color: #4271ae;
+    background: #f3f4f4;
+    padding: 1;
+    padding: 8px;
+    border-radius: 5px;
+}
+
 .highlight,
 .highlighter-rouge {
     color: #4271ae;
     background: #f3f4f4;
-    padding: 8px;
     border-radius: 5px;
 }
 
@@ -23,14 +30,6 @@
     border: none;
     border-radius: 5px;
     background: #fff;
-}
-
-.highlight > pre::before{
-    content: "···";
-    font-size: 3rem;
-    position:absolute;
-    top: -1rem;
-    color:red;
 }
 
 .highlight {
