@@ -261,7 +261,7 @@ export default FunctionContextComponent
 
 ## usage with custome hook
 
-1. Create a file `ThemeContext.js` under the `src`.
+* Create a file `ThemeContext.js` under the `src`.
 
 ```python
 import React, { useContext, useState } from "react";
@@ -294,9 +294,9 @@ export function ThemeProvider({ children }) {
 }
 ```
 
-2. `App.js`
+* `App.js`
 
-```python
+```
 import { ThemeProvider } from './ThemeContext'
 
   return (
@@ -309,7 +309,7 @@ import { ThemeProvider } from './ThemeContext'
 
 ```
 
-3. Child which is functional component calling
+* Child which is functional component calling
 
 ```javascript
 import React from 'react'
