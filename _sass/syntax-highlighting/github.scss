@@ -6,7 +6,6 @@
 .highlighter-rouge {
     color: #4271ae;
     background: #f3f4f4;
-    margin: 1rem;
     padding: 8px;
     border-radius: 5px;
 }
@@ -24,6 +23,13 @@
     border: none;
     border-radius: 5px;
     background: #fff;
+}
+
+.highlight > pre::before{
+    content: "···";
+    width: 60px;
+    height: 20px;
+    color:red;
 }
 
 .highlight {
