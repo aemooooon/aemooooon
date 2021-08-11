@@ -8,37 +8,11 @@ header:
   text: light
 ---
 
-Hook 是 React 16.8 的新增特性。它可以让你在不编写 class 的情况下使用 state 以及其他的 React 特性。本文主要记录一下 Hook 的一些坑以及运行机制和使用技巧。
+最近面试前端，很多问题是关于 `React` 的，之前在项目里用的 `Hook` 主要是 `useState` 和 `useEffect` 这2个。这次借复习就好好完整的学习一下，做个记录，不仅为了面试，也是为了可以系统性的了解这个机制。
 
-# Using Bootstrap5+ in React
+> Hook 是 React 16.8 的新增特性。它可以让你在不编写 class 的情况下使用 state 以及其他的 React 特性。本文主要记录一下 Hook 的一些坑以及运行机制和使用技巧。
 
-- Install bootstrap: `npm install bootstrap`
-
-- import it in index.js: `import 'bootstrap/dist/css/bootstrap.min.css';`
-
-# Using sass in React
-
-- Install sass: `npm install --save-dev sass`
-
-- create resources
-
-```bash
-.
-├── App.js
-├── css
-│   └── app.css
-├── index.js
-└── sass
-    └── app.scss
-```
-
-- Import in App.js: `import './sass/app.scss'`
-
-- Append in `package.json` after scripts: `"sass" : "sass src/Sass:src/Css --watch --no-source-map"`
-
-- Run with terminal: `npm run sass`
-
-# useState
+## useState
 
 ```javascript
 import React, { useState } from "react";
@@ -95,7 +69,7 @@ const UseState = () => {
 export default UseState;
 ```
 
-# useEffect
+## useEffect
 
 ```javascript
 import React, { useState, useEffect } from "react";
@@ -164,9 +138,9 @@ one more good example: https://codesandbox.io/s/jvvkoo8pq3
 
 https://www.robinwieruch.de/react-hooks-fetch-data
 
-# useContext
+## useContext
 
-## Basic usage
+### Basic usage
 
 // app.js
 
@@ -257,7 +231,7 @@ export default FunctionContextComponent
 
 ```
 
-## usage with custome hook
+### usage with custome hook
 
 - Create a file `ThemeContext.js` under the `src`.
 
@@ -332,7 +306,7 @@ const FunctionContextComponent = () => {
 export default FunctionContextComponent;
 ```
 
-# useMemo
+## useMemo
 
 ```js
 import React, { useState, useMemo, useEffect } from "react";
@@ -400,7 +374,7 @@ const UseMem = () => {
 export default UseMem;
 ```
 
-# useRef
+## useRef
 
 - 用来操作引用的 dom 而不用重新渲染
 
@@ -416,3 +390,31 @@ function focus(){
 <button onClick={focus}>Focus</button>
 
 ```
+
+## Using Bootstrap5+ in React
+
+- Install bootstrap: `npm install bootstrap`
+
+- import it in index.js: `import 'bootstrap/dist/css/bootstrap.min.css';`
+
+## Using sass in React
+
+- Install sass: `npm install --save-dev sass`
+
+- create resources
+
+```bash
+.
+├── App.js
+├── css
+│   └── app.css
+├── index.js
+└── sass
+    └── app.scss
+```
+
+- Import in App.js: `import './sass/app.scss'`
+
+- Append in `package.json` after scripts: `"sass" : "sass src/Sass:src/Css --watch --no-source-map"`
+
+- Run with terminal: `npm run sass`
