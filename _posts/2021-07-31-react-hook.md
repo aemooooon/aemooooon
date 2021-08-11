@@ -485,6 +485,54 @@ const UseMem = () => {
 export default UseMem;
 ```
 
+## useCallback
+
+> The one big difference between useMemo and useCallback is that 
+> useMemo it takes a function and it's going to return to you the return value of that function, but 
+> useCallback it takes a function but that is actually what the useCallback returns.
+
+```javascript
+import React, { useState, useEffect, useCallback } from 'react'
+
+const List = ({ getItems }) => {
+    const [items, setItems] = useState([])
+
+    useEffect(() => {
+        setItems(getItems(5))
+        console.log('Updating Items')
+    }, [getItems]);
+
+    return items.map(item => <div key={item}>{item}</div>)
+}
+
+const UseCallback = () => {
+
+    const [number, setNumber] = useState(1)
+    const [dark, setDark] = useState(false)
+
+    const getItems = useCallback((incrementor) => {
+        return [number + incrementor, number + 1 + incrementor, number + 2 + incrementor,]
+    }, [number])
+
+    const theme = {
+        backgroundColor: dark ? '#333' : '#fff',
+        color: dark ? '#fff' : '#333'
+    }
+
+    return (
+        <div style={theme}>
+            <input type="number" value={number}
+                onChange={e => setNumber(parseInt(e.target.value))} />
+            <button onClick={() => setDark(prevDark => !prevDark)}>Toggle theme</button>
+            <List getItems={getItems}></List>
+        </div>
+    )
+}
+
+export default UseCallback
+
+```
+
 ## useRef
 
 - 用来操作引用的 dom 而不用重新渲染
