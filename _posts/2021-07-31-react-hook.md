@@ -222,6 +222,71 @@ const UseReducer = () => {
 export default UseReducer;
 ```
 
+Using useReducer fetch data
+
+```javascript
+import React, { useEffect, useReducer } from "react";
+import axios from "axios";
+
+const axiosInstance = axios.create({
+  baseURL: "https://jsonplaceholder.typicode.com",
+});
+
+const ACTIONS = {
+  FETCH_SUCCESS: "FETCH_SUCCESS",
+  FETCH_ERROR: "FETCH_ERROR",
+};
+
+const initialState = {
+  loading: true,
+  error: "",
+  post: {},
+};
+
+const reducer = (state, action) => {
+  switch (action.type) {
+    case ACTIONS.FETCH_SUCCESS:
+      return {
+        loading: false,
+        post: action.payload,
+        error: "",
+      };
+    case ACTIONS.FETCH_ERROR:
+      return {
+        loading: false,
+        post: {},
+        error: "Something went wrong",
+      };
+    default:
+      return state;
+  }
+};
+
+function DataFetching() {
+  const [state, dispatch] = useReducer(reducer, initialState);
+
+  useEffect(() => {
+    axiosInstance
+      .get("/posts/1")
+      .then((res) => {
+        dispatch({ type: ACTIONS.FETCH_SUCCESS, payload: res.data });
+      })
+      .catch((err) => {
+        dispatch({ type: ACTIONS.FETCH_ERROR });
+      });
+  }, []);
+
+  return (
+    <div>
+      {state.loading ? "loading" : state.post.title}
+      {state.error ? state.error : null}
+    </div>
+  );
+}
+
+export default DataFetching;
+```
+
 ## useContext
 
 ### Basic usage
