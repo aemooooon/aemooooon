@@ -1,6 +1,6 @@
 ---
 layout: post
-subtitle: 钩子函数总结
+subtitle: 钩子函数
 categories: [React]
 header:
   image: header.jpg
@@ -79,6 +79,7 @@ export default UseState;
 
 ## useEffect
 
+使用 `useEffect` 主要是注意 `依赖项` 的使用以及什么情况需要及时销毁
 ```javascript
 import React, { useState, useEffect } from "react";
 
@@ -148,7 +149,7 @@ https://www.robinwieruch.de/react-hooks-fetch-data
 
 ## 自定义 Hook
 
-> 使用场景：当多个函数组件需要共享业务逻辑的时候，e.g. 表单处理、动画、订阅声明、计时器
+使用场景 > 当多个函数组件需要共享业务逻辑的时候，e.g. 表单处理、动画、订阅声明、计时器
 
 例子 1：模仿一个用法/语法跟 `useState` 一模一样的自定义 `Hook`，把表单输入值实时存入到 `LocalStorage` 里面。
 
@@ -488,3 +489,6 @@ function focus(){
 - Append in `package.json` after scripts: `"sass" : "sass src/Sass:src/Css --watch --no-source-map"`
 
 - Run with terminal: `npm run sass`
+
+
+> Hook part ref from: https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw
