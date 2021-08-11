@@ -149,9 +149,7 @@ https://www.robinwieruch.de/react-hooks-fetch-data
 
 ## 自定义 Hook
 
-> Scenaria
-
-  > 当多个函数组件需要共享业务逻辑的时候，e.g. 表单处理、动画、订阅声明、计时器
+> Scenaria 当多个函数组件需要共享业务逻辑的时候，e.g. 表单处理、动画、订阅声明、计时器
 
 例子 1：模仿一个用法/语法跟 `useState` 一模一样的自定义 `Hook`，把表单输入值实时存入到 `LocalStorage` 里面。
 
@@ -207,6 +205,46 @@ export default function useUpdateLogger(initialValue) {
 
 // 使用/调用
 useUpdateLogger(name); // name 就是我们在调用页面需要观察的值（变量）
+```
+
+例子 3： 需要返回值/回调的操作
+// useWinSize.js
+```javascript
+import { useState, useEffect, useCallback } from 'react'
+
+export default function useWinSize() {
+
+    const [size, setSize] = useState({
+        width: document.documentElement.clientWidth,
+        height: document.documentElement.clientHeight
+    })
+
+    const onResize = useCallback(() => {
+        setSize({
+            width: document.documentElement.clientWidth,
+            height: document.documentElement.clientHeight
+        })
+    }, [])
+
+    useEffect(() => {
+        window.addEventListener('resize', onResize)
+        return () => {
+            window.removeEventListener('resize', onResize)
+        }
+    }, [])
+
+    return size;
+
+}
+
+
+// app.js to call
+import useWinSize from "./hook/useWinSize";
+
+const size = useWinSize()
+
+<div>The size of Window: width: {size.width}, height: {size.height}</div>
+
 ```
 
 ## useContext
