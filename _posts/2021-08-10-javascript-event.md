@@ -41,3 +41,50 @@ element.onclick = function (event) {
         }
     }
 ```
+
+## Event Delegate
+
+- Scenaria
+
+HTML代码如下： 
+```html
+        <ul class="myul">
+            <li class="li-link">风急天高猿啸哀，</li>
+            <li class="li-link">渚清沙白鸟飞回。</li>
+            <li class="li-link">无边落木萧萧下，</li>
+            <li class="li-link">不尽长江滚滚来。</li>
+            <button class="btn-read">Read</button>
+            <button class="btn-write">Write</button>
+        </ul>
+```
+
+这里有2种方法都可以拿到每一个子元素的事件，但是需要用到 loop ，如果子元素太多，性能肯定会受影响。
+```javascript
+        let myul = document.querySelector('.myul');
+        let liLinks = document.querySelectorAll('.li-link');
+        liLinks.forEach((e) => {
+            e.addEventListener('click', (el) => {
+                console.log('forEach', el.target)
+            })
+        })
+
+        let subLink = myul.getElementsByClassName('li-link');
+        for (let i = 0; i < subLink.length; i++) {
+            subLink[i].onclick = (e) => {
+                console.log('forLoop', e.target)
+            }
+        }
+```
+
+此时我们可以利用冒泡机制，把 `click` 事件绑定到父元素上，当父元素捕获到事件之后，通过 `event.target` 拿到被点击的子元素，从而可以执行业务逻辑。
+
+```javascript
+        myul.addEventListener('click', (event) => {
+            event = event || window.event;
+
+            if (event.target && event.target.className === 'li-link') {
+                console.log('父元素事件： ', event.target)
+            }
+
+        }, false)
+```
