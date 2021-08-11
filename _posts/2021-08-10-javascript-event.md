@@ -13,6 +13,8 @@ I've took a job interview this morning with Yunxi co.,ltd. The interviewer asked
 > 事件流是指事件从 DOM 树的顶端 Window 向目标元素传播，然后再从目标元素传播至顶端的过程。
 > 从顶而下特指事件的捕获、反之则叫事件的冒泡。默认情况下事件是在冒泡时触发。反之则是捕获阶段（addEventListener 方法第三个参数为 True 时）
 
+## Event Capture/Bubble
+
 - 不能冒泡的事件
 
 `blur、focus、load、unload、onmouseenter、onmouseleave。`
