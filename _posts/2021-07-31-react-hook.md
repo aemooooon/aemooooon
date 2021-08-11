@@ -8,9 +8,17 @@ header:
   text: light
 ---
 
-最近面试前端，很多问题是关于 `React` 的，之前在项目里用的 `Hook` 主要是 `useState` 和 `useEffect` 这2个。这次借复习就好好完整的学习一下，做个记录，不仅为了面试，也是为了可以系统性的了解这个机制。
+最近面试前端，很多问题是关于 `React` 的，之前在项目里用的 `Hook` 主要是 `useState` 和 `useEffect` 这 2 个。这次借复习就好好完整的学习一下，做个记录，不仅为了面试，也是为了可以系统性的了解这个机制。
 
 > Hook 是 React 16.8 的新增特性。它可以让你在不编写 class 的情况下使用 state 以及其他的 React 特性。Hook 使你在无需修改组件结构的情况下复用状态逻辑。Hook 将组件中相互关联的部分拆分成更小的函数（比如设置订阅或请求数据)。 Hook 使你在非 class 的情况下可以使用更多的 React 特性。
+
+## Hook 规则
+
+- 只在函数的最顶层以及任何 return 之前调用他们。
+  - 在 React 的函数组件中调用 Hook
+  - 在自定义 Hook 中调用其他 Hook
+  - 不要在普通的 JavaScript 函数中调用 Hook
+- 自定义 Hook 必须以 “use” 开头
 
 ## useState
 
@@ -138,9 +146,71 @@ one more good example: https://codesandbox.io/s/jvvkoo8pq3
 
 https://www.robinwieruch.de/react-hooks-fetch-data
 
+## 自定义 Hook
+
+> 使用场景：当多个函数组件需要共享业务逻辑的时候，e.g. 表单处理、动画、订阅声明、计时器
+
+例子 1：模仿一个用法/语法跟 `useState` 一模一样的自定义 `Hook`，把表单输入值实时存入到 `LocalStorage` 里面。
+
+// useLocalStorage.js
+
+```javascript
+import { useState, useEffect } from "react";
+
+function getSavedValue(key, initialValue) {
+  const savedValue = JSON.parse(localStorage.getItem(key));
+  if (savedValue) return savedValue;
+
+  // 模仿一下 React 内置的 useState 既可以接收值作为参数，也可以接收 函数 作为参数
+  if (initialValue instanceof Function) return initialValue();
+  return initialValue;
+}
+
+export default function useLocalStorage(key, initialValue) {
+  const [value, setValue] = useState(() => {
+    return getSavedValue(key, initialValue);
+  });
+
+  useEffect(() => {
+    localStorage.setItem(key, JSON.stringify(value));
+  }, [value]);
+
+  return [value, setValue];
+}
+
+// 使用/调用
+const [name, setName] = useLocalStorage("name", "");
+
+return (
+  <div>
+    <input value={name} onChange={(e) => setName(e.target.value)} type="text" />
+  </div>
+);
+```
+
+例子 2： 不需要返回值/回调的操作
+
+// useUpdateLogger.js
+
+```javascript
+import { useEffect } from "react";
+
+export default function useUpdateLogger(initialValue) {
+  useEffect(() => {
+    // 单纯的在控制台输出值（如果值改变的话）
+    console.log(initialValue);
+  }, [initialValue]);
+}
+
+// 使用/调用
+useUpdateLogger(name); // name 就是我们在调用页面需要观察的值（变量）
+```
+
 ## useContext
 
 ### Basic usage
+
+e.g. 通过 toggle 按钮改变全站主题颜色
 
 // app.js
 
