@@ -80,6 +80,7 @@ export default UseState;
 ## useEffect
 
 使用 `useEffect` 主要是注意 `依赖项` 的使用以及什么情况需要及时销毁
+
 ```javascript
 import React, { useState, useEffect } from "react";
 
@@ -147,104 +148,78 @@ one more good example: https://codesandbox.io/s/jvvkoo8pq3
 
 https://www.robinwieruch.de/react-hooks-fetch-data
 
-## 自定义 Hook
+## useReducer
 
-> Scenaria 当多个函数组件需要共享业务逻辑的时候，e.g. 表单处理、动画、订阅声明、计时器
-
-例子 1：模仿一个用法/语法跟 `useState` 一模一样的自定义 `Hook`，把表单输入值实时存入到 `LocalStorage` 里面。
-
-// useLocalStorage.js
+An example of Counter by using useState
 
 ```javascript
-import { useState, useEffect } from "react";
+import React, { useState } from "react";
 
-function getSavedValue(key, initialValue) {
-  const savedValue = JSON.parse(localStorage.getItem(key));
-  if (savedValue) return savedValue;
+const UseReducer = () => {
+  const [count, setCount] = useState(0);
 
-  // 模仿一下 React 内置的 useState 既可以接收值作为参数，也可以接收 函数 作为参数
-  if (initialValue instanceof Function) return initialValue();
-  return initialValue;
-}
+  const increment = () => {
+    setCount((prevValue) => prevValue + 1);
+  };
 
-export default function useLocalStorage(key, initialValue) {
-  const [value, setValue] = useState(() => {
-    return getSavedValue(key, initialValue);
-  });
+  const decrement = () => {
+    setCount((prevValue) => prevValue - 1);
+  };
 
-  useEffect(() => {
-    localStorage.setItem(key, JSON.stringify(value));
-  }, [value]);
+  return (
+    <div>
+      <button onClick={increment}>increment</button>
+      <div>{count}</div>
+      <button onClick={decrement}>decrement</button>
+    </div>
+  );
+};
 
-  return [value, setValue];
-}
-
-// 使用/调用
-const [name, setName] = useLocalStorage("name", "");
-
-return (
-  <div>
-    <input value={name} onChange={(e) => setName(e.target.value)} type="text" />
-  </div>
-);
+export default UseReducer;
 ```
 
-例子 2： 不需要返回值/回调的操作
-
-// useUpdateLogger.js
+Same example by using reducer
 
 ```javascript
-import { useEffect } from "react";
+import React, { useReducer } from "react";
 
-export default function useUpdateLogger(initialValue) {
-  useEffect(() => {
-    // 单纯的在控制台输出值（如果值改变的话）
-    console.log(initialValue);
-  }, [initialValue]);
+const ACTIONS = {
+  INCREMENT: "increment",
+  DECREMENT: "decrement",
+};
+
+function reducer(state, action) {
+  switch (action.type) {
+    case ACTIONS.INCREMENT:
+      return { count: state.count + 1 };
+    case ACTIONS.DECREMENT:
+      return { count: state.count - 1 };
+    default:
+      return state;
+  }
 }
 
-// 使用/调用
-useUpdateLogger(name); // name 就是我们在调用页面需要观察的值（变量）
-```
+const UseReducer = () => {
+  const [state, dispatch] = useReducer(reducer, { count: 0 });
 
-例子 3： 需要返回值/回调的操作
-// useWinSize.js
-```javascript
-import { useState, useEffect, useCallback } from 'react'
+  const increment = () => {
+    dispatch({ type: ACTIONS.INCREMENT });
+  };
 
-export default function useWinSize() {
+  const decrement = () => {
+    dispatch({ type: ACTIONS.DECREMENT });
+  };
 
-    const [size, setSize] = useState({
-        width: document.documentElement.clientWidth,
-        height: document.documentElement.clientHeight
-    })
+  return (
+    <div>
+      <button onClick={increment}>increment</button>
+      <div>{state.count}</div>
+      <button onClick={decrement}>decrement</button>
+    </div>
+  );
+};
 
-    const onResize = useCallback(() => {
-        setSize({
-            width: document.documentElement.clientWidth,
-            height: document.documentElement.clientHeight
-        })
-    }, [])
-
-    useEffect(() => {
-        window.addEventListener('resize', onResize)
-        return () => {
-            window.removeEventListener('resize', onResize)
-        }
-    }, [])
-
-    return size;
-
-}
-
-
-// app.js to call
-import useWinSize from "./hook/useWinSize";
-
-const size = useWinSize()
-
-<div>The size of Window: width: {size.width}, height: {size.height}</div>
-
+export default UseReducer;
 ```
 
 ## useContext
@@ -417,6 +392,107 @@ const FunctionContextComponent = () => {
 export default FunctionContextComponent;
 ```
 
+## 自定义 Hook
+
+> Scenaria 当多个函数组件需要共享业务逻辑的时候，e.g. 表单处理、动画、订阅声明、计时器
+
+例子 1：模仿一个用法/语法跟 `useState` 一模一样的自定义 `Hook`，把表单输入值实时存入到 `LocalStorage` 里面。
+
+// useLocalStorage.js
+
+```javascript
+import { useState, useEffect } from "react";
+
+function getSavedValue(key, initialValue) {
+  const savedValue = JSON.parse(localStorage.getItem(key));
+  if (savedValue) return savedValue;
+
+  // 模仿一下 React 内置的 useState 既可以接收值作为参数，也可以接收 函数 作为参数
+  if (initialValue instanceof Function) return initialValue();
+  return initialValue;
+}
+
+export default function useLocalStorage(key, initialValue) {
+  const [value, setValue] = useState(() => {
+    return getSavedValue(key, initialValue);
+  });
+
+  useEffect(() => {
+    localStorage.setItem(key, JSON.stringify(value));
+  }, [value]);
+
+  return [value, setValue];
+}
+
+// 使用/调用
+const [name, setName] = useLocalStorage("name", "");
+
+return (
+  <div>
+    <input value={name} onChange={(e) => setName(e.target.value)} type="text" />
+  </div>
+);
+```
+
+例子 2： 不需要返回值/回调的操作
+
+// useUpdateLogger.js
+
+```javascript
+import { useEffect } from "react";
+
+export default function useUpdateLogger(initialValue) {
+  useEffect(() => {
+    // 单纯的在控制台输出值（如果值改变的话）
+    console.log(initialValue);
+  }, [initialValue]);
+}
+
+// 使用/调用
+useUpdateLogger(name); // name 就是我们在调用页面需要观察的值（变量）
+```
+
+例子 3： 需要返回值/回调的操作
+// useWinSize.js
+
+```javascript
+import { useState, useEffect, useCallback } from 'react'
+
+export default function useWinSize() {
+
+    const [size, setSize] = useState({
+        width: document.documentElement.clientWidth,
+        height: document.documentElement.clientHeight
+    })
+
+    const onResize = useCallback(() => {
+        setSize({
+            width: document.documentElement.clientWidth,
+            height: document.documentElement.clientHeight
+        })
+    }, [])
+
+    useEffect(() => {
+        window.addEventListener('resize', onResize)
+        return () => {
+            window.removeEventListener('resize', onResize)
+        }
+    }, [])
+
+    return size;
+
+}
+
+
+// app.js to call
+import useWinSize from "./hook/useWinSize";
+
+const size = useWinSize()
+
+<div>The size of Window: width: {size.width}, height: {size.height}</div>
+
+```
+
 ## useMemo
 
 ```js
@@ -487,50 +563,60 @@ export default UseMem;
 
 ## useCallback
 
-> The one big difference between useMemo and useCallback is that 
-> useMemo it takes a function and it's going to return to you the return value of that function, but 
+> The one big difference between useMemo and useCallback is that
+> useMemo it takes a function and it's going to return to you the return value of that function, but
 > useCallback it takes a function but that is actually what the useCallback returns.
 
 ```javascript
-import React, { useState, useEffect, useCallback } from 'react'
+import React, { useState, useEffect, useCallback } from "react";
 
 const List = ({ getItems }) => {
-    const [items, setItems] = useState([])
+  const [items, setItems] = useState([]);
 
-    useEffect(() => {
-        setItems(getItems(5))
-        console.log('Updating Items')
-    }, [getItems]);
+  useEffect(() => {
+    setItems(getItems(5));
+    console.log("Updating Items");
+  }, [getItems]);
 
-    return items.map(item => <div key={item}>{item}</div>)
-}
+  return items.map((item) => <div key={item}>{item}</div>);
+};
 
 const UseCallback = () => {
+  const [number, setNumber] = useState(1);
+  const [dark, setDark] = useState(false);
 
-    const [number, setNumber] = useState(1)
-    const [dark, setDark] = useState(false)
+  const getItems = useCallback(
+    (incrementor) => {
+      return [
+        number + incrementor,
+        number + 1 + incrementor,
+        number + 2 + incrementor,
+      ];
+    },
+    [number]
+  );
 
-    const getItems = useCallback((incrementor) => {
-        return [number + incrementor, number + 1 + incrementor, number + 2 + incrementor,]
-    }, [number])
+  const theme = {
+    backgroundColor: dark ? "#333" : "#fff",
+    color: dark ? "#fff" : "#333",
+  };
 
-    const theme = {
-        backgroundColor: dark ? '#333' : '#fff',
-        color: dark ? '#fff' : '#333'
-    }
+  return (
+    <div style={theme}>
+      <input
+        type="number"
+        value={number}
+        onChange={(e) => setNumber(parseInt(e.target.value))}
+      />
+      <button onClick={() => setDark((prevDark) => !prevDark)}>
+        Toggle theme
+      </button>
+      <List getItems={getItems}></List>
+    </div>
+  );
+};
 
-    return (
-        <div style={theme}>
-            <input type="number" value={number}
-                onChange={e => setNumber(parseInt(e.target.value))} />
-            <button onClick={() => setDark(prevDark => !prevDark)}>Toggle theme</button>
-            <List getItems={getItems}></List>
-        </div>
-    )
-}
-
-export default UseCallback
-
+export default UseCallback;
 ```
 
 ## useRef
@@ -577,6 +663,5 @@ function focus(){
 - Append in `package.json` after scripts: `"sass" : "sass src/Sass:src/Css --watch --no-source-map"`
 
 - Run with terminal: `npm run sass`
-
 
 > Hook part ref from: https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw
