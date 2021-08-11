@@ -1,6 +1,6 @@
 ---
 layout: post
-subtitle: collections
+subtitle: 钩子函数总结
 categories: [React]
 header:
   image: header.jpg
@@ -10,7 +10,7 @@ header:
 
 最近面试前端，很多问题是关于 `React` 的，之前在项目里用的 `Hook` 主要是 `useState` 和 `useEffect` 这2个。这次借复习就好好完整的学习一下，做个记录，不仅为了面试，也是为了可以系统性的了解这个机制。
 
-> Hook 是 React 16.8 的新增特性。它可以让你在不编写 class 的情况下使用 state 以及其他的 React 特性。本文主要记录一下 Hook 的一些坑以及运行机制和使用技巧。
+> Hook 是 React 16.8 的新增特性。它可以让你在不编写 class 的情况下使用 state 以及其他的 React 特性。Hook 使你在无需修改组件结构的情况下复用状态逻辑。Hook 将组件中相互关联的部分拆分成更小的函数（比如设置订阅或请求数据)。 Hook 使你在非 class 的情况下可以使用更多的 React 特性。
 
 ## useState
 
