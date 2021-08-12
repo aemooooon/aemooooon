@@ -15,8 +15,8 @@ formspree:
 
 Tel: 021-138-1630
 
-12 Clifford Street
-Damole
-Dunedin, 9010 NZ
+Wechat: aemooooon
+
+Email: aemooooon@gmail.com
 
 {% include map.html latitude="-40.4339684" longitude="166.3306578," zoom="8" %}
