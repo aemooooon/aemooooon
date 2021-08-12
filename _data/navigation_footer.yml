@@ -1,9 +1,9 @@
 # Footer navigation links
 
-- title: home
+- title: root
   url: /
 
-- title: about
+- title: me
   url: /about/
   
 - title: contact

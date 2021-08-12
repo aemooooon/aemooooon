@@ -1,6 +1,6 @@
 # Navbar left menu navigation links
 left:
-    - title: Home
+    - title: 吾
       url: https://www.aemon.wang
 
     # - title: about
@@ -8,7 +8,7 @@ left:
 
 # Navbar right menu navigation links
 right:
-    - title: Tags
+    - title: 类
       url: /categories/
 
     # - title: contact
