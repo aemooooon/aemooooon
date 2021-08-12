@@ -287,6 +287,81 @@ function DataFetching() {
 export default DataFetching;
 ```
 
+Combination of usereducer and useContent
+
+- app.js
+
+```jsx
+import React, { useReducer } from "react";
+import "./sass/app.scss";
+import ComponentA from "./component/ComponentA";
+import ComponentB from "./component/ComponentB";
+import ComponentC from "./component/ComponentC";
+
+export const CountContext = React.createContext();
+
+const initialState = 0;
+const reducer = (state, action) => {
+  switch (action) {
+    case "increment":
+      return state + 1;
+    case "decrement":
+      return state - 1;
+    case "reset":
+      return initialState;
+    default:
+      return state;
+  }
+};
+
+function App() {
+  const [count, dispatch] = useReducer(reducer, initialState);
+
+  return (
+    <CountContext.Provider
+      value={{ countState: count, countDispatch: dispatch }}
+    >
+      <div>
+        <p style={{ textAlign: "center", height: "100px", paddingTop: "50px" }}>
+          Count: {count}
+        </p>
+        <ComponentA />
+        <ComponentB />
+        <ComponentC />
+      </div>
+    </CountContext.Provider>
+  );
+}
+
+export default App;
+```
+
+- Child component likes below 不管子组件有多少层，直接调用
+
+```jsx
+import React, { useContext } from "react";
+import { CountContext } from "../App";
+
+function ComponentA() {
+  const countContext = useContext(CountContext);
+
+  return (
+    <div style={{ backgroundColor: "red", padding: "2rem" }}>
+      <h1>A: {countContext.countState}</h1>
+      <button onClick={() => countContext.countDispatch("increment")}>
+        Increment
+      </button>
+      <button onClick={() => countContext.countDispatch("decrement")}>
+        Decrement
+      </button>
+      <button onClick={() => countContext.countDispatch("reset")}>Reset</button>
+    </div>
+  );
+}
+
+export default ComponentA;
+```
+
 ## useContext
 
 ### Basic usage
