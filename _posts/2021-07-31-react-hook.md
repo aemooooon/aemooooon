@@ -22,7 +22,7 @@ header:
 
 ## useState
 
-***useState and Render***
+**_useState and Render_**
 
 - The setter function from a useState hook will cause the component to re-render.
 - The exception is when you update a State Hook to the same value as the current state.
