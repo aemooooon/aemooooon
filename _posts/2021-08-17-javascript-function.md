@@ -8,7 +8,7 @@ header:
   text: light
 ---
 
-今天去黄欣辰教育咨询公司面试，去了前台小姐姐就给了一张面试题（共四页，每页 3 道题），让我 30 分钟做完，还有一张非常详细的个人信息表需要填写。在做的过程中有熟悉的，也有不会的，所以特地回忆一下，做个记录，毕竟 **ES2015** 我确实基础薄弱。
+今天去欣辰教育咨询公司面试，去了前台小姐姐就给了一张面试题（共四页，每页 3 道题），让我 30 分钟做完，还有一张非常详细的个人信息表需要填写。在做的过程中有熟悉的，也有不会的，所以特地回忆一下，做个记录，毕竟 **ES2015** 我确实基础薄弱。
 
 ## `let & var`
 
@@ -85,3 +85,36 @@ console.log(c()); // 100
 ```
 
 bind() 函数会创建一个新的绑定函数（bound function，BF）。绑定函数是一个 exotic function object（怪异函数对象，ECMAScript 2015 中的术语），它包装了原函数对象。调用绑定函数通常会导致执行包装函数。
+
+```javascript
+function foo() {
+    console.log( this.name);
+} 
+ 
+var obj = {
+    name: 'hua'
+}; 
+ 
+foo.call(obj); // => hua
+foo.apply(obj); // => hua
+
+var tmp = foo.bind(obj)
+tmp() // => hua
+
+
+
+<button id='btn1' onclick="clickHandler()">click me! btn1</button>
+<button id='btn2' onclick="clickHandler()">click me! btn2</button>
+<script>
+function clickHandler() {
+	console.log(this, this.id)
+}
+</script>
+
+<button id='btn1' onclick="clickHandler.bind(this)()">click me! btn1</button>
+<button id='btn1' onclick="clickHandler.call(this)">click me! btn1</button>
+<button id='btn1' onclick="clickHandler.apply(this)">click me! btn1</button>
+
+// ref：https://juejin.cn/post/6983503349182119966
+
+```
