@@ -21,7 +21,7 @@
 {% endif %}
 
 <header class="uk-background-{{ align }}-center uk-background-cover"
-    style="background-image: url({% if image contains 'http' %}{{ image }}{% else %}{{ site.post_assets | absolute_url }}{{ image }}{% endif %});height:100vh;">
+    style="background-image: url({% if image contains 'http' %}{{ image }}{% else %}{{ site.post_assets | absolute_url }}{{ image }}{% endif %});">
     <div class="uk-overlay-header uk-{{ text }}">
         <nav class="uk-navbar-container uk-navbar-transparent" data-uk-navbar>
             <div class="uk-navbar-center">
@@ -94,8 +94,7 @@
                     {% endif %}
                 </div>
                 <p class="uk-container uk-text-center" style="width:8rem; margin-top: 20vh;">
-                    <lottie-player class="scroll-down" src="/assets/js/scrolldown.json" mode="bounce"
-                        background="transparent" speed="1" loop autoplay></lottie-player>
+                    
                 </p>
             </div>
         </div>
