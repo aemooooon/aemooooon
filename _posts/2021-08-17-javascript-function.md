@@ -89,12 +89,12 @@ bind() 函数会创建一个新的绑定函数（bound function，BF）。绑定
 ```javascript
 function foo() {
     console.log( this.name);
-} 
- 
+}
+
 var obj = {
     name: 'hua'
-}; 
- 
+};
+
 foo.call(obj); // => hua
 foo.apply(obj); // => hua
 
@@ -118,3 +118,28 @@ function clickHandler() {
 // ref：https://juejin.cn/post/6983503349182119966
 
 ```
+
+## 面试问题
+
+- CSS 的优先级问题
+- CSS 伪类选择器
+- CSS3 有什么新的特性
+- ES6 的新特性有哪些
+- get 和 post 的区别
+- vue 的路由有几种
+- vue 的生命周期
+- vue 的组件之间如何通信
+- 谈谈事件捕获和冒泡
+- 谈谈 js 的事件循环机制
+- 谈谈 js 的原型链
+- 谈谈 js 中的继承机制
+- 谈谈你对 react fiber 的了解
+- 谈谈 redux
+- 用手写一个防抖函数
+- 给一个数组，在不改变原数组的情况下，返回不重复的值
+- 给一个字符串，写一个算法找出出现最多的那个字母，并统计出现的次数
+- 手写 HTML5 的视频和音频标签
+- 描述一下 apply call 和 bind
+- 哪些 CSS 属性不受盒子模型的影响
+- 描述一下 px em rem 的区别
+
