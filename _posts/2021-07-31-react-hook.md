@@ -838,3 +838,11 @@ function focus(){
 - Run with terminal: `npm run sass`
 
 > Hook part ref from: https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw
+
+
+### 解决默认打包之后是绝对路径，只能部署到根目录的问题
+
+> "homepage":"./"
+
+add the section above to `package.json`
+
