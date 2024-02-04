@@ -1,6 +1,6 @@
 ## Hi, I'm Hua 👋 
 
-I'm a Husband, Father, Developer, and student! <br />Currently studying on Otago polytechnic with major Information techonology.
+I'm a Web Developer & student! <br />Currently studying at the University of Canterbury for a Master of Applied Data Science.
 
 # ✨ Covered Skills
 
