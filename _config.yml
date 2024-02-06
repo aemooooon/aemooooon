@@ -5,8 +5,8 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site title and description
-title:              Momoir - Jekyll Template for Story Tellers
-description:        Hi, I'm Memoir, an awesome Jekyll bloging theme.
+title:              吾日三省吾身
+description:        Hi, here is Hua's notes.
 
 # Site subpath, e.g. /blog
 baseurl:            ""
@@ -19,11 +19,11 @@ url:                ""
 
 # Site logo, image or text
 logo:               # e.g. logo.png, upload logo image file to /assets/img/ folder
-logo_text:          Memoir      # if the above "logo:" image variable  is not set, this text logo is displayed instead
+logo_text:          Hua ω      # if the above "logo:" image variable  is not set, this text logo is displayed instead
 
 # Author settings, displayed on about page
 author:
-    name:           John Smith
+    name:           Hua WANG
     bio:            Hi, I'm John, a web designer, human and the author of this blog.
     email:          john@somewebsite.com
     website:        http://somewebsite.com
