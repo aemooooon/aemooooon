@@ -1,10 +1,10 @@
 ---
 layout: categories
 permalink: /categories/
-title: 标签分类
-subtitle: 全部文章 all posts
+title: Categories
+subtitle: all posts
 header:
-    image: header.jpg
+    image: https://source.unsplash.com/ZfiV8EgglsY.jpg
     text: light
 # You don't need to edit this file, edit theme's categories layout instead if you wanna make some changes
 ---

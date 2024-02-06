@@ -1,22 +1,24 @@
 ---
 layout: contact
-title: "Say hello to me"
+title: Contact
 subtitle: Get in touch
 permalink: /contact/
 header:
-    image: header.jpg
-    text: light
+    image: https://source.unsplash.com/nvzvOPQW0gc.jpg
+    text: dark
 formspree:
-    email: aemooooon@gmail.com
+    email: my_name@gmail.com
     redirect: /thanks/
 ---
 
-#### where am i
+#### Morbi varius in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla.
 
-Tel: 021-138-1630
+Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.
 
-Wechat: aemooooon
+Tel: 023-453-6578
 
-Email: aemooooon@gmail.com
+7997 E 153st Street
+Gotham
+GH, 86105 USA
 
-{% include map.html latitude="-40.4339684" longitude="166.3306578," zoom="8" %}
+{% include map.html latitude="40.6700" longitude="-73.9400" zoom="16" %}

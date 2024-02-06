@@ -1,19 +1,20 @@
 ---
 layout: about
-title: 王华 / 东海
-subtitle: aemooooon
+title: William John Smith
+subtitle: writer / photographer
 permalink: /about/
 header:
-    image: header.jpg
+    image: https://source.unsplash.com/DMVD9RkZIwQ.jpg
     text: light
 ---
 
-## 王华 a.k.a 东海 / aemooooon
+## The Journey So Far
+Mullam mattis lacinia efficitur. Nunc porta malesuada porta. Etiam tristique vestibulum dolor at ultricies.
 
-甲子 癸酉 癸酉 甲子
+Ut malesuada varius tempor. Nulla non sollicitudin tortor. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla.
 
-{% include image.html img="hua.jpg" alt="Hua's photo" %}
+{% include image.html img="https://source.unsplash.com/UZtRU-lWZE4" alt="Alt for image" %}
 
-Graduated at Otago Polytechnic in majar Bachelor of Information technology.
+In accumsan lacus ac neque maximus dictum. Phasellus eleifend leo id mattis bibendum. Curabitur et purus turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
 
-Currently is a developer as full stack in Web development.
+Valesuada varius tempor. Nulla non sollicitudin tortor. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla.
