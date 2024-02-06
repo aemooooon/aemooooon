@@ -24,7 +24,7 @@ logo_text:          Hua ω      # if the above "logo:" image variable  is not se
 # Author settings, displayed on about page
 author:
     name:           Hua WANG
-    bio:            Hi, I'm John, a web designer, human and the author of this blog.
+    bio:            Hi, I'm Hua, a web developer and upcoming data scientist.
     email:          john@somewebsite.com
     website:        http://somewebsite.com
     facebook:       https://www.facebook.com/
@@ -67,14 +67,18 @@ post:
 disqus:
     shortname:      # 7865
 
+formspree:
+    email: aemooooon@gmail.com
+    redirect: /thanks/
+
 # Google analytics code, get your code here https://www.google.com/analytics/
 google_analytics:
 
 # Google maps API key, get your key here: https://developers.google.com/maps/documentation/javascript/get-api-key
-google_maps_api_key: 
+google_maps_api_key: AIzaSyCk8Ge_26DbfrhHt8oMNYZDG1LMN-96eBM
 
 # Number of posts displayed on blog page
-paginate:           5
+paginate:           10
 
 # Path to post content assets directory i.e post images, pdfs etc
 post_assets:        /assets/posts/
