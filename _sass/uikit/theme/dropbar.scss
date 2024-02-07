@@ -1,5 +1,5 @@
 //
-// Component: Grid
+// Component: Dropbar
 //
 // ========================================================================
 
@@ -8,21 +8,31 @@
 // ========================================================================
 
 
-// Divider
+//
+// New
+//
+
+
+
+// Component
 // ========================================================================
 
-// @mixin hook-grid-divider-horizontal(){}
-// @mixin hook-grid-divider-vertical(){}
+// @mixin hook-dropbar(){}
+
+
+// Direction modifier
+// ========================================================================
+
+
+
+
+
+
+
+
 
 
 // Miscellaneous
 // ========================================================================
 
-// @mixin hook-grid-misc(){}
-
-
-// Inverse
-// ========================================================================
-
-// @mixin hook-inverse-grid-divider-horizontal(){}
-// @mixin hook-inverse-grid-divider-vertical(){}
+// @mixin hook-dropbar-misc(){}

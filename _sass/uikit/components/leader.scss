@@ -9,8 +9,6 @@
 // Variables
 // ========================================================================
 
-$leader-fill-content:                            '.' !default;
-$leader-fill-margin-left:                        $global-small-gutter !default;
 
 
 /* ========================================================================
@@ -45,8 +43,11 @@ $leader-fill-margin-left:                        $global-small-gutter !default;
 
 .uk-leader-fill.uk-leader-hide::after { display: none; }
 
-/* Pass fill character to JS */
-.var-leader-fill:before { content: $leader-fill-content; }
+/*
+ * Pass fill character to JS
+ */
+
+:root { --uk-leader-fill-content: #{$leader-fill-content}; }
 
 
 // Hooks

@@ -7,14 +7,12 @@
 // Variables
 // ========================================================================
 
-$search-default-background:                          transparent !default;
 
 //
 // New
 //
 
-$search-default-border-width:                        $global-border-width !default;
-$search-default-border:                              $global-border !default;
+
 
 
 // Component
@@ -23,8 +21,16 @@ $search-default-border:                              $global-border !default;
 // @mixin hook-search-input(){}
 
 
+// Icon
+// ========================================================================
+
+// @mixin hook-search-icon(){}
+
+
 // Default modifiers
 // ========================================================================
+
+
 
 
 
@@ -34,13 +40,15 @@ $search-default-border:                              $global-border !default;
 
 // @mixin hook-search-navbar-input(){}
 
-// @mixin hook-search-default-input-focus(){}
+// @mixin hook-search-navbar-input-focus(){}
 
 
 // Large modifiers
 // ========================================================================
 
 // @mixin hook-search-large-input(){}
+
+// @mixin hook-search-large-input-focus(){}
 
 
 // Toggle
@@ -60,14 +68,15 @@ $search-default-border:                              $global-border !default;
 // Inverse
 // ========================================================================
 
-$inverse-search-default-background:             transparent !default;
 
 
 // @mixin hook-inverse-search-default-input-focus(){}
 
 // @mixin hook-inverse-search-navbar-input(){}
+// @mixin hook-inverse-search-navbar-input-focus(){}
 
 // @mixin hook-inverse-search-large-input(){}
+// @mixin hook-inverse-search-large-input-focus(){}
 
 // @mixin hook-inverse-search-toggle(){}
 // @mixin hook-inverse-search-toggle-hover(){}

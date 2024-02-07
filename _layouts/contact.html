@@ -9,8 +9,9 @@ layout: default
     </article>
 
     {% if page.formspree.email %}
-    <h3 class="uk-margin-large-top">Contact Form</h3>
-    <form class="uk-form-stacked uk-margin-medium-top" method="POST" action="https://formspree.io/{{ page.formspree.email }}" accept-charset="UTF-8">
+    <h3 class="uk-margin-large-top">Leave a message to Hua</h3>
+    <form class="uk-form-stacked uk-margin-medium-top" method="POST"
+        action="https://formspree.io/f/{{ page.formspree.email }}" accept-charset="UTF-8">
         <div class="uk-margin-medium-bottom">
             <label class="uk-form-label uk-margin-small-bottom" for="form-stacked-text">Name</label>
             <div class="uk-form-controls">
@@ -40,7 +41,8 @@ layout: default
             <input type="hidden" name="_next" value="{{ page.formspree.redirect | absolute_url }}">
             {% endif %}
             <input type="text" name="_gotcha" style="display:none">
-            <input class="uk-button uk-button-primary uk-button-large uk-width-1-1 uk-border-rounded" type="submit" value="Send">
+            <input class="uk-button uk-button-primary uk-button-large uk-width-1-1 uk-border-rounded" type="submit"
+                value="Send">
         </div>
     </form>
     {% endif %}

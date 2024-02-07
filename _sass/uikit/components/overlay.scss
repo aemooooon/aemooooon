@@ -14,13 +14,8 @@
 // Variables
 // ========================================================================
 
-$overlay-padding-horizontal:                     $global-gutter !default;
-$overlay-padding-vertical:                       $global-gutter !default;
 
-$overlay-default-background:                     rgba($global-background, 0.8) !default;
 
-$overlay-primary-background:                     rgba($global-secondary-background, 0.8) !default;
-$overlay-primary-color-mode:                     light !default;
 
 
 /* ========================================================================
@@ -58,6 +53,10 @@ $overlay-primary-color-mode:                     light !default;
     background: $overlay-default-background;
     @if(mixin-exists(hook-overlay-default)) {@include hook-overlay-default();}
 }
+
+// Color Mode
+@if ( $overlay-default-color-mode == light ) { .uk-overlay-default { @extend .uk-light !optional;} }
+@if ( $overlay-default-color-mode == dark ) { .uk-overlay-default { @extend .uk-dark !optional;} }
 
 /*
  * Primary
