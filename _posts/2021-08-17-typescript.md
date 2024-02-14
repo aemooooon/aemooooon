@@ -8,7 +8,7 @@ header:
   text: light
 ---
 
-TypeScript crash experience.
+# TypeScript crash experience.
 
 - 初始化 ts 配置文件 `tsc --init`
 - 编译文件 `tsc filename`
@@ -183,7 +183,6 @@ strArrayG.push('s')
 console.log(numArrayG)
 console.log(strArrayG)
 
-
 // React function component exampe
 export interface Props{
   title: string
@@ -193,7 +192,7 @@ export interface Props{
 const Header = (props: Props) => {
   return (
     <header>
-      <h1 style={{color: props.color ? props.color : 'blue' }}>{props.title}<h1>
+      <h1 style={{color: props.color ? props.color : "blue" }}>{props.title}<h1>
     </header>
   )
 }

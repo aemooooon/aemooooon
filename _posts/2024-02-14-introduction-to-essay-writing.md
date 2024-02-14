@@ -8,7 +8,7 @@ header:
     text: light
 ---
 
-# Introduction to Essay Writing
+# Introduction to essay writing
 
 ## Vocabulary
 

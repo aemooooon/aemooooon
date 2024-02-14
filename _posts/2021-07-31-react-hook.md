@@ -3,10 +3,12 @@ layout: post
 subtitle: 钩子函数
 categories: [React]
 header:
-  image: header.jpg
-  align:
-  text: light
+    image: header.jpg
+    align:
+    text: light
 ---
+
+# React Hook
 
 最近面试前端，很多问题是关于 `React` 的，之前在项目里用的 `Hook` 主要是 `useState` 和 `useEffect` 这 2 个。这次借复习就好好完整的学习一下，做个记录，不仅为了面试，也是为了可以系统性的了解这个机制。
 
@@ -24,61 +26,61 @@ header:
 
 **_useState and Render_**
 
-- The setter function from a useState hook will cause the component to re-render.
-- The exception is when you update a State Hook to the same value as the current state.
-- Same value after the initial render? The component will not re-render.
-- Same value after re-renders? React will render that specific component one more time and then bails out from any subsequent renders.
+-   The setter function from a useState hook will cause the component to re-render.
+-   The exception is when you update a State Hook to the same value as the current state.
+-   Same value after the initial render? The component will not re-render.
+-   Same value after re-renders? React will render that specific component one more time and then bails out from any subsequent renders.
 
 ```javascript
 import React, { useState } from "react";
 
 function mTimes() {
-  console.log("我会每次都渲染");
-  return 4;
+    console.log("我会每次都渲染");
+    return 4;
 }
 
 const UseState = () => {
-  // 关于初始化
-  // 1. 如果直接设置一个固定的默认值，每次更新都会渲染
-  // 2. 所以可以写成一个函数，这样就只会渲染第一次
-  // 3. 写成函数也有一个例外，就是如果把函数定义到主函数之外的话，也会每次都重新渲染
-  // const [count, setCount] = useState(4);
-  // const [count, setCount] = useState(mTimes);
-  const [count, setCount] = useState(() => {
-    console.log("我只会在刚开始渲染一次");
-    return 4;
-  });
-
-  const [state, setState] = useState({ count: 4, theme: "blue" });
-
-  function xxx() {
-    setState((prevValue) => {
-      // 如果初始化的是一个对象，则不能像这样修改
-      // return { count: prevValue.count + 1}
-      // 正确方法
-      return { ...prevValue, count: prevValue + 1 };
+    // 关于初始化
+    // 1. 如果直接设置一个固定的默认值，每次更新都会渲染
+    // 2. 所以可以写成一个函数，这样就只会渲染第一次
+    // 3. 写成函数也有一个例外，就是如果把函数定义到主函数之外的话，也会每次都重新渲染
+    // const [count, setCount] = useState(4);
+    // const [count, setCount] = useState(mTimes);
+    const [count, setCount] = useState(() => {
+        console.log("我只会在刚开始渲染一次");
+        return 4;
     });
-  }
 
-  function increment() {
-    // 这里虽然调用了2次，但是每次只改变一次的值
-    setCount(count + 1);
-    setCount(count + 1);
-  }
+    const [state, setState] = useState({ count: 4, theme: "blue" });
 
-  function decrement() {
-    // 应该采用这种方法更新其值
-    setCount((prevCount) => prevCount - 1);
-    setCount((prevCount) => prevCount - 1);
-  }
+    function xxx() {
+        setState((prevValue) => {
+            // 如果初始化的是一个对象，则不能像这样修改
+            // return { count: prevValue.count + 1}
+            // 正确方法
+            return { ...prevValue, count: prevValue + 1 };
+        });
+    }
 
-  return (
-    <div>
-      <button onClick={increment}>+</button>
-      <span>{count}</span>
-      <button onClick={decrement}>-</button>
-    </div>
-  );
+    function increment() {
+        // 这里虽然调用了2次，但是每次只改变一次的值
+        setCount(count + 1);
+        setCount(count + 1);
+    }
+
+    function decrement() {
+        // 应该采用这种方法更新其值
+        setCount((prevCount) => prevCount - 1);
+        setCount((prevCount) => prevCount - 1);
+    }
+
+    return (
+        <div>
+            <button onClick={increment}>+</button>
+            <span>{count}</span>
+            <button onClick={decrement}>-</button>
+        </div>
+    );
 };
 
 export default UseState;
@@ -92,60 +94,60 @@ export default UseState;
 import React, { useState, useEffect } from "react";
 
 const UseEffect = () => {
-  const [resourceType, setResourceType] = useState("posts");
-  const [result, setResult] = useState([]);
+    const [resourceType, setResourceType] = useState("posts");
+    const [result, setResult] = useState([]);
 
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
-  const handleResize = () => {
-    setWindowWidth(window.innerWidth);
-  };
-
-  console.log("render");
-
-  useEffect(() => {
-    console.log("useEffect");
-
-    let ignore = false;
-
-    function fetchContent() {
-      fetch(`https://jsonplaceholder.typicode.com/${resourceType}`)
-        .then((response) => response.json())
-        .then((json) => {
-          if (!ignore) {
-            setResult(json);
-          }
-        });
-    }
-
-    fetchContent();
-
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      ignore = true;
-      window.removeEventListener("resize", handleResize);
-      console.log("clean up");
+    const handleResize = () => {
+        setWindowWidth(window.innerWidth);
     };
-  }, [resourceType]);
 
-  return (
-    <React.Fragment>
-      <div>
-        <button onClick={() => setResourceType("posts")}>Posts</button>
-        <button onClick={() => setResourceType("comments")}>comments</button>
-        <button onClick={() => setResourceType("users")}>users</button>
-      </div>
-      <h1>
-        {resourceType} {windowWidth}
-      </h1>
-      <div>
-        {result.map((item) => {
-          return <pre key={item.id}>{JSON.stringify(item)}</pre>;
-        })}
-      </div>
-    </React.Fragment>
-  );
+    console.log("render");
+
+    useEffect(() => {
+        console.log("useEffect");
+
+        let ignore = false;
+
+        function fetchContent() {
+            fetch(`https://jsonplaceholder.typicode.com/${resourceType}`)
+                .then((response) => response.json())
+                .then((json) => {
+                    if (!ignore) {
+                        setResult(json);
+                    }
+                });
+        }
+
+        fetchContent();
+
+        window.addEventListener("resize", handleResize);
+
+        return () => {
+            ignore = true;
+            window.removeEventListener("resize", handleResize);
+            console.log("clean up");
+        };
+    }, [resourceType]);
+
+    return (
+        <React.Fragment>
+            <div>
+                <button onClick={() => setResourceType("posts")}>Posts</button>
+                <button onClick={() => setResourceType("comments")}>comments</button>
+                <button onClick={() => setResourceType("users")}>users</button>
+            </div>
+            <h1>
+                {resourceType} {windowWidth}
+            </h1>
+            <div>
+                {result.map((item) => {
+                    return <pre key={item.id}>{JSON.stringify(item)}</pre>;
+                })}
+            </div>
+        </React.Fragment>
+    );
 };
 
 export default UseEffect;
@@ -163,23 +165,23 @@ An example of Counter by using useState
 import React, { useState } from "react";
 
 const UseReducer = () => {
-  const [count, setCount] = useState(0);
+    const [count, setCount] = useState(0);
 
-  const increment = () => {
-    setCount((prevValue) => prevValue + 1);
-  };
+    const increment = () => {
+        setCount((prevValue) => prevValue + 1);
+    };
 
-  const decrement = () => {
-    setCount((prevValue) => prevValue - 1);
-  };
+    const decrement = () => {
+        setCount((prevValue) => prevValue - 1);
+    };
 
-  return (
-    <div>
-      <button onClick={increment}>increment</button>
-      <div>{count}</div>
-      <button onClick={decrement}>decrement</button>
-    </div>
-  );
+    return (
+        <div>
+            <button onClick={increment}>increment</button>
+            <div>{count}</div>
+            <button onClick={decrement}>decrement</button>
+        </div>
+    );
 };
 
 export default UseReducer;
@@ -191,39 +193,39 @@ Same example by using reducer
 import React, { useReducer } from "react";
 
 const ACTIONS = {
-  INCREMENT: "increment",
-  DECREMENT: "decrement",
+    INCREMENT: "increment",
+    DECREMENT: "decrement",
 };
 
 function reducer(state, action) {
-  switch (action.type) {
-    case ACTIONS.INCREMENT:
-      return { count: state.count + 1 };
-    case ACTIONS.DECREMENT:
-      return { count: state.count - 1 };
-    default:
-      return state;
-  }
+    switch (action.type) {
+        case ACTIONS.INCREMENT:
+            return { count: state.count + 1 };
+        case ACTIONS.DECREMENT:
+            return { count: state.count - 1 };
+        default:
+            return state;
+    }
 }
 
 const UseReducer = () => {
-  const [state, dispatch] = useReducer(reducer, { count: 0 });
+    const [state, dispatch] = useReducer(reducer, { count: 0 });
 
-  const increment = () => {
-    dispatch({ type: ACTIONS.INCREMENT });
-  };
+    const increment = () => {
+        dispatch({ type: ACTIONS.INCREMENT });
+    };
 
-  const decrement = () => {
-    dispatch({ type: ACTIONS.DECREMENT });
-  };
+    const decrement = () => {
+        dispatch({ type: ACTIONS.DECREMENT });
+    };
 
-  return (
-    <div>
-      <button onClick={increment}>increment</button>
-      <div>{state.count}</div>
-      <button onClick={decrement}>decrement</button>
-    </div>
-  );
+    return (
+        <div>
+            <button onClick={increment}>increment</button>
+            <div>{state.count}</div>
+            <button onClick={decrement}>decrement</button>
+        </div>
+    );
 };
 
 export default UseReducer;
@@ -236,59 +238,59 @@ import React, { useEffect, useReducer } from "react";
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "https://jsonplaceholder.typicode.com",
+    baseURL: "https://jsonplaceholder.typicode.com",
 });
 
 const ACTIONS = {
-  FETCH_SUCCESS: "FETCH_SUCCESS",
-  FETCH_ERROR: "FETCH_ERROR",
+    FETCH_SUCCESS: "FETCH_SUCCESS",
+    FETCH_ERROR: "FETCH_ERROR",
 };
 
 const initialState = {
-  loading: true,
-  error: "",
-  post: {},
+    loading: true,
+    error: "",
+    post: {},
 };
 
 const reducer = (state, action) => {
-  switch (action.type) {
-    case ACTIONS.FETCH_SUCCESS:
-      return {
-        loading: false,
-        post: action.payload,
-        error: "",
-      };
-    case ACTIONS.FETCH_ERROR:
-      return {
-        loading: false,
-        post: {},
-        error: "Something went wrong",
-      };
-    default:
-      return state;
-  }
+    switch (action.type) {
+        case ACTIONS.FETCH_SUCCESS:
+            return {
+                loading: false,
+                post: action.payload,
+                error: "",
+            };
+        case ACTIONS.FETCH_ERROR:
+            return {
+                loading: false,
+                post: {},
+                error: "Something went wrong",
+            };
+        default:
+            return state;
+    }
 };
 
 function DataFetching() {
-  const [state, dispatch] = useReducer(reducer, initialState);
+    const [state, dispatch] = useReducer(reducer, initialState);
 
-  useEffect(() => {
-    axiosInstance
-      .get("/posts/1")
-      .then((res) => {
-        dispatch({ type: ACTIONS.FETCH_SUCCESS, payload: res.data });
-      })
-      .catch((err) => {
-        dispatch({ type: ACTIONS.FETCH_ERROR });
-      });
-  }, []);
+    useEffect(() => {
+        axiosInstance
+            .get("/posts/1")
+            .then((res) => {
+                dispatch({ type: ACTIONS.FETCH_SUCCESS, payload: res.data });
+            })
+            .catch((err) => {
+                dispatch({ type: ACTIONS.FETCH_ERROR });
+            });
+    }, []);
 
-  return (
-    <div>
-      {state.loading ? "loading" : state.post.title}
-      {state.error ? state.error : null}
-    </div>
-  );
+    return (
+        <div>
+            {state.loading ? "loading" : state.post.title}
+            {state.error ? state.error : null}
+        </div>
+    );
 }
 
 export default DataFetching;
@@ -296,7 +298,7 @@ export default DataFetching;
 
 Combination of usereducer and useContent
 
-- app.js
+-   app.js
 
 ```jsx
 import React, { useReducer } from "react";
@@ -309,61 +311,53 @@ export const CountContext = React.createContext();
 
 const initialState = 0;
 const reducer = (state, action) => {
-  switch (action) {
-    case "increment":
-      return state + 1;
-    case "decrement":
-      return state - 1;
-    case "reset":
-      return initialState;
-    default:
-      return state;
-  }
+    switch (action) {
+        case "increment":
+            return state + 1;
+        case "decrement":
+            return state - 1;
+        case "reset":
+            return initialState;
+        default:
+            return state;
+    }
 };
 
 function App() {
-  const [count, dispatch] = useReducer(reducer, initialState);
+    const [count, dispatch] = useReducer(reducer, initialState);
 
-  return (
-    <CountContext.Provider
-      value={{ countState: count, countDispatch: dispatch }}
-    >
-      <div>
-        <p style={{ textAlign: "center", height: "100px", paddingTop: "50px" }}>
-          Count: {count}
-        </p>
-        <ComponentA />
-        <ComponentB />
-        <ComponentC />
-      </div>
-    </CountContext.Provider>
-  );
+    return (
+        <CountContext.Provider value={{ countState: count, countDispatch: dispatch }}>
+            <div>
+                <p style={{ textAlign: "center", height: "100px", paddingTop: "50px" }}>Count: {count}</p>
+                <ComponentA />
+                <ComponentB />
+                <ComponentC />
+            </div>
+        </CountContext.Provider>
+    );
 }
 
 export default App;
 ```
 
-- Child component likes below 不管子组件有多少层，直接调用
+-   Child component likes below 不管子组件有多少层，直接调用
 
 ```jsx
 import React, { useContext } from "react";
 import { CountContext } from "../App";
 
 function ComponentA() {
-  const countContext = useContext(CountContext);
+    const countContext = useContext(CountContext);
 
-  return (
-    <div style={{ backgroundColor: "red", padding: "2rem" }}>
-      <h1>A: {countContext.countState}</h1>
-      <button onClick={() => countContext.countDispatch("increment")}>
-        Increment
-      </button>
-      <button onClick={() => countContext.countDispatch("decrement")}>
-        Decrement
-      </button>
-      <button onClick={() => countContext.countDispatch("reset")}>Reset</button>
-    </div>
-  );
+    return (
+        <div style={{ backgroundColor: "red", padding: "2rem" }}>
+            <h1>A: {countContext.countState}</h1>
+            <button onClick={() => countContext.countDispatch("increment")}>Increment</button>
+            <button onClick={() => countContext.countDispatch("decrement")}>Decrement</button>
+            <button onClick={() => countContext.countDispatch("reset")}>Reset</button>
+        </div>
+    );
 }
 
 export default ComponentA;
@@ -466,7 +460,7 @@ export default FunctionContextComponent
 
 ### usage with custome hook
 
-- Create a file `ThemeContext.js` under the `src`.
+-   Create a file `ThemeContext.js` under the `src`.
 
 ```javascript
 import React, { useContext, useState } from "react";
@@ -475,65 +469,63 @@ const ThemeContext = React.createContext();
 const ThemeUpdateContext = React.createContext();
 
 export function useTheme() {
-  return useContext(ThemeContext);
+    return useContext(ThemeContext);
 }
 
 export function useThemeUpdate() {
-  return useContext(ThemeUpdateContext);
+    return useContext(ThemeUpdateContext);
 }
 
 export function ThemeProvider({ children }) {
-  const [darkTheme, setDarkTheme] = useState(true);
+    const [darkTheme, setDarkTheme] = useState(true);
 
-  function toggleTheme() {
-    setDarkTheme((prevDarkTheme) => !prevDarkTheme);
-  }
+    function toggleTheme() {
+        setDarkTheme((prevDarkTheme) => !prevDarkTheme);
+    }
 
-  return (
-    <ThemeContext.Provider value={darkTheme}>
-      <ThemeUpdateContext.Provider value={toggleTheme}>
-        {children}
-      </ThemeUpdateContext.Provider>
-    </ThemeContext.Provider>
-  );
+    return (
+        <ThemeContext.Provider value={darkTheme}>
+            <ThemeUpdateContext.Provider value={toggleTheme}>{children}</ThemeUpdateContext.Provider>
+        </ThemeContext.Provider>
+    );
 }
 ```
 
-- `App.js`
+-   `App.js`
 
 ```javascript
 import { ThemeProvider } from "./ThemeContext";
 
 return (
-  <div>
-    <ThemeProvider>
-      <FunctionContextComponent />
-    </ThemeProvider>
-  </div>
+    <div>
+        <ThemeProvider>
+            <FunctionContextComponent />
+        </ThemeProvider>
+    </div>
 );
 ```
 
-- Child which is functional component calling
+-   Child which is functional component calling
 
 ```javascript
 import React from "react";
 import { useTheme, useThemeUpdate } from "../ThemeContext";
 
 const FunctionContextComponent = () => {
-  const darkTheme = useTheme();
-  const toggleTheme = useThemeUpdate();
-  const themeStyles = {
-    backgroundColor: darkTheme ? "#333" : "#ccc",
-    color: darkTheme ? "#ccc" : "#333",
-    padding: "2rem",
-    margin: "2rem",
-  };
-  return (
-    <>
-      <button onClick={toggleTheme}>Toggle Theme</button>
-      <div style={themeStyles}>Function Theme</div>
-    </>
-  );
+    const darkTheme = useTheme();
+    const toggleTheme = useThemeUpdate();
+    const themeStyles = {
+        backgroundColor: darkTheme ? "#333" : "#ccc",
+        color: darkTheme ? "#ccc" : "#333",
+        padding: "2rem",
+        margin: "2rem",
+    };
+    return (
+        <>
+            <button onClick={toggleTheme}>Toggle Theme</button>
+            <div style={themeStyles}>Function Theme</div>
+        </>
+    );
 };
 
 export default FunctionContextComponent;
@@ -551,33 +543,33 @@ export default FunctionContextComponent;
 import { useState, useEffect } from "react";
 
 function getSavedValue(key, initialValue) {
-  const savedValue = JSON.parse(localStorage.getItem(key));
-  if (savedValue) return savedValue;
+    const savedValue = JSON.parse(localStorage.getItem(key));
+    if (savedValue) return savedValue;
 
-  // 模仿一下 React 内置的 useState 既可以接收值作为参数，也可以接收 函数 作为参数
-  if (initialValue instanceof Function) return initialValue();
-  return initialValue;
+    // 模仿一下 React 内置的 useState 既可以接收值作为参数，也可以接收 函数 作为参数
+    if (initialValue instanceof Function) return initialValue();
+    return initialValue;
 }
 
 export default function useLocalStorage(key, initialValue) {
-  const [value, setValue] = useState(() => {
-    return getSavedValue(key, initialValue);
-  });
+    const [value, setValue] = useState(() => {
+        return getSavedValue(key, initialValue);
+    });
 
-  useEffect(() => {
-    localStorage.setItem(key, JSON.stringify(value));
-  }, [value]);
+    useEffect(() => {
+        localStorage.setItem(key, JSON.stringify(value));
+    }, [value]);
 
-  return [value, setValue];
+    return [value, setValue];
 }
 
 // 使用/调用
 const [name, setName] = useLocalStorage("name", "");
 
 return (
-  <div>
-    <input value={name} onChange={(e) => setName(e.target.value)} type="text" />
-  </div>
+    <div>
+        <input value={name} onChange={(e) => setName(e.target.value)} type="text" />
+    </div>
 );
 ```
 
@@ -589,10 +581,10 @@ return (
 import { useEffect } from "react";
 
 export default function useUpdateLogger(initialValue) {
-  useEffect(() => {
-    // 单纯的在控制台输出值（如果值改变的话）
-    console.log(initialValue);
-  }, [initialValue]);
+    useEffect(() => {
+        // 单纯的在控制台输出值（如果值改变的话）
+        console.log(initialValue);
+    }, [initialValue]);
 }
 
 // 使用/调用
@@ -642,22 +634,21 @@ const size = useWinSize()
 // anather example
 
 ```typescript
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 function useLocalState<T>(key: string, initial: T) {
     const [value, setValue] = useState<T>(() => {
-        if (typeof window !== 'undefined' &&
-            window.localStorage) {
+        if (typeof window !== "undefined" && window.localStorage) {
             const saved = window.localStorage.getItem(key);
             if (saved) {
                 return JSON.parse(saved);
             }
         }
-        return initial
+        return initial;
     });
 
     useEffect(() => {
-        if(window.localStorage){
+        if (window.localStorage) {
             window.localStorage.setItem(key, JSON.stringify(value));
         }
     }, [value]);
@@ -676,59 +667,53 @@ import React, { useState, useMemo, useEffect } from "react";
 // 2.
 
 const UseMem = () => {
-  const [number, setNumber] = useState(0);
-  const [dark, setDark] = useState(false);
+    const [number, setNumber] = useState(0);
+    const [dark, setDark] = useState(false);
 
-  // 如果直接调用 slowFunction ，则每次渲染都会执行大计算量的 slowFunction
-  // const doubleNumber = slowFunction(number);
-  // 使用 useMemo 如果依赖变量不发生变化，则不会执行 useMemo 里面的大计算量函数
-  const doubleNumber = useMemo(() => {
-    return slowFunction(number);
-  }, [number]);
+    // 如果直接调用 slowFunction ，则每次渲染都会执行大计算量的 slowFunction
+    // const doubleNumber = slowFunction(number);
+    // 使用 useMemo 如果依赖变量不发生变化，则不会执行 useMemo 里面的大计算量函数
+    const doubleNumber = useMemo(() => {
+        return slowFunction(number);
+    }, [number]);
 
-  // 由于 themeStyles 对象（数组，对象）是引用类型，所以如果作为 useEffect 的依赖，每次会因为变量引用的不一样，而每次都渲染
-  // ESLINT 提示： The 'themeStyles' object makes the dependencies of useEffect Hook (at line 27) change on every render. To fix this, wrap the initialization of 'themeStyles' in its own useMemo() Hook.
+    // 由于 themeStyles 对象（数组，对象）是引用类型，所以如果作为 useEffect 的依赖，每次会因为变量引用的不一样，而每次都渲染
+    // ESLINT 提示： The 'themeStyles' object makes the dependencies of useEffect Hook (at line 27) change on every render. To fix this, wrap the initialization of 'themeStyles' in its own useMemo() Hook.
 
-  // const themeStyles = {
-  //     backgroundColor: dark ? 'black' : 'white',
-  //     color: dark ? 'white' : 'black'
-  // }
-  // useEffect(
-  //     () => {
-  //         console.log('Theme Changed')
-  //     }, [themeStyles]
-  // )
+    // const themeStyles = {
+    //     backgroundColor: dark ? 'black' : 'white',
+    //     color: dark ? 'white' : 'black'
+    // }
+    // useEffect(
+    //     () => {
+    //         console.log('Theme Changed')
+    //     }, [themeStyles]
+    // )
 
-  const themeStyles = useMemo(() => {
-    return {
-      backgroundColor: dark ? "black" : "white",
-      color: dark ? "white" : "black",
-    };
-  }, [dark]); // 这样就只会在 dark 改变的情况下，在 useEffect 里重新渲染
+    const themeStyles = useMemo(() => {
+        return {
+            backgroundColor: dark ? "black" : "white",
+            color: dark ? "white" : "black",
+        };
+    }, [dark]); // 这样就只会在 dark 改变的情况下，在 useEffect 里重新渲染
 
-  useEffect(() => {
-    console.log("Theme Changed");
-  }, [themeStyles]);
+    useEffect(() => {
+        console.log("Theme Changed");
+    }, [themeStyles]);
 
-  return (
-    <div>
-      <input
-        type="number"
-        value={number}
-        onChange={(e) => setNumber(parseInt(e.target.value))}
-      />
-      <button onClick={() => setDark((prevDark) => !prevDark)}>
-        Change Theme
-      </button>
-      <div style={themeStyles}>{doubleNumber}</div>
-    </div>
-  );
+    return (
+        <div>
+            <input type="number" value={number} onChange={(e) => setNumber(parseInt(e.target.value))} />
+            <button onClick={() => setDark((prevDark) => !prevDark)}>Change Theme</button>
+            <div style={themeStyles}>{doubleNumber}</div>
+        </div>
+    );
 
-  function slowFunction(num) {
-    console.log("Calling Slow Function");
-    for (let i = 0; i < 1000000000; i++) {}
-    return num * 2;
-  }
+    function slowFunction(num) {
+        console.log("Calling Slow Function");
+        for (let i = 0; i < 1000000000; i++) {}
+        return num * 2;
+    }
 };
 
 export default UseMem;
@@ -744,49 +729,39 @@ export default UseMem;
 import React, { useState, useEffect, useCallback } from "react";
 
 const List = ({ getItems }) => {
-  const [items, setItems] = useState([]);
+    const [items, setItems] = useState([]);
 
-  useEffect(() => {
-    setItems(getItems(5));
-    console.log("Updating Items");
-  }, [getItems]);
+    useEffect(() => {
+        setItems(getItems(5));
+        console.log("Updating Items");
+    }, [getItems]);
 
-  return items.map((item) => <div key={item}>{item}</div>);
+    return items.map((item) => <div key={item}>{item}</div>);
 };
 
 const UseCallback = () => {
-  const [number, setNumber] = useState(1);
-  const [dark, setDark] = useState(false);
+    const [number, setNumber] = useState(1);
+    const [dark, setDark] = useState(false);
 
-  const getItems = useCallback(
-    (incrementor) => {
-      return [
-        number + incrementor,
-        number + 1 + incrementor,
-        number + 2 + incrementor,
-      ];
-    },
-    [number]
-  );
+    const getItems = useCallback(
+        (incrementor) => {
+            return [number + incrementor, number + 1 + incrementor, number + 2 + incrementor];
+        },
+        [number]
+    );
 
-  const theme = {
-    backgroundColor: dark ? "#333" : "#fff",
-    color: dark ? "#fff" : "#333",
-  };
+    const theme = {
+        backgroundColor: dark ? "#333" : "#fff",
+        color: dark ? "#fff" : "#333",
+    };
 
-  return (
-    <div style={theme}>
-      <input
-        type="number"
-        value={number}
-        onChange={(e) => setNumber(parseInt(e.target.value))}
-      />
-      <button onClick={() => setDark((prevDark) => !prevDark)}>
-        Toggle theme
-      </button>
-      <List getItems={getItems}></List>
-    </div>
-  );
+    return (
+        <div style={theme}>
+            <input type="number" value={number} onChange={(e) => setNumber(parseInt(e.target.value))} />
+            <button onClick={() => setDark((prevDark) => !prevDark)}>Toggle theme</button>
+            <List getItems={getItems}></List>
+        </div>
+    );
 };
 
 export default UseCallback;
@@ -794,7 +769,7 @@ export default UseCallback;
 
 ## useRef
 
-- 用来操作引用的 dom 而不用重新渲染
+-   用来操作引用的 dom 而不用重新渲染
 
 ```javascript
 const inputRef = useRef();
@@ -811,15 +786,15 @@ function focus(){
 
 ## Using Bootstrap5+ in React
 
-- Install bootstrap: `npm install bootstrap`
+-   Install bootstrap: `npm install bootstrap`
 
-- import it in index.js: `import 'bootstrap/dist/css/bootstrap.min.css';`
+-   import it in index.js: `import 'bootstrap/dist/css/bootstrap.min.css';`
 
 ## Using sass in React
 
-- Install sass: `npm install --save-dev sass`
+-   Install sass: `npm install --save-dev sass`
 
-- create resources
+-   create resources
 
 ```bash
 .
@@ -831,18 +806,16 @@ function focus(){
     └── app.scss
 ```
 
-- Import in App.js: `import './sass/app.scss'`
+-   Import in App.js: `import './sass/app.scss'`
 
-- Append in `package.json` after scripts: `"sass" : "sass src/Sass:src/Css --watch --no-source-map"`
+-   Append in `package.json` after scripts: `"sass" : "sass src/Sass:src/Css --watch --no-source-map"`
 
-- Run with terminal: `npm run sass`
+-   Run with terminal: `npm run sass`
 
 > Hook part ref from: https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw
-
 
 ### 解决默认打包之后是绝对路径，只能部署到根目录的问题
 
 > "homepage":"./"
 
 add the section above to `package.json`
-
