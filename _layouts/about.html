@@ -4,78 +4,130 @@ layout: default
 
 <div class="uk-container uk-container-small">
     {% if page.layout == 'about' and site.author.image %}
-        <div class="uk-text-center">
-            <img class="uk-border-circle avatar" src="{% if site.author.image contains 'http' %}{{ site.author.image }}{% else %}{{ site.post_assets | absolute_url }}{{ site.author.image }}{% endif %}">
-        </div>
+    <div class="uk-text-center">
+        <img class="uk-border-circle avatar"
+            src="{% if site.author.image contains 'http' %}{{ site.author.image }}{% else %}{{ site.post_assets | absolute_url }}{{ site.author.image }}{% endif %}">
+    </div>
     {% endif %}
     <article class="uk-article">
         {{ content }}
     </article>
+    {% if page.formspree.email %}
+    <h3 class="uk-margin-large-top">Leave a message to Hua</h3>
+    <form class="uk-form-stacked uk-margin-medium-top" method="POST"
+        action="https://formspree.io/f/{{ page.formspree.email }}" accept-charset="UTF-8">
+        <div class="uk-margin-medium-bottom">
+            <label class="uk-form-label uk-margin-small-bottom" for="form-stacked-text">Name</label>
+            <div class="uk-form-controls">
+                <input class="uk-input uk-form-large uk-border-rounded" name="name" type="text" required>
+            </div>
+        </div>
+        <div class="uk-margin-medium-bottom">
+            <label class="uk-form-label uk-margin-small-bottom" for="form-stacked-text">Email</label>
+            <div class="uk-form-controls">
+                <input class="uk-input uk-form-large uk-border-rounded" name="_replyto" type="email" required>
+            </div>
+        </div>
+        <div class="uk-margin-medium-bottom">
+            <label class="uk-form-label uk-margin-small-bottom" for="form-stacked-text">Subject</label>
+            <div class="uk-form-controls">
+                <input class="uk-input uk-form-large uk-border-rounded" name="_subject" type="text">
+            </div>
+        </div>
+        <div class="uk-margin-medium-bottom">
+            <label class="uk-form-label uk-margin-small-bottom" for="form-stacked-text">Message</label>
+            <div class="uk-form-controls">
+                <textarea class="uk-textarea uk-form-large" name="message" rows="5" minlength="10" required></textarea>
+            </div>
+        </div>
+        <div>
+            {% if page.formspree.redirect %}
+            <input type="hidden" name="_next" value="{{ page.formspree.redirect | absolute_url }}">
+            {% endif %}
+            <input type="text" name="_gotcha" style="display:none">
+            <input class="uk-button uk-button-primary uk-button-large uk-width-1-1 uk-border-rounded" type="submit"
+                value="Send">
+        </div>
+    </form>
+    {% endif %}
     <div class="social-networks">
         <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
             {% if site.author.twitter %}
             <div class="uk-first-column">
-                <a href="{{ site.author.twitter }}" data-uk-icon="ratio: 1.4; icon: twitter" class="uk-icon-link uk-icon" target="_blank"></a>
+                <a href="{{ site.author.twitter }}" data-uk-icon="ratio: 1.4; icon: twitter"
+                    class="uk-icon-link uk-icon" target="_blank"></a>
             </div>
             {% endif %}
             {% if site.author.facebook %}
             <div>
-                <a href="{{ site.author.facebook }}" data-uk-icon="ratio: 1.4; icon: facebook" class="uk-icon-link uk-icon" target="_blank"></a>
+                <a href="{{ site.author.facebook }}" data-uk-icon="ratio: 1.4; icon: facebook"
+                    class="uk-icon-link uk-icon" target="_blank"></a>
             </div>
             {% endif %}
             {% if site.author.flickr %}
             <div>
-                <a href="{{ site.author.flickr }}" data-uk-icon="ratio: 1.4; icon: flickr" class="uk-icon-link uk-icon" target="_blank"></a>
+                <a href="{{ site.author.flickr }}" data-uk-icon="ratio: 1.4; icon: flickr" class="uk-icon-link uk-icon"
+                    target="_blank"></a>
             </div>
             {% endif %}
             {% if site.author.dribbble %}
             <div>
-                <a href="{{ site.author.dribbble }}" data-uk-icon="ratio: 1.4; icon: dribbble" class="uk-icon-link uk-icon" target="_blank"></a>
+                <a href="{{ site.author.dribbble }}" data-uk-icon="ratio: 1.4; icon: dribbble"
+                    class="uk-icon-link uk-icon" target="_blank"></a>
             </div>
             {% endif %}
             {% if site.author.instagram %}
             <div>
-                <a href="{{ site.author.instagram }}" data-uk-icon="ratio: 1.4; icon: instagram" class="uk-icon-link uk-icon" target="_blank"></a>
+                <a href="{{ site.author.instagram }}" data-uk-icon="ratio: 1.4; icon: instagram"
+                    class="uk-icon-link uk-icon" target="_blank"></a>
             </div>
             {% endif %}
             {% if site.author.googleplus %}
             <div>
-                <a href="{{ site.author.googleplus }}" data-uk-icon="ratio: 1.4; icon: google-plus" class="uk-icon-link uk-icon" target="_blank"></a>
+                <a href="{{ site.author.googleplus }}" data-uk-icon="ratio: 1.4; icon: google-plus"
+                    class="uk-icon-link uk-icon" target="_blank"></a>
             </div>
             {% endif %}
             {% if site.author.linkedin %}
             <div>
-                <a href="{{ site.author.linkedin }}" data-uk-icon="ratio: 1.4; icon: linkedin" class="uk-icon-link uk-icon" target="_blank"></a>
+                <a href="{{ site.author.linkedin }}" data-uk-icon="ratio: 1.4; icon: linkedin"
+                    class="uk-icon-link uk-icon" target="_blank"></a>
             </div>
             {% endif %}
             {% if site.author.pinterest %}
             <div>
-                <a href="{{ site.author.pinterest }}" data-uk-icon="ratio: 1.4; icon: pinterest" class="uk-icon-link uk-icon" target="_blank"></a>
+                <a href="{{ site.author.pinterest }}" data-uk-icon="ratio: 1.4; icon: pinterest"
+                    class="uk-icon-link uk-icon" target="_blank"></a>
             </div>
             {% endif %}
             {% if site.author.vimeo %}
             <div>
-                <a href="{{ site.author.vimeo }}" data-uk-icon="ratio: 1.4; icon: vimeo" class="uk-icon-link uk-icon" target="_blank"></a>
+                <a href="{{ site.author.vimeo }}" data-uk-icon="ratio: 1.4; icon: vimeo" class="uk-icon-link uk-icon"
+                    target="_blank"></a>
             </div>
             {% endif %}
             {% if site.author.youtube %}
             <div>
-                <a href="{{ site.author.youtube }}" data-uk-icon="ratio: 1.4; icon: youtube" class="uk-icon-link uk-icon" target="_blank"></a>
+                <a href="{{ site.author.youtube }}" data-uk-icon="ratio: 1.4; icon: youtube"
+                    class="uk-icon-link uk-icon" target="_blank"></a>
             </div>
             {% endif %}
             {% if site.author.github %}
             <div>
-                <a href="{{ site.author.github }}" data-uk-icon="ratio: 1.4; icon: github" class="uk-icon-link uk-icon" target="_blank"></a>
+                <a href="{{ site.author.github }}" data-uk-icon="ratio: 1.4; icon: github" class="uk-icon-link uk-icon"
+                    target="_blank"></a>
             </div>
             {% endif %}
             {% if site.author.email %}
             <div>
-                <a href="{{ site.author.email }}" data-uk-icon="ratio: 1.4; icon: mail" class="uk-icon-link uk-icon" target="_blank"></a>
+                <a href="{{ site.author.email }}" data-uk-icon="ratio: 1.4; icon: mail" class="uk-icon-link uk-icon"
+                    target="_blank"></a>
             </div>
             {% endif %}
             {% if site.author.website %}
             <div>
-                <a href="{{ site.author.website }}" data-uk-icon="ratio: 1.4; icon: link" class="uk-icon-link uk-icon" target="_blank"></a>
+                <a href="{{ site.author.website }}" data-uk-icon="ratio: 1.4; icon: link" class="uk-icon-link uk-icon"
+                    target="_blank"></a>
             </div>
             {% endif %}
         </div>

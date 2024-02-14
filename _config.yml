@@ -24,24 +24,16 @@ logo_text:          Hua ω      # if the above "logo:" image variable  is not se
 # Author settings, displayed on about page
 author:
     name:           Hua WANG
-    bio:            Hi, I'm Hua, a web developer and upcoming data scientist.
-    email:          john@somewebsite.com
-    website:        http://somewebsite.com
-    facebook:       https://www.facebook.com/
-    flickr:         https://flickr.com/
-    dribbble:       https://dribbble.com/
+    bio:            Kia ora, I am a father, web developer and a upcoming data scientist.
+    email:          aemooooon@gmail.com
+    website:        http://www.hua.nz
     github:         https://github.com/
-    googleplus:     https://plus.google.com/
     instagram:      https://www.instagram.com/
     linkedin:       https://www.linkedin.com/feed/
-    pinterest:      https://www.pinterest.com/
-    twitter:        https://twitter.com/
-    vimeo:          https://vimeo.com/
-    youtube:        https://www.youtube.com/
 
 # Social share buttons
-twitter_username:   username
-github_username:    username
+twitter_username:   aemooooon
+github_username:    aemooooon
 
 # Site background color
 template:           light       # light or dark
@@ -57,7 +49,7 @@ footer:
     image:          footer.jpg  # upload your header image to /assets/posts/ folder
     align:          center      #top, center or bottom
     text:           light       # light or dark
-    copyright:      Made by <a href="https://unbound.studio/">Unbound Studio</a> in London, UK.
+    copyright:      © Hua.nz 2024
 
 # Post settings
 post:
@@ -74,7 +66,7 @@ google_analytics:
 google_maps_api_key: AIzaSyCk8Ge_26DbfrhHt8oMNYZDG1LMN-96eBM
 
 # Number of posts displayed on blog page
-paginate:           10
+paginate:           100
 
 # Path to post content assets directory i.e post images, pdfs etc
 post_assets:        /assets/posts/

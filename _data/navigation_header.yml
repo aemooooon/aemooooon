@@ -1,7 +1,7 @@
 # Navbar left menu navigation links
 left:
-    - title: Home
-      url: /
+    # - title: Home
+    #   url: /
 
     - title: About
       url: /about/
@@ -11,5 +11,5 @@ right:
     - title: Categories
       url: /categories/
 
-    - title: Contact
-      url: /contact/
+    # - title: Contact
+    #   url: /contact/

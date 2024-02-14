@@ -20,7 +20,7 @@
 <meta property="og:url" content="http://localhost:4000/about/" />
 <meta property="og:site_name" content="吾日三省吾身" />
 <script type="application/ld+json">
-{"author":{"@type":"Person","name":"Hua WANG"},"url":"http://localhost:4000/about/","name":"吾日三省吾身","headline":"Hua WANG","description":"Hi, here is Hua’s notes.","@type":"WebSite","@context":"https://schema.org"}</script>
+{"headline":"Hua WANG","url":"http://localhost:4000/about/","name":"吾日三省吾身","author":{"@type":"Person","name":"Hua WANG"},"description":"Hi, here is Hua’s notes.","@type":"WebSite","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <meta property="og:image" content="http://localhost:4000/assets/posts/header.jpg"/>
@@ -30,7 +30,7 @@
   <link rel="alternate" type="application/rss+xml" title="吾日三省吾身" href="/feed.xml">
   <script src="/assets/js/main.js"></script>
   
-<script src="http://127.0.0.1:35729/livereload.js"></script></head>
+</head>
 
 
   <body class="dark">
@@ -41,7 +41,8 @@
 
 
 
-<header class="uk-background-center-center uk-background-cover" style="background-image: url(http://localhost:4000/assets/posts/header.jpg);">
+<header class="uk-background-center-center uk-background-cover"
+    style="height: 521px; background-image: url(http://localhost:4000/assets/posts/header.jpg);">
     <div class="uk-overlay-header uk-light">
         <nav class="uk-navbar-container uk-navbar-transparent" data-uk-navbar>
             <div class="uk-navbar-center">
@@ -49,18 +50,12 @@
                     <div>
                         <ul class="uk-navbar-nav uk-visible@m">
                             
-                                
-                                
-                                
-                                    <li><a href="/" >Home</a></li>
-                                
                             
-                                
-                                
-                                
-                                    <li class="uk-active"><a href="/about/" >About</a></li>
-                                
                             
+                            
+                            <li class="uk-active"><a href="/about/" >About</a></li>
+                                
+                                
                         </ul>
                     </div>
                 </div>
@@ -69,18 +64,12 @@
                     <div>
                         <ul class="uk-navbar-nav uk-visible@m">
                             
-                                
-                                
-                                
-                                    <li><a href="/categories/" >Categories</a></li>
-                                
                             
-                                
-                                
-                                
-                                    <li><a href="/contact/" >Contact</a></li>
-                                
                             
+                            
+                            <li><a href="/categories/" >Categories</a></li>
+                                
+                                
                         </ul>
                     </div>
                 </div>
@@ -94,99 +83,108 @@
                     
                     
                     
-                        <div class="uk-container uk-container-small uk-margin-medium-top">
-                            Hi, I'm Hua, a web developer and upcoming data scientist.
-                        </div>
+                    <div class="uk-container uk-container-small uk-margin-medium-top">
+                        Kia ora, I am a father, web developer and a upcoming data scientist.
+                    </div>
                     
                 </div>
             </div>
         </div>
-        <a class="uk-navbar-toggle uk-hidden@m uk-position-top-right" href="#offcanvas" data-uk-navbar-toggle-icon data-uk-toggle></a>
+        <a class="uk-navbar-toggle uk-hidden@m uk-position-top-right" href="#offcanvas" data-uk-navbar-toggle-icon
+            data-uk-toggle></a>
     </div>
 </header>
-
 
     <main class="uk-dark" aria-label="Content">
         <div class="uk-container uk-container-small">
     
     <article class="uk-article">
         <h2 id="hua-wang">Hua WANG</h2>
-<p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-<p>lorem ipsum dxyos sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Kia ora, I am a father, web developer and a upcoming data scientist.</p>
 
     </article>
+    
+    <h3 class="uk-margin-large-top">Leave a message to Hua</h3>
+    <form class="uk-form-stacked uk-margin-medium-top" method="POST"
+        action="https://formspree.io/f/mkndjpre" accept-charset="UTF-8">
+        <div class="uk-margin-medium-bottom">
+            <label class="uk-form-label uk-margin-small-bottom" for="form-stacked-text">Name</label>
+            <div class="uk-form-controls">
+                <input class="uk-input uk-form-large uk-border-rounded" name="name" type="text" required>
+            </div>
+        </div>
+        <div class="uk-margin-medium-bottom">
+            <label class="uk-form-label uk-margin-small-bottom" for="form-stacked-text">Email</label>
+            <div class="uk-form-controls">
+                <input class="uk-input uk-form-large uk-border-rounded" name="_replyto" type="email" required>
+            </div>
+        </div>
+        <div class="uk-margin-medium-bottom">
+            <label class="uk-form-label uk-margin-small-bottom" for="form-stacked-text">Subject</label>
+            <div class="uk-form-controls">
+                <input class="uk-input uk-form-large uk-border-rounded" name="_subject" type="text">
+            </div>
+        </div>
+        <div class="uk-margin-medium-bottom">
+            <label class="uk-form-label uk-margin-small-bottom" for="form-stacked-text">Message</label>
+            <div class="uk-form-controls">
+                <textarea class="uk-textarea uk-form-large" name="message" rows="5" minlength="10" required></textarea>
+            </div>
+        </div>
+        <div>
+            
+            <input type="hidden" name="_next" value="http://localhost:4000/thanks/">
+            
+            <input type="text" name="_gotcha" style="display:none">
+            <input class="uk-button uk-button-primary uk-button-large uk-width-1-1 uk-border-rounded" type="submit"
+                value="Send">
+        </div>
+    </form>
+    
     <div class="social-networks">
         <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
             
-            <div class="uk-first-column">
-                <a href="https://twitter.com/" data-uk-icon="ratio: 1.4; icon: twitter" class="uk-icon-link uk-icon" target="_blank"></a>
+            
+            
+            
+            
+            <div>
+                <a href="https://www.instagram.com/" data-uk-icon="ratio: 1.4; icon: instagram"
+                    class="uk-icon-link uk-icon" target="_blank"></a>
+            </div>
+            
+            
+            
+            <div>
+                <a href="https://www.linkedin.com/feed/" data-uk-icon="ratio: 1.4; icon: linkedin"
+                    class="uk-icon-link uk-icon" target="_blank"></a>
+            </div>
+            
+            
+            
+            
+            
+            <div>
+                <a href="https://github.com/" data-uk-icon="ratio: 1.4; icon: github" class="uk-icon-link uk-icon"
+                    target="_blank"></a>
             </div>
             
             
             <div>
-                <a href="https://www.facebook.com/" data-uk-icon="ratio: 1.4; icon: facebook" class="uk-icon-link uk-icon" target="_blank"></a>
+                <a href="aemooooon@gmail.com" data-uk-icon="ratio: 1.4; icon: mail" class="uk-icon-link uk-icon"
+                    target="_blank"></a>
             </div>
             
             
             <div>
-                <a href="https://flickr.com/" data-uk-icon="ratio: 1.4; icon: flickr" class="uk-icon-link uk-icon" target="_blank"></a>
-            </div>
-            
-            
-            <div>
-                <a href="https://dribbble.com/" data-uk-icon="ratio: 1.4; icon: dribbble" class="uk-icon-link uk-icon" target="_blank"></a>
-            </div>
-            
-            
-            <div>
-                <a href="https://www.instagram.com/" data-uk-icon="ratio: 1.4; icon: instagram" class="uk-icon-link uk-icon" target="_blank"></a>
-            </div>
-            
-            
-            <div>
-                <a href="https://plus.google.com/" data-uk-icon="ratio: 1.4; icon: google-plus" class="uk-icon-link uk-icon" target="_blank"></a>
-            </div>
-            
-            
-            <div>
-                <a href="https://www.linkedin.com/feed/" data-uk-icon="ratio: 1.4; icon: linkedin" class="uk-icon-link uk-icon" target="_blank"></a>
-            </div>
-            
-            
-            <div>
-                <a href="https://www.pinterest.com/" data-uk-icon="ratio: 1.4; icon: pinterest" class="uk-icon-link uk-icon" target="_blank"></a>
-            </div>
-            
-            
-            <div>
-                <a href="https://vimeo.com/" data-uk-icon="ratio: 1.4; icon: vimeo" class="uk-icon-link uk-icon" target="_blank"></a>
-            </div>
-            
-            
-            <div>
-                <a href="https://www.youtube.com/" data-uk-icon="ratio: 1.4; icon: youtube" class="uk-icon-link uk-icon" target="_blank"></a>
-            </div>
-            
-            
-            <div>
-                <a href="https://github.com/" data-uk-icon="ratio: 1.4; icon: github" class="uk-icon-link uk-icon" target="_blank"></a>
-            </div>
-            
-            
-            <div>
-                <a href="john@somewebsite.com" data-uk-icon="ratio: 1.4; icon: mail" class="uk-icon-link uk-icon" target="_blank"></a>
-            </div>
-            
-            
-            <div>
-                <a href="http://somewebsite.com" data-uk-icon="ratio: 1.4; icon: link" class="uk-icon-link uk-icon" target="_blank"></a>
+                <a href="http://www.hua.nz" data-uk-icon="ratio: 1.4; icon: link" class="uk-icon-link uk-icon"
+                    target="_blank"></a>
             </div>
             
         </div>
     </div>
 </div>
-
     </main>
 
     
@@ -218,12 +216,12 @@
                             
                             
                             
-                                <li><a href="/contact/" >Contact</a></li>
+                                <li><a href="/categories/" >Categories</a></li>
                             
                         
                     </ul>
                 </div>
-                <div class="uk-flex-first@m uk-width-auto@m uk-text-center uk-text-left@m uk-text-meta uk-text-muted uk-link-muted uk-light- copyright">Made by <a href="https://unbound.studio/">Unbound Studio</a> in London, UK.</div>
+                <div class="uk-flex-first@m uk-width-auto@m uk-text-center uk-text-left@m uk-text-meta uk-text-muted uk-link-muted uk-light- copyright">© Hua.nz 2024</div>
 
             </div>
         </div>
@@ -240,17 +238,11 @@
             <li><a class="uk-logo" href="/">Hua ω</a></li>
             
                 
-            <li><a href="http://localhost:4000/" >Home</a></li>
-            
-                
             <li><a href="http://localhost:4000/about/" >About</a></li>
             
             
                 
             <li><a href="http://localhost:4000/categories/" >Categories</a></li>
-            
-                
-            <li><a href="http://localhost:4000/contact/" >Contact</a></li>
             
         </ul>
 

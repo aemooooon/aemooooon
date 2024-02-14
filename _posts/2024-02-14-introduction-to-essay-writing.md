@@ -12,20 +12,20 @@ header:
 
 ## Vocabulary
 
-* Familiarise
-* Historians
-* Enfranchisement
-* Demolish
-* reinstate
-* (The women's) suffrage (movement)
-* intrinsically
-* volatile job market
-* entrepreneurship
-* fulfil jobs that do a social good
-* interrogating
-* LGBTQ+（Lesbian, Gay, Bisexual, Transgender, Queer/Questioning, and others）
-* Brain drain
-* cosmetic surgery
+* Familiarise 使熟悉
+* Historians 历史学家
+* Enfranchisement 解放
+* Demolish 拆毁
+* reinstate 恢复原职
+* (The women's) suffrage (movement)选举权
+* intrinsic 内在的
+* volatile job market 波动的就业市场
+* entrepreneurship 企业家精神
+* fulfil jobs that do a social good 从事有社会价值的工作
+* interrogating 质疑
+* LGBTQ+（Lesbian, Gay, Bisexual, Transgender, Queer/Questioning, and others）  
+* Brain drain 人才流失
+* cosmetic surgery 整形手术
 
 ## Analysing the topic
 

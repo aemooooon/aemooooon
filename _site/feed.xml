@@ -1,4 +1,83 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-02-07T13:42:52+13:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">吾日三省吾身</title><subtitle>Hi, here is Hua's notes.</subtitle><author><name>Hua WANG</name><email>john@somewebsite.com</email></author><entry><title type="html">Mobx</title><link href="http://localhost:4000/mobx/" rel="alternate" type="text/html" title="Mobx" /><published>2021-09-01T00:00:00+12:00</published><updated>2021-09-01T00:00:00+12:00</updated><id>http://localhost:4000/mobx</id><content type="html" xml:base="http://localhost:4000/mobx/">&lt;p&gt;公司的前端架构（nextjs + mobx + typescript ）使用了 mobx 来管理状态。由于抽象的层次比较深，于是我自己弄几个 demo 学习一下。It is based on mobx 6&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-02-14T22:43:05+13:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">吾日三省吾身</title><subtitle>Hi, here is Hua's notes.</subtitle><author><name>Hua WANG</name><email>aemooooon@gmail.com</email></author><entry><title type="html">Introduction To Essay Writing</title><link href="http://localhost:4000/introduction-to-essay-writing/" rel="alternate" type="text/html" title="Introduction To Essay Writing" /><published>2024-02-14T00:00:00+13:00</published><updated>2024-02-14T00:00:00+13:00</updated><id>http://localhost:4000/introduction-to-essay-writing</id><content type="html" xml:base="http://localhost:4000/introduction-to-essay-writing/">&lt;h1 id=&quot;introduction-to-essay-writing&quot;&gt;Introduction to Essay Writing&lt;/h1&gt;
+
+&lt;h2 id=&quot;vocabulary&quot;&gt;Vocabulary&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Familiarise 使熟悉&lt;/li&gt;
+  &lt;li&gt;Historians 历史学家&lt;/li&gt;
+  &lt;li&gt;Enfranchisement 解放&lt;/li&gt;
+  &lt;li&gt;Demolish 拆毁&lt;/li&gt;
+  &lt;li&gt;reinstate 恢复原职&lt;/li&gt;
+  &lt;li&gt;(The women’s) suffrage (movement)选举权&lt;/li&gt;
+  &lt;li&gt;intrinsic 内在的&lt;/li&gt;
+  &lt;li&gt;volatile job market 波动的就业市场&lt;/li&gt;
+  &lt;li&gt;entrepreneurship 企业家精神&lt;/li&gt;
+  &lt;li&gt;fulfil jobs that do a social good 从事有社会价值的工作&lt;/li&gt;
+  &lt;li&gt;interrogating 质疑&lt;/li&gt;
+  &lt;li&gt;LGBTQ+（Lesbian, Gay, Bisexual, Transgender, Queer/Questioning, and others）&lt;/li&gt;
+  &lt;li&gt;Brain drain 人才流失&lt;/li&gt;
+  &lt;li&gt;cosmetic surgery 整形手术&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;analysing-the-topic&quot;&gt;Analysing the topic&lt;/h2&gt;
+
+&lt;h3 id=&quot;notes&quot;&gt;Notes&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Break the question down into its simplest components.
+    &lt;ul&gt;
+      &lt;li&gt;Identify and define the key terms.&lt;/li&gt;
+      &lt;li&gt;How many parts are there to the qustion?&lt;/li&gt;
+      &lt;li&gt;Do you understand the relationship between the parts?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;TIF Approach
+    &lt;ul&gt;
+      &lt;li&gt;Topic - The broad idea that the essay is about.&lt;/li&gt;
+      &lt;li&gt;Instruction - what they want you to do with the topic.&lt;/li&gt;
+      &lt;li&gt;Focus - The specific aspect of the topic that you are to write about.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;How have historians accounted for the movement seeking the enfranchisement of women?
+    &lt;ul&gt;
+      &lt;li&gt;I - How.&lt;/li&gt;
+      &lt;li&gt;F - How Historians have accounted for it.&lt;/li&gt;
+      &lt;li&gt;T - The movement seeking the enfranchisement.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Discuss the ways in which clinical psychologists can contribute to the well-being of senior citizens in New Zealand. Identify some of the knowledge, skills, and medical support that enable them to carry out their tasks effectively in this field.
+    &lt;ul&gt;
+      &lt;li&gt;I - Discuss the ways.&lt;/li&gt;
+      &lt;li&gt;F - Clinical psychologists can contribute to the well-being of senior citizens in New Zealand.&lt;/li&gt;
+      &lt;li&gt;T - Identify some of the knowledge, skills, and medical support that enable them to carry out their tasks effectively in this field.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;argument-and-research&quot;&gt;Argument and research&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;An argument is a connected series of statements intended to establish a proposition.&lt;/li&gt;
+  &lt;li&gt;A position supported by evidence.&lt;/li&gt;
+  &lt;li&gt;Not  a debate.&lt;/li&gt;
+  &lt;li&gt;Your answer to the question.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;how-would-you-argue-in-favour-of-the-following-statement&quot;&gt;How would you argue in favour of the following statement:&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The purpose of a university education should not be confined solely to preparing students for work in the current volatile job market.
+Discuss.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;teee-structure&quot;&gt;TEEE Structure&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Topic sentence&lt;/li&gt;
+  &lt;li&gt;Explanation&lt;/li&gt;
+  &lt;li&gt;Evidence&lt;/li&gt;
+  &lt;li&gt;Evaluation&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Hua WANG</name><email>aemooooon@gmail.com</email></author><summary type="html">Introduction to Essay Writing Vocabulary Familiarise 使熟悉 Historians 历史学家 Enfranchisement 解放 Demolish 拆毁 reinstate 恢复原职 (The women’s) suffrage (movement)选举权 intrinsic 内在的 volatile job market 波动的就业市场 entrepreneurship 企业家精神 fulfil jobs that do a social good 从事有社会价值的工作 interrogating 质疑 LGBTQ+（Lesbian, Gay, Bisexual, Transgender, Queer/Questioning, and others） Brain drain 人才流失 cosmetic surgery 整形手术 Analysing the topic Notes Break the question down into its simplest components. Identify and define the key terms. How many parts are there to the qustion? Do you understand the relationship between the parts? TIF Approach Topic - The broad idea that the essay is about. Instruction - what they want you to do with the topic. Focus - The specific aspect of the topic that you are to write about. How have historians accounted for the movement seeking the enfranchisement of women? I - How. F - How Historians have accounted for it. T - The movement seeking the enfranchisement. Discuss the ways in which clinical psychologists can contribute to the well-being of senior citizens in New Zealand. Identify some of the knowledge, skills, and medical support that enable them to carry out their tasks effectively in this field. I - Discuss the ways. F - Clinical psychologists can contribute to the well-being of senior citizens in New Zealand. T - Identify some of the knowledge, skills, and medical support that enable them to carry out their tasks effectively in this field. Argument and research An argument is a connected series of statements intended to establish a proposition. A position supported by evidence. Not a debate. Your answer to the question. How would you argue in favour of the following statement: The purpose of a university education should not be confined solely to preparing students for work in the current volatile job market. Discuss. TEEE Structure Topic sentence Explanation Evidence Evaluation</summary></entry><entry><title type="html">Mobx</title><link href="http://localhost:4000/mobx/" rel="alternate" type="text/html" title="Mobx" /><published>2021-09-01T00:00:00+12:00</published><updated>2021-09-01T00:00:00+12:00</updated><id>http://localhost:4000/mobx</id><content type="html" xml:base="http://localhost:4000/mobx/">&lt;p&gt;公司的前端架构（nextjs + mobx + typescript ）使用了 mobx 来管理状态。由于抽象的层次比较深，于是我自己弄几个 demo 学习一下。It is based on mobx 6&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -26,7 +105,7 @@
   &lt;li&gt;所有 prototype 中的 functions 都成为 autoAction。&lt;/li&gt;
   &lt;li&gt;所有 prototype 中的 generator functions 都成为 flow。（需要注意，generators 函数在某些编译器配置中无法被检测到，如果 flow 没有正常运行，请务必明确地指定 flow 注解。）&lt;/li&gt;
   &lt;li&gt;在 overrides 参数中标记为 false 的成员将不会被添加注解。例如，将其用于像标识符这样的只读字段。&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Hua WANG</name><email>john@somewebsite.com</email></author><summary type="html">公司的前端架构（nextjs + mobx + typescript ）使用了 mobx 来管理状态。由于抽象的层次比较深，于是我自己弄几个 demo 学习一下。It is based on mobx 6</summary></entry><entry><title type="html">Reduce</title><link href="http://localhost:4000/reduce/" rel="alternate" type="text/html" title="Reduce" /><published>2021-08-31T00:00:00+12:00</published><updated>2021-08-31T00:00:00+12:00</updated><id>http://localhost:4000/reduce</id><content type="html" xml:base="http://localhost:4000/reduce/">&lt;p&gt;reduce() 方法对数组中的每个元素执行一个由您提供的 reducer 函数(升序执行)，将其结果汇总为单个返回值。reducer 函数接收 4 个参数:&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Hua WANG</name><email>aemooooon@gmail.com</email></author><summary type="html">公司的前端架构（nextjs + mobx + typescript ）使用了 mobx 来管理状态。由于抽象的层次比较深，于是我自己弄几个 demo 学习一下。It is based on mobx 6</summary></entry><entry><title type="html">Reduce</title><link href="http://localhost:4000/reduce/" rel="alternate" type="text/html" title="Reduce" /><published>2021-08-31T00:00:00+12:00</published><updated>2021-08-31T00:00:00+12:00</updated><id>http://localhost:4000/reduce</id><content type="html" xml:base="http://localhost:4000/reduce/">&lt;p&gt;reduce() 方法对数组中的每个元素执行一个由您提供的 reducer 函数(升序执行)，将其结果汇总为单个返回值。reducer 函数接收 4 个参数:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Accumulator (acc) (累计器)&lt;/li&gt;
@@ -94,146 +173,7 @@
 
 &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;finArray&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name>Hua WANG</name><email>john@somewebsite.com</email></author><summary type="html">reduce() 方法对数组中的每个元素执行一个由您提供的 reducer 函数(升序执行)，将其结果汇总为单个返回值。reducer 函数接收 4 个参数:</summary></entry><entry><title type="html">Javascript Function</title><link href="http://localhost:4000/javascript-function/" rel="alternate" type="text/html" title="Javascript Function" /><published>2021-08-17T00:00:00+12:00</published><updated>2021-08-17T00:00:00+12:00</updated><id>http://localhost:4000/javascript-function</id><content type="html" xml:base="http://localhost:4000/javascript-function/">&lt;p&gt;今天去欣辰教育咨询公司面试，去了前台小姐姐就给了一张面试题（共四页，每页 3 道题），让我 30 分钟做完，还有一张非常详细的个人信息表需要填写。在做的过程中有熟悉的，也有不会的，所以特地回忆一下，做个记录，毕竟 &lt;strong&gt;ES2015&lt;/strong&gt; 我确实基础薄弱。&lt;/p&gt;
-
-&lt;h2 id=&quot;let--var&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;let &amp;amp; var&lt;/code&gt;&lt;/h2&gt;
-
-&lt;p&gt;第一道题写了 2 个 &lt;code class=&quot;highlighter-rouge&quot;&gt;for&lt;/code&gt; loop，其实就是考察 &lt;code class=&quot;highlighter-rouge&quot;&gt;var&lt;/code&gt; 和 &lt;code class=&quot;highlighter-rouge&quot;&gt;let&lt;/code&gt; 作用域的问题，这个之前一个 Google 的前端小姐姐已经在面试题里分享过了。&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;function&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Function&lt;/code&gt;&lt;/h2&gt;
-
-&lt;p&gt;第二道题用到了函数的 prototype、apply、call、arguments 等实例方法和属性，这个确实是我不太了解的。虽然题目可能答对了，但也是蒙的。行了，看看 MDN 吧！&lt;/p&gt;
-
-&lt;h3 id=&quot;arguments-properties&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;arguments&lt;/code&gt; properties&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;arguments 就是一个对象，函数的参数。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;f1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;arguments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;arguments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;arguments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
-
-  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;typeof&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;arguments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// object&lt;/span&gt;
-
-  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;LENGTH properties&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;arguments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-  &lt;span class=&quot;c1&quot;&gt;// 3 ways that cast object to array&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;slice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;call&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;arguments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;arguments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([...&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;arguments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nx&quot;&gt;f1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;d&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;3&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;f&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// d&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// 3&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// f&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// LENGTH properties 3&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// (3) [&quot;d&quot;, &quot;3&quot;, &quot;f&quot;]&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// (3) [&quot;d&quot;, &quot;3&quot;, &quot;f&quot;]&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// (3) [&quot;d&quot;, &quot;3&quot;, &quot;f&quot;]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;functionprototypebind-实例方法&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Function.prototype.bind()&lt;/code&gt; 实例方法&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;bind() 方法创建一个新的函数，在 bind() 被调用时，这个新函数的 this 被指定为 bind() 的第一个参数，而其余参数将作为新函数的参数，供调用时使用。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kr&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;printX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// 直接把函数委托给变量将无法访问 a 内的 this&lt;/span&gt;
-&lt;span class=&quot;kr&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;printX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// undefined&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// bind 之后&lt;/span&gt;
-&lt;span class=&quot;kr&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;bind&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 100&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;bind() 函数会创建一个新的绑定函数（bound function，BF）。绑定函数是一个 exotic function object（怪异函数对象，ECMAScript 2015 中的术语），它包装了原函数对象。调用绑定函数通常会导致执行包装函数。&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;obj&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'hua'&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
-
-&lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;call&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// =&amp;gt; hua&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;apply&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// =&amp;gt; hua&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;tmp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;bind&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;tmp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// =&amp;gt; hua&lt;/span&gt;
-
-
-
-&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;button&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'btn1'&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;onclick&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;clickHandler()&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;click&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;me&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;btn1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/button&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
-&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;button&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'btn2'&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;onclick&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;clickHandler()&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;click&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;me&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;btn2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/button&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
-&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;clickHandler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/script&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
-&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;button&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'btn1'&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;onclick&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;clickHandler.bind(this)()&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;click&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;me&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;btn1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/button&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
-&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;button&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'btn1'&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;onclick&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;clickHandler.call(this)&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;click&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;me&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;btn1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/button&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
-&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;button&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'btn1'&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;onclick&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;clickHandler.apply(this)&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;click&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;me&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;btn1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/button&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
-&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// ref：https://juejin.cn/post/6983503349182119966&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;面试问题&quot;&gt;面试问题&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;CSS 的优先级问题&lt;/li&gt;
-  &lt;li&gt;CSS 伪类选择器&lt;/li&gt;
-  &lt;li&gt;CSS3 有什么新的特性&lt;/li&gt;
-  &lt;li&gt;ES6 的新特性有哪些&lt;/li&gt;
-  &lt;li&gt;get 和 post 的区别&lt;/li&gt;
-  &lt;li&gt;vue 的路由有几种&lt;/li&gt;
-  &lt;li&gt;vue 的生命周期&lt;/li&gt;
-  &lt;li&gt;vue 的组件之间如何通信&lt;/li&gt;
-  &lt;li&gt;谈谈事件捕获和冒泡&lt;/li&gt;
-  &lt;li&gt;谈谈 js 的事件循环机制&lt;/li&gt;
-  &lt;li&gt;谈谈 js 的原型链&lt;/li&gt;
-  &lt;li&gt;谈谈 js 中的继承机制&lt;/li&gt;
-  &lt;li&gt;谈谈你对 react fiber 的了解&lt;/li&gt;
-  &lt;li&gt;谈谈 redux&lt;/li&gt;
-  &lt;li&gt;用手写一个防抖函数&lt;/li&gt;
-  &lt;li&gt;给一个数组，在不改变原数组的情况下，返回不重复的值&lt;/li&gt;
-  &lt;li&gt;给一个字符串，写一个算法找出出现最多的那个字母，并统计出现的次数&lt;/li&gt;
-  &lt;li&gt;手写 HTML5 的视频和音频标签&lt;/li&gt;
-  &lt;li&gt;描述一下 apply call 和 bind&lt;/li&gt;
-  &lt;li&gt;哪些 CSS 属性不受盒子模型的影响&lt;/li&gt;
-  &lt;li&gt;描述一下 px em rem 的区别&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Hua WANG</name><email>john@somewebsite.com</email></author><summary type="html">今天去欣辰教育咨询公司面试，去了前台小姐姐就给了一张面试题（共四页，每页 3 道题），让我 30 分钟做完，还有一张非常详细的个人信息表需要填写。在做的过程中有熟悉的，也有不会的，所以特地回忆一下，做个记录，毕竟 ES2015 我确实基础薄弱。</summary></entry><entry><title type="html">Typescript</title><link href="http://localhost:4000/typescript/" rel="alternate" type="text/html" title="Typescript" /><published>2021-08-17T00:00:00+12:00</published><updated>2021-08-17T00:00:00+12:00</updated><id>http://localhost:4000/typescript</id><content type="html" xml:base="http://localhost:4000/typescript/">&lt;p&gt;TypeScript crash experience.&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Hua WANG</name><email>aemooooon@gmail.com</email></author><summary type="html">reduce() 方法对数组中的每个元素执行一个由您提供的 reducer 函数(升序执行)，将其结果汇总为单个返回值。reducer 函数接收 4 个参数:</summary></entry><entry><title type="html">Typescript</title><link href="http://localhost:4000/typescript/" rel="alternate" type="text/html" title="Typescript" /><published>2021-08-17T00:00:00+12:00</published><updated>2021-08-17T00:00:00+12:00</updated><id>http://localhost:4000/typescript</id><content type="html" xml:base="http://localhost:4000/typescript/">&lt;p&gt;TypeScript crash experience.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;初始化 ts 配置文件 &lt;code class=&quot;highlighter-rouge&quot;&gt;tsc --init&lt;/code&gt;&lt;/li&gt;
@@ -428,7 +368,146 @@
 
 
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name>Hua WANG</name><email>john@somewebsite.com</email></author><summary type="html">TypeScript crash experience.</summary></entry><entry><title type="html">Debounce Throttle</title><link href="http://localhost:4000/debounce-throttle/" rel="alternate" type="text/html" title="Debounce Throttle" /><published>2021-08-12T00:00:00+12:00</published><updated>2021-08-12T00:00:00+12:00</updated><id>http://localhost:4000/debounce-throttle</id><content type="html" xml:base="http://localhost:4000/debounce-throttle/">&lt;p&gt;当在页面上操作滚动条无限加载或者表单验证的时候，&lt;code class=&quot;highlighter-rouge&quot;&gt;scroll&lt;/code&gt; 类似事件会频繁的响应。如果每次触发事件都去 Fetch 数据的话，性能肯定会被拖累。防抖和节流就是一种减少触发事件调用函数频率的方法。&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Hua WANG</name><email>aemooooon@gmail.com</email></author><summary type="html">TypeScript crash experience.</summary></entry><entry><title type="html">Javascript Function</title><link href="http://localhost:4000/javascript-function/" rel="alternate" type="text/html" title="Javascript Function" /><published>2021-08-17T00:00:00+12:00</published><updated>2021-08-17T00:00:00+12:00</updated><id>http://localhost:4000/javascript-function</id><content type="html" xml:base="http://localhost:4000/javascript-function/">&lt;p&gt;今天去欣辰教育咨询公司面试，去了前台小姐姐就给了一张面试题（共四页，每页 3 道题），让我 30 分钟做完，还有一张非常详细的个人信息表需要填写。在做的过程中有熟悉的，也有不会的，所以特地回忆一下，做个记录，毕竟 &lt;strong&gt;ES2015&lt;/strong&gt; 我确实基础薄弱。&lt;/p&gt;
+
+&lt;h2 id=&quot;let--var&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;let &amp;amp; var&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;第一道题写了 2 个 &lt;code class=&quot;highlighter-rouge&quot;&gt;for&lt;/code&gt; loop，其实就是考察 &lt;code class=&quot;highlighter-rouge&quot;&gt;var&lt;/code&gt; 和 &lt;code class=&quot;highlighter-rouge&quot;&gt;let&lt;/code&gt; 作用域的问题，这个之前一个 Google 的前端小姐姐已经在面试题里分享过了。&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;function&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Function&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;第二道题用到了函数的 prototype、apply、call、arguments 等实例方法和属性，这个确实是我不太了解的。虽然题目可能答对了，但也是蒙的。行了，看看 MDN 吧！&lt;/p&gt;
+
+&lt;h3 id=&quot;arguments-properties&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;arguments&lt;/code&gt; properties&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;arguments 就是一个对象，函数的参数。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;f1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;arguments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;arguments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;arguments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+
+  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;typeof&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;arguments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// object&lt;/span&gt;
+
+  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;LENGTH properties&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;arguments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;// 3 ways that cast object to array&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;slice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;call&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;arguments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;arguments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([...&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;arguments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;f1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;d&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;3&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;f&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// d&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// 3&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// f&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// LENGTH properties 3&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// (3) [&quot;d&quot;, &quot;3&quot;, &quot;f&quot;]&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// (3) [&quot;d&quot;, &quot;3&quot;, &quot;f&quot;]&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// (3) [&quot;d&quot;, &quot;3&quot;, &quot;f&quot;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;functionprototypebind-实例方法&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Function.prototype.bind()&lt;/code&gt; 实例方法&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;bind() 方法创建一个新的函数，在 bind() 被调用时，这个新函数的 this 被指定为 bind() 的第一个参数，而其余参数将作为新函数的参数，供调用时使用。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kr&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;printX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// 直接把函数委托给变量将无法访问 a 内的 this&lt;/span&gt;
+&lt;span class=&quot;kr&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;printX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// undefined&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// bind 之后&lt;/span&gt;
+&lt;span class=&quot;kr&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;bind&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 100&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;bind() 函数会创建一个新的绑定函数（bound function，BF）。绑定函数是一个 exotic function object（怪异函数对象，ECMAScript 2015 中的术语），它包装了原函数对象。调用绑定函数通常会导致执行包装函数。&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;obj&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'hua'&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;call&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// =&amp;gt; hua&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;apply&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// =&amp;gt; hua&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;tmp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;bind&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;tmp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// =&amp;gt; hua&lt;/span&gt;
+
+
+
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;button&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'btn1'&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;onclick&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;clickHandler()&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;click&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;me&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;btn1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/button&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;button&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'btn2'&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;onclick&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;clickHandler()&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;click&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;me&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;btn2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/button&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;clickHandler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/script&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
+&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;button&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'btn1'&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;onclick&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;clickHandler.bind(this)()&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;click&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;me&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;btn1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/button&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;button&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'btn1'&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;onclick&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;clickHandler.call(this)&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;click&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;me&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;btn1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/button&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;button&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'btn1'&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;onclick&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;clickHandler.apply(this)&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;click&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;me&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;btn1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/button&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
+&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// ref：https://juejin.cn/post/6983503349182119966&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;面试问题&quot;&gt;面试问题&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;CSS 的优先级问题&lt;/li&gt;
+  &lt;li&gt;CSS 伪类选择器&lt;/li&gt;
+  &lt;li&gt;CSS3 有什么新的特性&lt;/li&gt;
+  &lt;li&gt;ES6 的新特性有哪些&lt;/li&gt;
+  &lt;li&gt;get 和 post 的区别&lt;/li&gt;
+  &lt;li&gt;vue 的路由有几种&lt;/li&gt;
+  &lt;li&gt;vue 的生命周期&lt;/li&gt;
+  &lt;li&gt;vue 的组件之间如何通信&lt;/li&gt;
+  &lt;li&gt;谈谈事件捕获和冒泡&lt;/li&gt;
+  &lt;li&gt;谈谈 js 的事件循环机制&lt;/li&gt;
+  &lt;li&gt;谈谈 js 的原型链&lt;/li&gt;
+  &lt;li&gt;谈谈 js 中的继承机制&lt;/li&gt;
+  &lt;li&gt;谈谈你对 react fiber 的了解&lt;/li&gt;
+  &lt;li&gt;谈谈 redux&lt;/li&gt;
+  &lt;li&gt;用手写一个防抖函数&lt;/li&gt;
+  &lt;li&gt;给一个数组，在不改变原数组的情况下，返回不重复的值&lt;/li&gt;
+  &lt;li&gt;给一个字符串，写一个算法找出出现最多的那个字母，并统计出现的次数&lt;/li&gt;
+  &lt;li&gt;手写 HTML5 的视频和音频标签&lt;/li&gt;
+  &lt;li&gt;描述一下 apply call 和 bind&lt;/li&gt;
+  &lt;li&gt;哪些 CSS 属性不受盒子模型的影响&lt;/li&gt;
+  &lt;li&gt;描述一下 px em rem 的区别&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Hua WANG</name><email>aemooooon@gmail.com</email></author><summary type="html">今天去欣辰教育咨询公司面试，去了前台小姐姐就给了一张面试题（共四页，每页 3 道题），让我 30 分钟做完，还有一张非常详细的个人信息表需要填写。在做的过程中有熟悉的，也有不会的，所以特地回忆一下，做个记录，毕竟 ES2015 我确实基础薄弱。</summary></entry><entry><title type="html">Debounce Throttle</title><link href="http://localhost:4000/debounce-throttle/" rel="alternate" type="text/html" title="Debounce Throttle" /><published>2021-08-12T00:00:00+12:00</published><updated>2021-08-12T00:00:00+12:00</updated><id>http://localhost:4000/debounce-throttle</id><content type="html" xml:base="http://localhost:4000/debounce-throttle/">&lt;p&gt;当在页面上操作滚动条无限加载或者表单验证的时候，&lt;code class=&quot;highlighter-rouge&quot;&gt;scroll&lt;/code&gt; 类似事件会频繁的响应。如果每次触发事件都去 Fetch 数据的话，性能肯定会被拖累。防抖和节流就是一种减少触发事件调用函数频率的方法。&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Debounc 如果持续触发事件，则最终只会在停止触发后的 &lt;code class=&quot;highlighter-rouge&quot;&gt;timeout&lt;/code&gt; 后调用一次。scenaria 表单验证
@@ -585,7 +664,7 @@ class ScrollListener extends React.Component {
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;ref: https://zh-hans.reactjs.org/docs/faq-functions.html&lt;/p&gt;</content><author><name>Hua WANG</name><email>john@somewebsite.com</email></author><summary type="html">当在页面上操作滚动条无限加载或者表单验证的时候，scroll 类似事件会频繁的响应。如果每次触发事件都去 Fetch 数据的话，性能肯定会被拖累。防抖和节流就是一种减少触发事件调用函数频率的方法。</summary></entry><entry><title type="html">Javascript Event</title><link href="http://localhost:4000/javascript-event/" rel="alternate" type="text/html" title="Javascript Event" /><published>2021-08-10T00:00:00+12:00</published><updated>2021-08-10T00:00:00+12:00</updated><id>http://localhost:4000/javascript-event</id><content type="html" xml:base="http://localhost:4000/javascript-event/">&lt;p&gt;I’ve took a job interview this morning with Yunxi co.,ltd. The interviewer asked a couple of front end question, and the most impressive one is about that what is JavaScript DOM event flow and how does event capture/bubble works? I did not really answer correctly, so here it is, dig it further to record that scenaria.&lt;/p&gt;
+&lt;p&gt;ref: https://zh-hans.reactjs.org/docs/faq-functions.html&lt;/p&gt;</content><author><name>Hua WANG</name><email>aemooooon@gmail.com</email></author><summary type="html">当在页面上操作滚动条无限加载或者表单验证的时候，scroll 类似事件会频繁的响应。如果每次触发事件都去 Fetch 数据的话，性能肯定会被拖累。防抖和节流就是一种减少触发事件调用函数频率的方法。</summary></entry><entry><title type="html">Javascript Event</title><link href="http://localhost:4000/javascript-event/" rel="alternate" type="text/html" title="Javascript Event" /><published>2021-08-10T00:00:00+12:00</published><updated>2021-08-10T00:00:00+12:00</updated><id>http://localhost:4000/javascript-event</id><content type="html" xml:base="http://localhost:4000/javascript-event/">&lt;p&gt;I’ve took a job interview this morning with Yunxi co.,ltd. The interviewer asked a couple of front end question, and the most impressive one is about that what is JavaScript DOM event flow and how does event capture/bubble works? I did not really answer correctly, so here it is, dig it further to record that scenaria.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;事件流是指事件从 DOM 树的顶端 Window 向目标元素传播，然后再从目标元素传播至顶端的过程。
@@ -675,7 +754,7 @@ class ScrollListener extends React.Component {
   &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name>Hua WANG</name><email>john@somewebsite.com</email></author><summary type="html">I’ve took a job interview this morning with Yunxi co.,ltd. The interviewer asked a couple of front end question, and the most impressive one is about that what is JavaScript DOM event flow and how does event capture/bubble works? I did not really answer correctly, so here it is, dig it further to record that scenaria.</summary></entry><entry><title type="html">Spread Rest Operator</title><link href="http://localhost:4000/spread-rest-operator/" rel="alternate" type="text/html" title="Spread Rest Operator" /><published>2021-08-04T00:00:00+12:00</published><updated>2021-08-04T00:00:00+12:00</updated><id>http://localhost:4000/spread-rest-operator</id><content type="html" xml:base="http://localhost:4000/spread-rest-operator/">&lt;p&gt;JavaScript 接收多个参数的形式是依次用逗号隔开，如果传入的是数组 &lt;code class=&quot;highlighter-rouge&quot;&gt;[a, b]&lt;/code&gt; 形式的参数，就必须使用 &lt;code class=&quot;highlighter-rouge&quot;&gt;apply&lt;/code&gt; 来分解。ES6 的 spread 操作符更加简化了 &lt;code class=&quot;highlighter-rouge&quot;&gt;apply&lt;/code&gt; 的作用。&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Hua WANG</name><email>aemooooon@gmail.com</email></author><summary type="html">I’ve took a job interview this morning with Yunxi co.,ltd. The interviewer asked a couple of front end question, and the most impressive one is about that what is JavaScript DOM event flow and how does event capture/bubble works? I did not really answer correctly, so here it is, dig it further to record that scenaria.</summary></entry><entry><title type="html">Spread Rest Operator</title><link href="http://localhost:4000/spread-rest-operator/" rel="alternate" type="text/html" title="Spread Rest Operator" /><published>2021-08-04T00:00:00+12:00</published><updated>2021-08-04T00:00:00+12:00</updated><id>http://localhost:4000/spread-rest-operator</id><content type="html" xml:base="http://localhost:4000/spread-rest-operator/">&lt;p&gt;JavaScript 接收多个参数的形式是依次用逗号隔开，如果传入的是数组 &lt;code class=&quot;highlighter-rouge&quot;&gt;[a, b]&lt;/code&gt; 形式的参数，就必须使用 &lt;code class=&quot;highlighter-rouge&quot;&gt;apply&lt;/code&gt; 来分解。ES6 的 spread 操作符更加简化了 &lt;code class=&quot;highlighter-rouge&quot;&gt;apply&lt;/code&gt; 的作用。&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;扩展运算符将字符串转为真正的数组&lt;/li&gt;
@@ -753,7 +832,7 @@ class ScrollListener extends React.Component {
 
 &lt;span class=&quot;c1&quot;&gt;// (0,1,2,3,4,5,6,7)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name>Hua WANG</name><email>john@somewebsite.com</email></author><summary type="html">JavaScript 接收多个参数的形式是依次用逗号隔开，如果传入的是数组 [a, b] 形式的参数，就必须使用 apply 来分解。ES6 的 spread 操作符更加简化了 apply 的作用。</summary></entry><entry><title type="html">Image Color Picker</title><link href="http://localhost:4000/image-color-picker/" rel="alternate" type="text/html" title="Image Color Picker" /><published>2021-08-03T00:00:00+12:00</published><updated>2021-08-03T00:00:00+12:00</updated><id>http://localhost:4000/image-color-picker</id><content type="html" xml:base="http://localhost:4000/image-color-picker/">&lt;p&gt;since the image of foreground color and background color we could not determinate before publish. It might be some dynamic setup by real pictures. So that is a way to read the most frequent color value as the main background color, and we can do some special effect to improve user experiences.&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Hua WANG</name><email>aemooooon@gmail.com</email></author><summary type="html">JavaScript 接收多个参数的形式是依次用逗号隔开，如果传入的是数组 [a, b] 形式的参数，就必须使用 apply 来分解。ES6 的 spread 操作符更加简化了 apply 的作用。</summary></entry><entry><title type="html">Image Color Picker</title><link href="http://localhost:4000/image-color-picker/" rel="alternate" type="text/html" title="Image Color Picker" /><published>2021-08-03T00:00:00+12:00</published><updated>2021-08-03T00:00:00+12:00</updated><id>http://localhost:4000/image-color-picker</id><content type="html" xml:base="http://localhost:4000/image-color-picker/">&lt;p&gt;since the image of foreground color and background color we could not determinate before publish. It might be some dynamic setup by real pictures. So that is a way to read the most frequent color value as the main background color, and we can do some special effect to improve user experiences.&lt;/p&gt;
 
 &lt;p&gt;An example of JavaScript code below:&lt;/p&gt;
 
@@ -815,7 +894,7 @@ class ScrollListener extends React.Component {
             &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;res&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'The most used color: '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;getColorList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name>Hua WANG</name><email>john@somewebsite.com</email></author><summary type="html">since the image of foreground color and background color we could not determinate before publish. It might be some dynamic setup by real pictures. So that is a way to read the most frequent color value as the main background color, and we can do some special effect to improve user experiences.</summary></entry><entry><title type="html">React Hook</title><link href="http://localhost:4000/react-hook/" rel="alternate" type="text/html" title="React Hook" /><published>2021-07-31T00:00:00+12:00</published><updated>2021-07-31T00:00:00+12:00</updated><id>http://localhost:4000/react-hook</id><content type="html" xml:base="http://localhost:4000/react-hook/">&lt;p&gt;最近面试前端，很多问题是关于 &lt;code class=&quot;highlighter-rouge&quot;&gt;React&lt;/code&gt; 的，之前在项目里用的 &lt;code class=&quot;highlighter-rouge&quot;&gt;Hook&lt;/code&gt; 主要是 &lt;code class=&quot;highlighter-rouge&quot;&gt;useState&lt;/code&gt; 和 &lt;code class=&quot;highlighter-rouge&quot;&gt;useEffect&lt;/code&gt; 这 2 个。这次借复习就好好完整的学习一下，做个记录，不仅为了面试，也是为了可以系统性的了解这个机制。&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Hua WANG</name><email>aemooooon@gmail.com</email></author><summary type="html">since the image of foreground color and background color we could not determinate before publish. It might be some dynamic setup by real pictures. So that is a way to read the most frequent color value as the main background color, and we can do some special effect to improve user experiences.</summary></entry><entry><title type="html">React Hook</title><link href="http://localhost:4000/react-hook/" rel="alternate" type="text/html" title="React Hook" /><published>2021-07-31T00:00:00+12:00</published><updated>2021-07-31T00:00:00+12:00</updated><id>http://localhost:4000/react-hook</id><content type="html" xml:base="http://localhost:4000/react-hook/">&lt;p&gt;最近面试前端，很多问题是关于 &lt;code class=&quot;highlighter-rouge&quot;&gt;React&lt;/code&gt; 的，之前在项目里用的 &lt;code class=&quot;highlighter-rouge&quot;&gt;Hook&lt;/code&gt; 主要是 &lt;code class=&quot;highlighter-rouge&quot;&gt;useState&lt;/code&gt; 和 &lt;code class=&quot;highlighter-rouge&quot;&gt;useEffect&lt;/code&gt; 这 2 个。这次借复习就好好完整的学习一下，做个记录，不仅为了面试，也是为了可以系统性的了解这个机制。&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Hook 是 React 16.8 的新增特性。它可以让你在不编写 class 的情况下使用 state 以及其他的 React 特性。Hook 使你在无需修改组件结构的情况下复用状态逻辑。Hook 将组件中相互关联的部分拆分成更小的函数（比如设置订阅或请求数据)。 Hook 使你在非 class 的情况下可以使用更多的 React 特性。&lt;/p&gt;
@@ -1693,425 +1772,4 @@ useCallback it takes a function but that is actually what the useCallback return
   &lt;p&gt;“homepage”:”./”&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;add the section above to &lt;code class=&quot;highlighter-rouge&quot;&gt;package.json&lt;/code&gt;&lt;/p&gt;</content><author><name>Hua WANG</name><email>john@somewebsite.com</email></author><summary type="html">最近面试前端，很多问题是关于 React 的，之前在项目里用的 Hook 主要是 useState 和 useEffect 这 2 个。这次借复习就好好完整的学习一下，做个记录，不仅为了面试，也是为了可以系统性的了解这个机制。</summary></entry><entry><title type="html">Docker</title><link href="http://localhost:4000/docker/" rel="alternate" type="text/html" title="Docker" /><published>2019-11-10T00:00:00+13:00</published><updated>2019-11-10T00:00:00+13:00</updated><id>http://localhost:4000/docker</id><content type="html" xml:base="http://localhost:4000/docker/">&lt;p&gt;Docker from Virtualization of Tom Clark.&lt;/p&gt;
-
-&lt;h2 id=&quot;docker-introducation&quot;&gt;Docker Introducation&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Installation&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;sudo apt-get install docker.io&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;By defaut, the docker commands are only usable by root. The docker package created a docker group, but any member of that group can run commands without sudo. So add you &lt;code class=&quot;highlighter-rouge&quot;&gt;user&lt;/code&gt; to the docker group with the command &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo adduser user docker&lt;/code&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Check the docker server running info with &lt;code class=&quot;highlighter-rouge&quot;&gt;docker info&lt;/code&gt;
-```bash
-Containers: 24
- Running: 5
- Paused: 0
- Stopped: 19
-Images: 28
-Server Version: 18.09.7
-Storage Driver: overlay2
- Backing Filesystem: extfs
- Supports d_type: true
- Native Overlay Diff: true
-Logging Driver: json-file
-Cgroup Driver: cgroupfs
-Plugins:
- Volume: local
- Network: bridge host macvlan null overlay
- Log: awslogs fluentd gcplogs gelf journald json-file local logentries splunk syslog
-Swarm: inactive
-Runtimes: runc
-Default Runtime: runc
-Init Binary: docker-init
-containerd version:
-runc version: N/A
-init version: v0.18.0 (expected: fec3683b971d9c3ef73f284f176672c44b448662)
-Security Options:
- apparmor
- seccomp
-Profile: default
-Kernel Version: 4.4.0-87-generic
-Operating System: Ubuntu 16.04.6 LTS
-OSType: linux
-Architecture: x86_64
-CPUs: 1
-Total Memory: 992.3MiB
-Name: placeholder-0
-ID: JQWU:UX5K:VCKI:45FF:GUUA:2J3H:XE4F:4BCL:PWXM:TRBB:764R:CHGY
-Docker Root Dir: /var/lib/docker
-Debug Mode (client): false
-Debug Mode (server): false
-Username: aemooooon
-Registry: https://index.docker.io/v1/
-Labels:
-Experimental: false
-Insecure Registries:
- 127.0.0.0/8
-Live Restore Enabled: false&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;WARNING: No swap limit support&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-* Creaet a new container
-
-&amp;gt; docker run -i -t --name &amp;lt;hua&amp;gt; ubuntu /bin/bash
-
-The command above will create a new container named fred based on the ubuntu base image. We have told docker to run bash on the container, and the `-i` and `-t` options connect us to an interactive console on it. Run `top` to see what is running inside the container. Use `ip a` to inspect the container's network interfaces. Type `exit` to return to the host. 
-
-&amp;gt; docker exec -it &amp;lt;hua&amp;gt; /bin/bash # login into Docker
-
-* Basical commands:
-
-```bash
-docker ps # list the containers that are running
-docker ps -a # list all containers regardless of running or not.
-docker inspect fred # get more information aobut the 'fred' container
-docker start fred # restart 'fred' container
-docker attach fred # attach 'fred' container to the console.(if run `docker ps` found the container is running without console)
-docker rmi $(docker images | grep &quot;^&amp;lt;none&amp;gt;&quot; | awk &quot;{print $3}&quot;) # Remove all untagged images
-docker rm $(docker ps -a -q) # Remove all stopped containers
-docker exec -it hua /bin/bash # login into Docker
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;docker-images&quot;&gt;Docker Images&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;list images&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;docker image ls / docker image ls -a&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Search images&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;docker search wordpress/debian/mssql&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Pull image&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;docker pull debian:8.1 # Asked for the image with from the debian repository with the 8.1 tag&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Pull and run a container from docker hub image&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;sudo docker run -p 80:80 -p 2222:22 –name wordpress -d tlongren/docker-wordpress-nginx-ssh:stable&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The -p option map ports between the container and the host system. Once your container is running, you should be able to browse to your virtual machine with a web browser and see the initial Wordpress setup screen. You can also ssh into your container by ssh’ing to your host machine’s ip address at port 2222. For ssh, the user name and password are both wordpress.&lt;/p&gt;
-
-&lt;h2 id=&quot;create-own-docker-images&quot;&gt;Create own Docker Images&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;Create a GitHub repository and clone to local as build context.&lt;/li&gt;
-  &lt;li&gt;Create a file called &lt;code class=&quot;highlighter-rouge&quot;&gt;Dockerfile&lt;/code&gt; inside the build context.&lt;/li&gt;
-  &lt;li&gt;Add the contents below to the file:&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;FROM ubuntu:16.04
-
-LABEL &lt;span class=&quot;nv&quot;&gt;maintainer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Aemooooon/aemooooon@gmail.com&quot;&lt;/span&gt;
-
-RUN apt-get -q update &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; apt-get -yq dist-upgrade
-RUN apt-get -yq install apache2
-
-ENV APACHE_RUN_USER www-data
-ENV APACHE_RUN_GROUP www-data
-ENV APACHE_LOG_DIR /var/log/apache2
-ENV APACHE_LOCK_DIR /var/run/apache
-ENV APACHE_PID_FILE /var/run/apache/httpd.pid
-RUN mkdir /var/run/apache
-
-ADD index.html /var/www/html/index.html
-
-EXPOSE 80
-
-ENTRYPOINT &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/usr/sbin/apache2&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
-CMD &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;-DFOREGROUND&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Git commit and push the changes above.&lt;/li&gt;
-  &lt;li&gt;Build image with command &lt;code class=&quot;highlighter-rouge&quot;&gt;docker build -t='your-username/lab10.2'&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;docker build -t svendowideit/ambassador .&lt;/code&gt; 参数 -f 表示可以随便指定image存放的路径 ref: https://docs.docker.com/develop/develop-images/dockerfile_best-practices/&lt;/li&gt;
-  &lt;li&gt;Create dockerhub account and create repository like &lt;code class=&quot;highlighter-rouge&quot;&gt;aemooooon&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;push image with command &lt;code class=&quot;highlighter-rouge&quot;&gt;docker push aemooooon/lab10.2&lt;/code&gt;, before need login wich command &lt;code class=&quot;highlighter-rouge&quot;&gt;docker login&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;On DockerHub, go to your repository’s page. Select the “Build” item from the top menu and then click the GitHub link to connect your DockerHub repository to the associated GitHub repository that holds your container image’s build context.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;docker-network&quot;&gt;Docker Network&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;不同的网络之间相互隔离，无法访问。&lt;/li&gt;
-  &lt;li&gt;如果是用户自定义的网络，我们不仅可以通过IP地址访问，同时也能通过主机名访问。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;List Networks&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;sudo docker network ls&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;NETWORK ID          NAME                DRIVER              SCOPE
-312817f6163c        app                 bridge              &lt;span class=&quot;nb&quot;&gt;local
-&lt;/span&gt;cee45c66cd9f        bridge              bridge              &lt;span class=&quot;nb&quot;&gt;local
-&lt;/span&gt;104d20355301        host                host                &lt;span class=&quot;nb&quot;&gt;local
-&lt;/span&gt;ea2782d9ba8c        lab-net             bridge              &lt;span class=&quot;nb&quot;&gt;local
-&lt;/span&gt;5f98aad42051        none                null                &lt;span class=&quot;nb&quot;&gt;local&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;Create an additional bridged network&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;sudo docker network create –driver bridge network-name # we simply choose bridge as driver&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Run a container and place it on the specified network&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;sudo docker run -dit –name container-name –network network-name ubuntu /bin/bash&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Inspect network information&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;sudo docker network inspect networkn-name&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;run-two-container-with-together-by-one-network&quot;&gt;Run two container with together by one network&lt;/h2&gt;
-&lt;p&gt;We are going to create a simple service using a Python/Flask application in one container and an Nginx reverse proxy server in a second container. Then create a Docker network to connect the two containers.&lt;/p&gt;
-
-&lt;h3 id=&quot;create-a-flask-application-container&quot;&gt;Create a Flask Application Container&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Make a directory ‘flaskapp’ to server as a build context for the Python/Flask application image. In that directory, create a dockerfile with the following contents:
-```bash
-FROM ubuntu:16.04
-LABEL updated_on=”2019-10-18 09:00”
-RUN apt-get update
-RUN apt-get -y upgrade
-RUN apt-get -y install python3 python3-setuptools python3-pip gunicorn3
-RUN update-alternatives –install /usr/bin/python python /usr/bin/python3 10&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;COPY lab-4-app /flaskapp
-WORKDIR /flaskapp
-RUN pip3 install -r requirements.txt&lt;/p&gt;
-
-&lt;p&gt;EXPOSE 5000
-ENTRYPOINT “./startup.sh”&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;2. Clone the GitHub repository [aemooooon/lab-4-app]('https://github.com/aemooooon/lab-4-app') into your context.
-3. Build container image with the tag: `docker build -t=&quot;aemooooon/flaskapp&quot; .`
-4. Run command `docker run -d --rm --name flaskapp -p 5000:5000 aemooooon/flaskapp` to test.
-The application should works now, but for a production deployment we need to place it behind a reverse proxy server. For this, we will need a second container. Shut down flaskapp container.
-
-### Create an Nginx Container
-1. Make a directory 'nginx' to serer as a build context. Place a dockerfile in it with the following:
-```bash
-FROM nginx:1.13
-COPY flaskapp.conf /etc/nginx/conf.d/default.conf
-EXPOSE 80
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;ol&gt;
-  &lt;li&gt;Add flaskapp.conf file to the context with the following:
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;resolver 127.0.0.11 &lt;span class=&quot;nv&quot;&gt;valid&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1s;
-server &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$alias&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;flaskapp&quot;&lt;/span&gt;;
-  location / &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
- proxy_set_header Host &lt;span class=&quot;nv&quot;&gt;$host&lt;/span&gt;;
- proxy_set_header X-Forwarded-Proto &lt;span class=&quot;nv&quot;&gt;$scheme&lt;/span&gt;;
- proxy_pass http://&lt;span class=&quot;nv&quot;&gt;$alias&lt;/span&gt;:5000;
-  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-  listen 80;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-This will cause nginx to send proxy requests to a flaskapp host.
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Build this image with the tag: &lt;code class=&quot;highlighter-rouge&quot;&gt;docker build -t=&quot;aemooooon/nginx&quot; .&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Now we can run two containers based on our images with the following commands.
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker run -d --rm --name flaskapp aemooooon/flaskapp
-docker run -d --rm --name nginx -p 8080:80 aemooooon/nginx
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-    &lt;p&gt;we can see does working, but not working together.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;create-a-docker-network&quot;&gt;Create a Docker Network&lt;/h3&gt;
-&lt;p&gt;We want to place our containers on their own isolated network. The Flask application container does not need to be reachable by anything but our nginx container. Create our network with the command:&lt;/p&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker network create app
-
-&lt;span class=&quot;c&quot;&gt;#then&lt;/span&gt;
-
-docker run -d --rm --name flaskapp --network app aemooooon/flaskapp
-docker run -d --rm --name nginx --network app -p 8080:80 aemooooon/nginx
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;Note that it doesn’t matter in which order you start the containers.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;output: nginx directs to the flaskapp&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;user@placeholder-0:~/virt-assignment3$ &lt;/span&gt;sudo docker ps
-CONTAINER ID        IMAGE                COMMAND                   CREATED              STATUS              PORTS                  NAMES
-ee11f2572401        aemooooon/nginx      &lt;span class=&quot;s2&quot;&gt;&quot;nginx -g 'daemon of…&quot;&lt;/span&gt;    About a minute ago   Up About a minute   0.0.0.0:8080-&amp;gt;80/tcp   nginx
-ab01ad77ec95        aemooooon/flaskapp   &lt;span class=&quot;s2&quot;&gt;&quot;/bin/sh -c &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;./start…&quot;&lt;/span&gt;   About a minute ago   Up About a minute   5000/tcp               flaskapp
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;docker-compose&quot;&gt;Docker compose&lt;/h2&gt;
-&lt;p&gt;With Docker Compose, we define a set of containers to boot up, and their runtime properties, all defined in a YAML
-file. Docker Compose calls each of these containers “services” which it defines as: A container that interacts with other containers in some way and that has specific runtime properties.
-We’re going to take you through installing Docker Compose and then using it to build a simple, multi-container application stack.&lt;/p&gt;
-
-&lt;p&gt;docer-compose.yml&lt;/p&gt;
-&lt;div class=&quot;language-yml highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;2.0&quot;&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;services&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;s&quot;&gt;flaskapp&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;s&quot;&gt;build&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;./flaskapp&lt;/span&gt;
-        &lt;span class=&quot;s&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;aemooooon/flaskapp&lt;/span&gt;
-        &lt;span class=&quot;s&quot;&gt;networks&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;app&lt;/span&gt;
-        &lt;span class=&quot;s&quot;&gt;depends_on&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;redis&lt;/span&gt;
-    &lt;span class=&quot;s&quot;&gt;nginx&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;s&quot;&gt;build&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;./nginx&lt;/span&gt;
-        &lt;span class=&quot;s&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;aemooooon/nginx&lt;/span&gt;
-        &lt;span class=&quot;s&quot;&gt;ports&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;8080:80&lt;/span&gt;
-        &lt;span class=&quot;s&quot;&gt;networks&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;app&lt;/span&gt;
-        &lt;span class=&quot;s&quot;&gt;depends_on&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;flaskapp&lt;/span&gt;
-    &lt;span class=&quot;s&quot;&gt;redis&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;s&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;redis:latest&lt;/span&gt;
-        &lt;span class=&quot;s&quot;&gt;networks&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;app&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;networks&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;s&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;The files structure like below, flaskapp and nginx refer to my isolate repository both on GitHub Docker Hub.&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;virt-assignment3
-├── docker-compose.yml
-├── flaskapp
-│   ├── Dockerfile
-│   ├── lab-4-app
-│   │   ├── myproject.py
-│   │   ├── requirements.txt
-│   │   ├── startup.sh
-│   │   └── wsgi.py
-│   ├── README.md
-│   └── virt-assn1-app
-│       ├── myproject.py
-│       ├── requirements.txt
-│       ├── startup.sh
-│       ├── templates
-│       │   ├── form.html
-│       │   └── results.html
-│       └── wsgi.py
-└── nginx
-    ├── Dockerfile
-    ├── flaskapp.conf
-    └── README.md
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Common comand: (with docker-compose.yml file to run…)&lt;/p&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker-compose build
-docker-compose up
-docker-compose down
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;swarm&quot;&gt;SWARM&lt;/h2&gt;
-
-&lt;p&gt;Docker Swarm is a system that lets us manage containers across a collection of Docker hosts.&lt;/p&gt;
-
-&lt;h3 id=&quot;using-swarm-between-mutipal-host&quot;&gt;Using Swarm between mutipal host&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Create a new swarm and add the it as a manager &lt;code class=&quot;highlighter-rouge&quot;&gt;docker swarm init&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Find the token to join new worker or manager
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker swarm join-token worker
-docker swarm join-token manager
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;list host &lt;code class=&quot;highlighter-rouge&quot;&gt;docker node ls&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;start a service:
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker service create --name huanginx --replicas 2 aemooooon/nginx
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;list the services &lt;code class=&quot;highlighter-rouge&quot;&gt;docker service ls&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;display a specified service &lt;code class=&quot;highlighter-rouge&quot;&gt;docker service ps &amp;lt;service name&amp;gt;&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;We can actually change the number of containers running in our service with a command like this:
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker service scale &lt;span class=&quot;nv&quot;&gt;hi&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;4
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;To stop the service &lt;code class=&quot;highlighter-rouge&quot;&gt;docker service rm &amp;lt;service name&amp;gt;&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;using-compose-with-swarm&quot;&gt;Using Compose with Swarm&lt;/h3&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker stack deploy --compose-file &amp;lt;path to file&amp;gt; stack-name 
-&lt;span class=&quot;c&quot;&gt;#example: docker stack deploy --compose-file docker-compose.yml huaapp&lt;/span&gt;
-docker stack services huaapp
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;docker-compose.yml # normally runs on the swarm manager&lt;/p&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;version: &lt;span class=&quot;s2&quot;&gt;&quot;3.7&quot;&lt;/span&gt;
-services:
-    flaskapp:
-        image: aemooooon/flaskapp
-        networks:
-            - virtassignment3_app
-        depends_on:
-            - redis
-        deploy:
-            replicas: 3
-    nginx:
-        image: aemooooon/nginx:latest
-        ports:
-            - 8080:80
-        networks:
-            - virtassignment3_app
-        depends_on:
-            - flaskapp
-        deploy:
-            replicas: 3
-    redis:
-        image: redis:latest
-        networks:
-            - virtassignment3_app
-networks:
-    virtassignment3_app:
-        driver: overlay
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name>Hua WANG</name><email>john@somewebsite.com</email></author><summary type="html">Docker from Virtualization of Tom Clark.</summary></entry></feed>
+&lt;p&gt;add the section above to &lt;code class=&quot;highlighter-rouge&quot;&gt;package.json&lt;/code&gt;&lt;/p&gt;</content><author><name>Hua WANG</name><email>aemooooon@gmail.com</email></author><summary type="html">最近面试前端，很多问题是关于 React 的，之前在项目里用的 Hook 主要是 useState 和 useEffect 这 2 个。这次借复习就好好完整的学习一下，做个记录，不仅为了面试，也是为了可以系统性的了解这个机制。</summary></entry></feed>
