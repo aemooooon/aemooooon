@@ -26,6 +26,32 @@ header:
 * LGBTQ+（Lesbian, Gay, Bisexual, Transgender, Queer/Questioning, and others）  
 * Brain drain 人才流失
 * cosmetic surgery 整形手术
+* concordance 一致
+* Examples of what you can chat to a student advocate about:
+* Appeals, Grievances and Complaints.
+* Disciplinary Meetings.
+* Special consideration and withdrawals
+
+* If finances have gotten a bit tight and your nutrition is suffering.
+* Students are eligible to apply for food vouchers and non-perishable items twice per term.
+* Medical prescription grant.
+* Menstruation emergency.
+* If you are caught without a tampon.
+* Or maybe you just want someone to shout you a coffee?
+* charter
+* welfare
+* grievance
+* advocate
+* non-perishable
+* tampon
+* pastor
+* preist
+* chaplain
+* traumatic
+* bereavement
+* menstrual
+* menstruaton
+
 
 ## Analysing the topic
 
