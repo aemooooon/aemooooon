@@ -27,6 +27,9 @@ header:
 * Brain drain 人才流失
 * cosmetic surgery 整形手术
 * concordance 一致
+* eradicate duplicate data 消除重复数据
+* Far-sighted 有远见的
+* competitive dege 
 * Examples of what you can chat to a student advocate about:
 * Appeals, Grievances and Complaints.
 * Disciplinary Meetings.
