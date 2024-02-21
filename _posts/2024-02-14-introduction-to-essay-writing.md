@@ -8,7 +8,7 @@ header:
     text: light
 ---
 
-# Introduction to essay writing
+# English Language Learning
 
 ## Vocabulary
 
@@ -29,19 +29,7 @@ header:
 * concordance 一致
 * eradicate duplicate data 消除重复数据
 * Far-sighted 有远见的
-* competitive dege 
-* Examples of what you can chat to a student advocate about:
-* Appeals, Grievances and Complaints.
-* Disciplinary Meetings.
-* Special consideration and withdrawals
-
-* If finances have gotten a bit tight and your nutrition is suffering.
-* Students are eligible to apply for food vouchers and non-perishable items twice per term.
-* Medical prescription grant.
-* Menstruation emergency.
-* If you are caught without a tampon.
-* Or maybe you just want someone to shout you a coffee?
-* charter
+* charter 
 * welfare
 * grievance
 * advocate
@@ -54,6 +42,24 @@ header:
 * bereavement
 * menstrual
 * menstruaton
+* unchallenged norms
+* meritocracy
+* stratify
+
+* cross sectional 横断面研究
+* competitive dege
+* Examples of what you can chat to a student advocate about:
+* Appeals, Grievances and Complaints.
+* Disciplinary Meetings.
+* Special consideration and withdrawals
+
+* If finances have gotten a bit tight and your nutrition is suffering.
+* Students are eligible to apply for food vouchers and non-perishable items twice per term.
+* Medical prescription grant.
+* Menstruation emergency.
+* If you are caught without a tampon.
+* Or maybe you just want someone to shout you a coffee?
+
 
 
 ## Analysing the topic
