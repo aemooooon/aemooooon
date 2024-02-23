@@ -29,7 +29,8 @@ header:
 * concordance 一致
 * eradicate duplicate data 消除重复数据
 * Far-sighted 有远见的
-* charter 
+* marijuana 大麻 [/ˌmærəˈwɑːnə/]
+* charter
 * welfare
 * grievance
 * advocate
