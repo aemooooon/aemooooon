@@ -51,6 +51,8 @@ header:
 * unchallenged norms 无可挑战的规范
 * meritocracy /ˌmerɪˈtɒkrəsi/ 精英管理
 * stratify /ˈstrætɪfaɪ/ 分层
+* eye fixations 眼睛定位
+* prominent /ˈprɒmɪnənt/ 突出的
 
 * cross sectional 横断面研究
 * I don't really know where to go with that. 我不知道该怎么办
