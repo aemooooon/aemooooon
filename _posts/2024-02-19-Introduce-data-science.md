@@ -11,4 +11,3 @@ header:
 # Introduce data science
 
 ## Basic R
-

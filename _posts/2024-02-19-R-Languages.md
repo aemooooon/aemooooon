@@ -49,6 +49,7 @@ data.frame()
 
 levels(Arthritis$Improved) # 列出因子变量的水平（名称）
 nlevels(Arthritis$Improved) # 返回因子变量的水平数
+select() # 选择变量
 
 table() # 统计因子变量的频数
 table(useNA = "ifany") # 统计因子变量的频数，包括缺失值

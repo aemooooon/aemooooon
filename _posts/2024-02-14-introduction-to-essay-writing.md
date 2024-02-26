@@ -10,7 +10,7 @@ header:
 
 # English Language Learning
 
-## Vocabulary
+## Vocabularies & Glossaries
 
 * Familiarise 使熟悉
 * Historians 历史学家
@@ -30,26 +30,32 @@ header:
 * eradicate duplicate data 消除重复数据
 * Far-sighted 有远见的
 * marijuana 大麻 [/ˌmærəˈwɑːnə/]
-* charter
-* welfare
-* grievance
-* advocate
-* non-perishable
-* tampon
-* pastor
-* preist
-* chaplain
-* traumatic
-* bereavement
-* menstrual
-* menstruaton
-* unchallenged norms
-* meritocracy
-* stratify
+* cannabis possession 大麻持有
+* usher in 引领
+* orchardist  /'ɔːtʃədɪst/ 果园主
+* cholesterol  /kəˈlestərɒl/ 胆固醇
+* temper tantrum /ˈtæntrəm/ 乱发脾气
+* charter school 特许学校
+* welfare state 福利国家
+* grievance 抱怨
+* advocate 提倡者
+* non-perishable 不易腐烂的
+* tampon /ˈtæmpɒn/ 卫生棉
+* pastor 牧师
+* preist 神父
+* chaplain 牧师
+* traumatic event 创伤事件
+* bereavement /bɪˈriːvmənt/ 丧亲
+* menstrual emergency 月经紧急
+* menstruaton 月经
+* unchallenged norms 无可挑战的规范
+* meritocracy /ˌmerɪˈtɒkrəsi/ 精英管理
+* stratify /ˈstrætɪfaɪ/ 分层
 
 * cross sectional 横断面研究
-* competitive dege
-* Examples of what you can chat to a student advocate about:
+* I don't really know where to go with that. 我不知道该怎么办
+* competitive dege 优势
+* Examples of what you can chat to a student advocate about
 * Appeals, Grievances and Complaints.
 * Disciplinary Meetings.
 * Special consideration and withdrawals
@@ -60,8 +66,6 @@ header:
 * Menstruation emergency.
 * If you are caught without a tampon.
 * Or maybe you just want someone to shout you a coffee?
-
-
 
 ## Analysing the topic
 
