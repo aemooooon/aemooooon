@@ -1,6 +1,6 @@
 ---
 layout: post
-subtitle: R Languages Notes
+subtitle: R Languages
 categories: [R]
 header:
     image: header.jpg

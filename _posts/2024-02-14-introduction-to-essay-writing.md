@@ -75,7 +75,7 @@ header:
 
 * Break the question down into its simplest components.
   * Identify and define the key terms.
-  * How many parts are there to the qustion?
+  * How many parts are there to the question?
   * Do you understand the relationship between the parts?
 
 * TIF Approach
@@ -84,7 +84,7 @@ header:
   * Focus - The specific aspect of the topic that you are to write about.
 
 * How have historians accounted for the movement seeking the enfranchisement of women?
-  * I - How.
+  * I - How?
   * F - How Historians have accounted for it.
   * T - The movement seeking the enfranchisement.
   
@@ -97,7 +97,7 @@ header:
 
 * An argument is a connected series of statements intended to establish a proposition.
 * A position supported by evidence.
-* Not  a debate.
+* Not a debate.
 * Your answer to the question.
 
 ### How would you argue in favour of the following statement:
@@ -111,4 +111,3 @@ Discuss.
 * Explanation
 * Evidence
 * Evaluation
-  
