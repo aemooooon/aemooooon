@@ -86,21 +86,6 @@ header:
   * Geometric Mean
   * Harmonic Mean
   * Weighted Mean
-  * Trimmed Mean 修建均值
-  
-    ```R
-        data <- c(2, 3, 5, 6, 7, 8, 9, 10, 12, 15)
-        # 计算需要剔除的极端值的数量
-        trim_amount <- round(length(data) * 0.05)
-        # 对数据进行排序
-        sorted_data <- sort(data)
-        # 剔除最低和最高的5%的数据
-        trimmed_data <- sorted_data[(trim_amount + 1):(length(sorted_data) - trim_amount)]
-        # 计算修剪均值
-        trimmed_mean <- mean(trimmed_data)
-    ```
-
-  * Weighted Median `weighted.median(values, weights)` # values and weights are vectors of the same length
 
 * ARIMA Model
   * ARIMA (AutoRegressive Integrated Moving Average) is a generalization of an autoregressive moving average (ARMA) model. Both of these models are fitted to time series data either to better understand the data or to predict future points in the series (forecasting).
@@ -110,5 +95,214 @@ header:
   
 * Z Score # need to be able to calculate this by z-score table
   > A Z-score is a numerical measurement that describes a value's relationship to the mean of a group of values. Z-score is measured in terms of standard deviations from the mean. If a Z-score is 0, it indicates that the data point's score is identical to the mean score. A Z-score of 1.0 would indicate a value that is one standard deviation from the mean. Z-scores may be positive or negative, with a positive value indicating the score is above the mean and a negative score indicating it is below the mean.
+
+### Mode
+
+```R
+# Calculate Mode
+Mode <- function(x) {
+  ux <- unique(x)
+  ux[which.max(tabulate(match(x, ux)))]
+}
+
+data <- c(2, 19, 44, 44, 44, 51, 56, 78, 86, 99, 99)
+mode_value <- Mode(data)
+```
+
+### Median
+
+```R
+data <- c(23, 24, 26, 26, 28, 29, 30, 31, 33, 34)
+result <- median(data)
+```
+
+#### Weighted Median
+
+> Weighted Median `weighted.median(values, weights)` # values and weights are vectors of the same length
+
+### Mean
+
+#### Arithmetic Mean
+
+```R
+x <- c(3, 7, 5, 13, 20, 23, 39, 23, 40, 23, 14, 12, 59, 23)
+mean(x)
+```
+
+#### Geometric Mean
+
+```R
+x <- c(8, 9, 4, 1, 6, 4, 6, 2, 5)
+exp(mean(log(x)))  # one method
+prod(x)^(1/length(x))  # second method
+psych::geometric.mean(x) # third method
+```
+
+#### Weighted Mean
+
+```R
+x <- c(3, 7, 5, 13, 20, 23, 39, 23, 40, 23, 14, 12, 59, 23)
+weights <- c(3.1, 1.3, 2.4, 1.0, 3.5, 3.5, 1.1, 1.3, 1.6, 1.9, 4.1, 2.4, 1.4, 0.2)
+weightedMean(x, weights)
+
+
+#### Harmonic Mean
+
+```R
+x <- c(8, 9, 4, 1, 6, 4, 6, 2, 5)
+1/mean(1/x) # one method
+psych::harmonic.mean(x) # second method
+```
+
+#### Trimmed Mean 修剪平均值
   
+```R
+    data <- c(2, 3, 5, 6, 7, 8, 9, 10, 12, 15)
+    # 计算需要剔除的极端值的数量
+    trim_amount <- round(length(data) * 0.05)
+    # 对数据进行排序
+    sorted_data <- sort(data)
+    # 剔除最低和最高的5%的数据
+    trimmed_data <- sorted_data[(trim_amount + 1):(length(sorted_data) - trim_amount)]
+    # 计算修剪均值
+    trimmed_mean <- mean(trimmed_data)
+
+    # another method is use Mean function with trim argument can from 0.1 to 0.5
+```
+
+### common measures of spread
+
+#### Range : highest minus the lowest
+
+```R
+# 定义一个向量
+x <- c(2, 3, 5, 6, 7, 8, 9, 10, 12, 15)
+# 计算范围
+range_x <- range(x) # 返回最小值和最大值
+```
+
+#### Inter-quartile range (IQR) : 75th percentile minus the 25th percentile
+
+```R
+# quantile函数 example
+x <- c(2, 3, 5, 6, 7, 8, 9, 10, 12, 15)
+quantile(x, probs = c(0.25, 0.75)) # 返回第一个四分位数和第三个四分位数
+```
+
+#### Sample Standard deviation (SD)
+
+```R
+var(students$score)
+sd(students$score)
+# or
+n <- length(students$score)
+Var <- 1/(n-1) * sum((students$score - mean(students$score))^2)
+sqrt(Var)
+```
+
+#### Median absolute deviation (MAD) 
+
+```R
+mad(students$score)
+# or
+1.4826 * median( abs(students$score - median(students$score)) )
+```
+
+#### Average absolute deviation (from the mean)
+
+```R
+lsr::aad(students$score) 
+# or
+
+# 定义一个向量
+x <- c(2, 3, 5, 6, 7, 8, 9, 10, 12, 15)
+# 计算均值
+mean_x <- mean(x)
+# 计算每个数据点与均值之间的绝对偏差
+absolute_deviations <- abs(x - mean_x)
+# 计算平均绝对偏差
+average_absolute_deviation <- mean(absolute_deviations)
+```
+
+#### Covariance 协方差
+
+> 衡量两个变量之间的线性关系：协方差的正负号表示了两个变量之间的线性关系的方向，即正协方差表示正相关关系，负协方差表示负相关关系，而接近零的协方差则表示变量之间基本没有线性关系。
+> 衡量变量之间的相关性强弱：协方差的绝对值大小表示了两个变量之间的相关性强度，绝对值越大表示相关性越强。
+
+```R
+# 定义两个随机变量
+x <- c(1, 2, 3, 4, 5)
+y <- c(2, 3, 5, 7, 6)
+
+# 计算协方差
+covariance_xy <- cov(x, y)
+
+# 输出结果
+print(covariance_xy)
+```
+
+#### Correlation coefficient 相关系数
+
+The covariance is also related to the correlation coefficient, which is a measure of the linear relationship between two variables. The correlation coefficient is calculated by dividing the covariance by the product of the standard deviations of the two variables.
+
+formula: x,y的协方差等于x,y的相关系数乘以x,y的标准差的乘积
+
+```R
+# 定义两个随机变量
+x <- c(1, 2, 3, 4, 5)
+y <- c(2, 3, 5, 7, 6)
+
+# 计算相关系数
+correlation_xy <- cor(x, y)
+
+# 输出结果
+print(correlation_xy)
+```
+
+#### Covariance Matrix 协方差矩阵
+
+```R
+# 定义一个多维随机变量数据集
+data <- matrix(c(1, 2, 3, 4, 5, 2, 3, 5, 7, 6), nrow = 5, byrow = TRUE)
+
+# 计算协方差矩阵
+covariance_matrix <- cov(data)
+
+# 输出结果
+print(covariance_matrix)
+```
+
+#### Variation Ratio : proportion of cases different to the mode
+
+```R
+variationRatio <- function(x) {
+  freq <- table(x)                   #tabulate the frequencies 
+  maxfreq <- max(freq)               #record maximum freq
+  vr <- 1 - maxfreq / sum(freq)
+  vr                                 #return result
+}
+```
+
+### Find high outlier and low outlier
+
+```R
+# 生成一组随机数据
+data <- rnorm(100)
+
+# 计算上四分位数（Q1）和下四分位数（Q3）
+Q1 <- quantile(data, 0.25)
+Q3 <- quantile(data, 0.75)
+
+# 计算四分位距（IQR）
+IQR <- Q3 - Q1
+
+# 定义高异常值和低异常值的阈值
+high_threshold <- Q3 + 1.5 * IQR
+low_threshold <- Q1 - 1.5 * IQR
+
+# 找到高异常值和低异常值
+high_outliers <- data[data > high_threshold]
+low_outliers <- data[data < low_threshold]
+```
+
 ## Basic R

@@ -97,3 +97,4 @@ Arguments
 n number of observations. If length(n) > 1, the length is taken to be the number required.
 min, max lower and upper limits of the distribution. Must be finite.
 If min or max are not specified they assume the default values of 0 and 1 respectively. The uniform distribution has density f(x) = 1/(max-min) for min ≤ x ≤ max.
+
