@@ -56,44 +56,34 @@ header:
     * Sampling bias: a sample that is not representative of the population
     * Response Bias is a systematic favouring of certain outcomes that occurs when random individuals do not respond truthfully or are asked misleading questions in a study.
     * Non-Response Bias is a systematic favouring of certain outcomes that occurs when random individuals who choose to participate in a study differ from those who choose not to participate.
-    * How to avoid sampling bias?
-      * Random sampling
-      * Stratified sampling
-      * Cluster sampling
-      * Systematic sampling
-      * Multistage sampling
-      * Convenience sampling
-      * Voluntary response sampling
-      * Quota sampling
-      * Snowball sampling
-      * Purposive sampling
-      * Judgmental sampling
-      * Convenience sampling
-      * Self-selection sampling
-      * Non-probability sampling
-      * Probability sampling
-      * Simple random sampling
-      * Systematic random sampling
-      * Stratified random sampling
-      * Cluster random sampling
-      * Multistage random sampling
     * Haphazard and Random
 
 * Simple Random Sample
 
-* Mean
-  * Arithmetic Mean
-  * Geometric Mean
-  * Harmonic Mean
-  * Weighted Mean
+## Some Models
 
-* ARIMA Model
-  * ARIMA (AutoRegressive Integrated Moving Average) is a generalization of an autoregressive moving average (ARMA) model. Both of these models are fitted to time series data either to better understand the data or to predict future points in the series (forecasting).
+### ARIMA Model
+
+> ARIMA (AutoRegressive Integrated Moving Average) is a generalization of an autoregressive moving average (ARMA) model. Both of these models are fitted to time series data either to better understand the data or to predict future points in the series (forecasting).
   
-* Standard Deviation
+## Standard Deviation
+
   > The standard deviation is a measure of the amount of variation or dispersion of a set of values. A low standard deviation indicates that the values tend to be close to the mean of the set, while a high standard deviation indicates that the values are spread out over a wider range.
+
+### Sample Standard deviation (SD)
+
+```R
+# 计算样本标准差
+sample_sd <- sd(x)
+
+# 计算总体标准差
+population_sd <- sqrt(var(x))
+# 或者
+population_sd <- sd(x, na.rm = TRUE)
+```
   
-* Z Score # need to be able to calculate this by z-score table
+### Z Score # need to be able to calculate this by z-score table
+
   > A Z-score is a numerical measurement that describes a value's relationship to the mean of a group of values. Z-score is measured in terms of standard deviations from the mean. If a Z-score is 0, it indicates that the data point's score is identical to the mean score. A Z-score of 1.0 would indicate a value that is one standard deviation from the mean. Z-scores may be positive or negative, with a positive value indicating the score is above the mean and a negative score indicating it is below the mean.
 
 ### Mode
@@ -144,7 +134,7 @@ psych::geometric.mean(x) # third method
 x <- c(3, 7, 5, 13, 20, 23, 39, 23, 40, 23, 14, 12, 59, 23)
 weights <- c(3.1, 1.3, 2.4, 1.0, 3.5, 3.5, 1.1, 1.3, 1.6, 1.9, 4.1, 2.4, 1.4, 0.2)
 weightedMean(x, weights)
-
+```
 
 #### Harmonic Mean
 
@@ -189,18 +179,7 @@ x <- c(2, 3, 5, 6, 7, 8, 9, 10, 12, 15)
 quantile(x, probs = c(0.25, 0.75)) # 返回第一个四分位数和第三个四分位数
 ```
 
-#### Sample Standard deviation (SD)
-
-```R
-var(students$score)
-sd(students$score)
-# or
-n <- length(students$score)
-Var <- 1/(n-1) * sum((students$score - mean(students$score))^2)
-sqrt(Var)
-```
-
-#### Median absolute deviation (MAD) 
+#### Median absolute deviation (MAD)
 
 ```R
 mad(students$score)
