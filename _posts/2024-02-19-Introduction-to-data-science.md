@@ -81,6 +81,27 @@ header:
 
 * Simple Random Sample
 
+* Mean
+  * Arithmetic Mean
+  * Geometric Mean
+  * Harmonic Mean
+  * Weighted Mean
+  * Trimmed Mean 修建均值
+  
+    ```R
+        data <- c(2, 3, 5, 6, 7, 8, 9, 10, 12, 15)
+        # 计算需要剔除的极端值的数量
+        trim_amount <- round(length(data) * 0.05)
+        # 对数据进行排序
+        sorted_data <- sort(data)
+        # 剔除最低和最高的5%的数据
+        trimmed_data <- sorted_data[(trim_amount + 1):(length(sorted_data) - trim_amount)]
+        # 计算修剪均值
+        trimmed_mean <- mean(trimmed_data)
+    ```
+
+  * Weighted Median `weighted.median(values, weights)` # values and weights are vectors of the same length
+
 * ARIMA Model
   * ARIMA (AutoRegressive Integrated Moving Average) is a generalization of an autoregressive moving average (ARMA) model. Both of these models are fitted to time series data either to better understand the data or to predict future points in the series (forecasting).
   
