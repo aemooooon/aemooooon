@@ -80,5 +80,14 @@ header:
     * Haphazard and Random
 
 * Simple Random Sample
+
+* ARIMA Model
+  * ARIMA (AutoRegressive Integrated Moving Average) is a generalization of an autoregressive moving average (ARMA) model. Both of these models are fitted to time series data either to better understand the data or to predict future points in the series (forecasting).
+  
+* Standard Deviation
+  > The standard deviation is a measure of the amount of variation or dispersion of a set of values. A low standard deviation indicates that the values tend to be close to the mean of the set, while a high standard deviation indicates that the values are spread out over a wider range.
+  
+* Z Score # need to be able to calculate this by z-score table
+  > A Z-score is a numerical measurement that describes a value's relationship to the mean of a group of values. Z-score is measured in terms of standard deviations from the mean. If a Z-score is 0, it indicates that the data point's score is identical to the mean score. A Z-score of 1.0 would indicate a value that is one standard deviation from the mean. Z-scores may be positive or negative, with a positive value indicating the score is above the mean and a negative score indicating it is below the mean.
   
 ## Basic R

@@ -53,6 +53,9 @@ header:
 * stratify /ˈstrætɪfaɪ/ 分层
 * eye fixations 眼睛定位
 * prominent /ˈprɒmɪnənt/ 突出的
+* divergent thinking 发散性思维
+* provalbe guarantee 可证明的保证
+* provalbe undecidable 可证明的不可判定
 
 * cross sectional 横断面研究
 * I don't really know where to go with that. 我不知道该怎么办
@@ -111,3 +114,8 @@ Discuss.
 * Explanation
 * Evidence
 * Evaluation
+
+## Writing process
+
+> 5 stages of writing: Prewriting, Drafting, Revising, Editing, Publishing
+
