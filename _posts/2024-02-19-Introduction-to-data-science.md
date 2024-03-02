@@ -1,6 +1,6 @@
 ---
 layout: post
-subtitle: Introduction to Data Science
+subtitle: Based on Lectuer handout & Learnning processes
 categories: [R]
 header:
     image: header.jpg
@@ -8,69 +8,69 @@ header:
     text: light
 ---
 
-# Introduce data science
+# Introduction to Data Science
 
 ## Basic Concepts
 
-### Cases and Variables
+### Cases
 
-* Cases aka rows, observations, records, units, instances
-  
-* Variables aka columns, fields, attributes, features, measurements, properties, parameters
-* Variables can be classified as:
-  * Categorical (qualitative) variables (aka factors, discrete)
+> Cases aka rows, observations, records, units, instances
+
+### Variables
+
+> Variables aka columns, fields, attributes, features, measurements, properties, parameters
+
+#### Variables Categories
+
+  - Categorical (qualitative) variables (aka factors, discrete)
     * Nominal variables (no order) 
     * Ordinal variables (order)
     * Cyclic variables (circular order, e.g. days of the week, months of the year, etc.
-  * Quantitative (numerical) variables
+  - Quantitative (numerical) variables
     * continuous variables
     * discrete variables
-  
-* cardinality: the number of distinct values in a variable
-  * Cardinality of a variable = number of unique values of a variable
-  
-* Variable roles
-  * Explanatory aka x, predictor, independent, input variable
-  * Response aka y, target, dependent, outcome, output variable
-  * Identifiers aka key, index, unique identifier, unique key, unique index, row name, ID
-  
-* Confounding - a third variable that affects the relationship between the explanatory and response variables
-  * aka lurking, hidden, nuisance, spurious variable
-  
-* Assocation & Causation
-  * Association: a statistical relationship between two variables
-  * Causation: a cause-and-effect relationship between two variables
-  
-* Randomised experiment
-  * Control group is that which receives no treatment
-  * Treatment group is that which receives the treatment
-  * give a placebo is that which receives a fake treatment
-  
-* Observational & Experimental Studies
-  * Observational study: the researcher observes and measures the variables of interest, but does not attempt to influence the responses
-  * Experimental study: the researcher applies a treatment and then observes the effect of the treatment on the response variable
-  
-* Population & Sample
-  * Population: the entire group of individuals or instances about whom we hope to learn
-  * Sample: a subset of the population
+
+#### Variable roles
+  - Explanatory aka x, predictor, independent, input variable
+  - Response aka y, target, dependent, outcome, output variable
+  - Identifiers aka key, index, unique identifier, unique key, unique index, row name, ID
+  - Confounding - a third variable that affects the relationship between the explanatory and response variables aka lurking, hidden, nuisance, spurious variable
+
+#### Assocation & Causation
+  - Association: a statistical relationship between two variables
+  - Causation: a cause-and-effect relationship between two variables
+
+### Randomised experiment
+  - The control group is that which receives no treatment
+  - The treatment group is that which receives the treatment
+  - A placebo is that which receives a fake treatment
+
+### Observational & Experimental Studies
+  - Observational study: the researcher observes and measures the variables of interest, but does not attempt to influence the responses
+  - Experimental study: the researcher applies a treatment and then observes the effect of the treatment on the response variable
+
+### cardinality: the number of distinct values in a variable
+> The cardinality of a variable = number of unique values of a variable
+
+### Population & Sample
+  - Population: the entire group of individuals or instances about whom we hope to learn
+  - Sample: a subset of the population
     * Sampling bias: a sample that is not representative of the population
     * Response Bias is a systematic favouring of certain outcomes that occurs when random individuals do not respond truthfully or are asked misleading questions in a study.
     * Non-Response Bias is a systematic favouring of certain outcomes that occurs when random individuals who choose to participate in a study differ from those who choose not to participate.
     * Haphazard and Random
 
-* Simple Random Sample
+### Simple Random Sample
 
-## Some Models
+### Standard Deviation
 
-### ARIMA Model
+  > The standard deviation is a measure of the amount of variation or dispersion of a set of values.
 
-> ARIMA (AutoRegressive Integrated Moving Average) is a generalization of an autoregressive moving average (ARMA) model. Both of these models are fitted to time series data either to better understand the data or to predict future points in the series (forecasting).
-  
-## Standard Deviation
+#### Features
 
-  > The standard deviation is a measure of the amount of variation or dispersion of a set of values. A low standard deviation indicates that the values tend to be close to the mean of the set, while a high standard deviation indicates that the values are spread out over a wider range.
+A low standard deviation indicates that the values tend to be close to the mean of the set, while a high standard deviation indicates that the values are spread out over a wider range. 数据分散，开口比较宽
 
-### Sample Standard deviation (SD)
+#### Sample Standard deviation (SD)
 
 ```R
 # 计算样本标准差
@@ -81,8 +81,8 @@ population_sd <- sqrt(var(x))
 # 或者
 population_sd <- sd(x, na.rm = TRUE)
 ```
-  
-### Z Score # need to be able to calculate this by z-score table
+
+### Z Score # needs to be able to calculate this by the z-score table
 
   > A Z-score is a numerical measurement that describes a value's relationship to the mean of a group of values. Z-score is measured in terms of standard deviations from the mean. If a Z-score is 0, it indicates that the data point's score is identical to the mean score. A Z-score of 1.0 would indicate a value that is one standard deviation from the mean. Z-scores may be positive or negative, with a positive value indicating the score is above the mean and a negative score indicating it is below the mean.
 
@@ -145,7 +145,7 @@ psych::harmonic.mean(x) # second method
 ```
 
 #### Trimmed Mean 修剪平均值
-  
+
 ```R
     data <- c(2, 3, 5, 6, 7, 8, 9, 10, 12, 15)
     # 计算需要剔除的极端值的数量
@@ -160,9 +160,11 @@ psych::harmonic.mean(x) # second method
     # another method is use Mean function with trim argument can from 0.1 to 0.5
 ```
 
-### common measures of spread
 
-#### Range : highest minus the lowest
+
+### Range
+
+> highest minus the lowest
 
 ```R
 # 定义一个向量
@@ -171,7 +173,9 @@ x <- c(2, 3, 5, 6, 7, 8, 9, 10, 12, 15)
 range_x <- range(x) # 返回最小值和最大值
 ```
 
-#### Inter-quartile range (IQR) : 75th percentile minus the 25th percentile
+#### Inter-quartile range (IQR)
+
+> 75th percentile minus the 25th percentile
 
 ```R
 # quantile函数 example
@@ -179,7 +183,7 @@ x <- c(2, 3, 5, 6, 7, 8, 9, 10, 12, 15)
 quantile(x, probs = c(0.25, 0.75)) # 返回第一个四分位数和第三个四分位数
 ```
 
-#### Median absolute deviation (MAD)
+### Median absolute deviation (MAD)
 
 ```R
 mad(students$score)
@@ -187,7 +191,7 @@ mad(students$score)
 1.4826 * median( abs(students$score - median(students$score)) )
 ```
 
-#### Average absolute deviation (from the mean)
+### Average absolute deviation (from the mean)
 
 ```R
 lsr::aad(students$score) 
@@ -203,7 +207,7 @@ absolute_deviations <- abs(x - mean_x)
 average_absolute_deviation <- mean(absolute_deviations)
 ```
 
-#### Covariance 协方差
+### Covariance 协方差
 
 > 衡量两个变量之间的线性关系：协方差的正负号表示了两个变量之间的线性关系的方向，即正协方差表示正相关关系，负协方差表示负相关关系，而接近零的协方差则表示变量之间基本没有线性关系。
 > 衡量变量之间的相关性强弱：协方差的绝对值大小表示了两个变量之间的相关性强度，绝对值越大表示相关性越强。
@@ -220,7 +224,7 @@ covariance_xy <- cov(x, y)
 print(covariance_xy)
 ```
 
-#### Correlation coefficient 相关系数
+### Correlation coefficient 相关系数
 
 The covariance is also related to the correlation coefficient, which is a measure of the linear relationship between two variables. The correlation coefficient is calculated by dividing the covariance by the product of the standard deviations of the two variables.
 
@@ -238,7 +242,7 @@ correlation_xy <- cor(x, y)
 print(correlation_xy)
 ```
 
-#### Covariance Matrix 协方差矩阵
+### Covariance Matrix 协方差矩阵
 
 ```R
 # 定义一个多维随机变量数据集
@@ -251,7 +255,7 @@ covariance_matrix <- cov(data)
 print(covariance_matrix)
 ```
 
-#### Variation Ratio : proportion of cases different to the mode
+### Variation Ratio: proportion of cases different to the mode
 
 ```R
 variationRatio <- function(x) {
@@ -262,7 +266,7 @@ variationRatio <- function(x) {
 }
 ```
 
-### Find high outlier and low outlier
+### Find high outliers and low outliers
 
 ```R
 # 生成一组随机数据
@@ -283,5 +287,39 @@ low_threshold <- Q1 - 1.5 * IQR
 high_outliers <- data[data > high_threshold]
 low_outliers <- data[data < low_threshold]
 ```
+
+### An example function to find outliers distribution
+
+```R
+find_outlier_position <- function(min_val, q1, median_val, q3, max_val) {
+  # 计算箱型图的 IQR（四分位距）
+  iqr <- q3 - q1
+  
+  # 计算异常值的上限和下限
+  lower_bound <- q1 - 1.5 * iqr
+  upper_bound <- q3 + 1.5 * iqr
+  
+  # 判断最小值和最大值是否在异常值的范围内
+  is_lower_outlier <- min_val < lower_bound
+  is_upper_outlier <- max_val > upper_bound
+  
+  # 根据异常值的情况返回结果
+  if (is_lower_outlier & is_upper_outlier) {
+    return("Both Sides")  # 两边都有异常值
+  } else if (is_lower_outlier) {
+    return("Lower Side")  # 最下面有异常值
+  } else if (is_upper_outlier) {
+    return("Upper Side")  # 最上面有异常值
+  } else {
+    return("No Outlier")  # 没有异常值
+  }
+}
+```
+
+## Some Models
+
+### ARIMA Model
+
+> ARIMA (AutoRegressive Integrated Moving Average) is a generalization of an autoregressive moving average (ARMA) model. Both of these models are fitted to time series data either to better understand the data or to predict future points in the series (forecasting).
 
 ## Basic R
