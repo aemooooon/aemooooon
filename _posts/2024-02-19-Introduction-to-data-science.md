@@ -22,43 +22,49 @@ header:
 
 #### Variables Categories
 
-  - Categorical (qualitative) variables (aka factors, discrete)
-    * Nominal variables (no order) 
-    * Ordinal variables (order)
-    * Cyclic variables (circular order, e.g. days of the week, months of the year, etc.
-  - Quantitative (numerical) variables
-    * continuous variables
-    * discrete variables
+- Categorical (qualitative) variables (aka factors, discrete)
+  - Nominal variables (no order) 
+  - Ordinal variables (order)
+  - Cyclic variables (circular order, e.g. days of the week, months of the year, etc.
+- Quantitative (numerical) variables
+  - continuous variables
+  - discrete variables
 
 #### Variable roles
-  - Explanatory aka x, predictor, independent, input variable
-  - Response aka y, target, dependent, outcome, output variable
-  - Identifiers aka key, index, unique identifier, unique key, unique index, row name, ID
-  - Confounding - a third variable that affects the relationship between the explanatory and response variables aka lurking, hidden, nuisance, spurious variable
+
+- Explanatory aka x, predictor, independent, input variable
+- Response aka y, target, dependent, outcome, output variable
+- Identifiers aka key, index, unique identifier, unique key, unique index, row name, ID
+- Confounding - a third variable that affects the relationship between the explanatory and response variables aka lurking, hidden, nuisance, spurious variable
 
 #### Assocation & Causation
-  - Association: a statistical relationship between two variables
-  - Causation: a cause-and-effect relationship between two variables
+
+- Association: a statistical relationship between two variables
+- Causation: a cause-and-effect relationship between two variables
 
 ### Randomised experiment
-  - The control group is that which receives no treatment
-  - The treatment group is that which receives the treatment
-  - A placebo is that which receives a fake treatment
+
+- The control group is that which receives no treatment
+- The treatment group is that which receives the treatment
+- A placebo is that which receives a fake treatment
 
 ### Observational & Experimental Studies
-  - Observational study: the researcher observes and measures the variables of interest, but does not attempt to influence the responses
-  - Experimental study: the researcher applies a treatment and then observes the effect of the treatment on the response variable
+
+- Observational study: the researcher observes and measures the variables of interest, but does not attempt to influence the responses
+- Experimental study: the researcher applies a treatment and then observes the effect of the treatment on the response variable
 
 ### cardinality: the number of distinct values in a variable
+
 > The cardinality of a variable = number of unique values of a variable
 
 ### Population & Sample
-  - Population: the entire group of individuals or instances about whom we hope to learn
-  - Sample: a subset of the population
-    * Sampling bias: a sample that is not representative of the population
-    * Response Bias is a systematic favouring of certain outcomes that occurs when random individuals do not respond truthfully or are asked misleading questions in a study.
-    * Non-Response Bias is a systematic favouring of certain outcomes that occurs when random individuals who choose to participate in a study differ from those who choose not to participate.
-    * Haphazard and Random
+
+- Population: the entire group of individuals or instances about whom we hope to learn
+- Sample: a subset of the population
+  - Sampling bias: a sample that is not representative of the population
+  - Response Bias is a systematic favouring of certain outcomes that occurs when random individuals do not respond truthfully or are asked misleading questions in a study.
+  - Non-Response Bias is a systematic favouring of certain outcomes that occurs when random individuals who choose to participate in a study differ from those who choose not to participate.
+  - Haphazard and Random
 
 ### Simple Random Sample
 
