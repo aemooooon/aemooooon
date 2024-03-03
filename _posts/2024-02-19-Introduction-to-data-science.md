@@ -166,8 +166,6 @@ psych::harmonic.mean(x) # second method
     # another method is use Mean function with trim argument can from 0.1 to 0.5
 ```
 
-
-
 ### Range
 
 > highest minus the lowest
@@ -329,3 +327,107 @@ find_outlier_position <- function(min_val, q1, median_val, q3, max_val) {
 > ARIMA (AutoRegressive Integrated Moving Average) is a generalization of an autoregressive moving average (ARMA) model. Both of these models are fitted to time series data either to better understand the data or to predict future points in the series (forecasting).
 
 ## Basic R
+
+### Shortcuts
+
+```bash
+option + - : <-
+ctrl + shift + m : %*% aka |>
+```
+
+### Tidyverse - dplyr
+
+#### Rows
+
+- `filter()` - to select rows based on some conditions
+  
+```R
+# < > <= >= == != %in% & | ! condition on columns/variables
+flights |> 
+    filter(month == 1 & day == 1)
+    # or combining | and ==: %in%
+    filter(month %in% c(1, 2))
+```
+
+- `arrange()` - to reorder rows based on some variable
+
+```R
+# It's functionality same as order by in SQL
+flights |>
+  arrange(year, month, day, desc(dep_time))
+```
+
+- `distinct()` - to select unique rows
+
+```R
+flights |> 
+  distinct(origin, dest)
+flights |> 
+  distinct(origin, dest, .keep_all = TRUE)
+flights |>
+  count(origin, dest, sort = TRUE)
+```
+
+- `mutate()` - to add new variables
+
+```R
+flights |> 
+  mutate(speed = distance / air_time * 60)
+  # .before = 1, .after = day, .keep = "used"
+```
+
+- `select()` - to select columns
+
+```R
+flights |> 
+  select(year:day, dep_delay, arr_delay) # select columns from year to day
+flights |>
+    select(starts_with("arr"), ends_with("time")) # select columns with "arr" in the name
+flights |>
+    select(contains("arr")) # select columns with "arr" in the name
+flights |>
+    select(where(is.character)) # select columns with character type
+flights |>
+    select(-contains("arr")) # remove columns
+```
+
+- `relocate()` - to move columns
+
+```R
+flights |>
+    relocate(dep_delay, .after = day)
+```
+
+- `rename()` - to rename columns
+
+```R
+flights |>
+    rename(dep_delay = dep_time)
+```
+
+- `group_by() and summarize()` - to group rows
+
+```R
+flights |> 
+  group_by(month) |> # can be multiple variables
+  summarize(
+    avg_delay = mean(dep_delay, na.rm = TRUE),
+    n = n() # which returns the number of rows in each group
+  )
+```
+
+- `slice()` - to select rows by their positions
+
+df |> slice_head(n = 1) takes the first row from each group.
+df |> slice_tail(n = 1) takes the last row in each group.
+df |> slice_min(x, n = 1) takes the row with the smallest value of column x.
+df |> slice_max(x, n = 1) takes the row with the largest value of column x.
+df |> slice_sample(n = 1) takes one random row.
+
+- `ungroup()` - to remove grouping 取消已分组
+
+```R
+flights |> 
+  group_by(year, month, day) |> 
+  ungroup()
+```
