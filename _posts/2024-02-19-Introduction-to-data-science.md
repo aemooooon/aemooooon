@@ -430,4 +430,34 @@ df |> slice_sample(n = 1) takes one random row.
 flights |> 
   group_by(year, month, day) |> 
   ungroup()
+
+
+near(x, c(1, 2)) # compare float numbers
+
+```
+
+- `is.na()` - works with any type of vector and returns TRUE for missing values and FALSE for everything else:
+
+```R
+flights |> 
+  filter(is.na(dep_time))
+```
+
+- `if_else()` - a vectorized if() function that is useful when working with data frames:
+
+```R
+flights |> 
+  mutate(dep_type = if_else(dep_time < 1200, "morning", "afternoon"))
+```
+
+- `case_when()` - a vectorized version of ifelse() that is useful when working with data frames:
+
+```R
+flights |> 
+  mutate(dep_type = case_when(
+    dep_time < 600 ~ "early",
+    dep_time < 1200 ~ "morning",
+    dep_time < 1800 ~ "afternoon",
+    TRUE ~ "evening"
+  ))
 ```

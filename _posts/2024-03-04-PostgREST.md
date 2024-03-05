@@ -8,6 +8,10 @@ header:
     text: light
 ---
 
+# PostgreSQL
+
+## 
+
 # PostgREST
 
 ## Run PostgresSQL in local Mac with docker
@@ -31,13 +35,18 @@ create table api.todos (
 insert into api.todos (task) values
   ('finish tutorial 0'), ('pat self on back');
 
-create role web_anon nologin; # 创建 web_anon 角色，并设置其为非登录角色（nologin）
+# 创建 web_anon 角色，并设置其为非登录角色（nologin）
+create role web_anon nologin; 
 
-grant usage on schema api to web_anon; # 授予web_anon对api模式的使用权限
-grant select on api.todos to web_anon; # 授予web_anon对api.todos表的查询（CRUD only with R）权限
+# 授予web_anon对api模式的使用权限
+grant usage on schema api to web_anon; 
+# 授予web_anon对api.todos表的查询（CRUD only with R）权限
+grant select on api.todos to web_anon; 
 
-create role authenticator noinherit login password 'mysecretpassword'; # 创建 authenticator 登录角色，不继承其他角色
-grant web_anon to authenticator; # 授予 web_anon 角色 to authenticator 角色，使其继承web_anon的权限（api模式和api.todos表的查询权限）
+# 创建 authenticator 登录角色，不继承其他角色
+create role authenticator noinherit login password 'mysecretpassword'; 
+# 授予 web_anon 角色 to authenticator 角色，使其继承web_anon的权限（api模式和api.todos表的查询权限）
+grant web_anon to authenticator; 
 
 \q
 ```
