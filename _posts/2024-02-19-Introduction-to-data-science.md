@@ -461,3 +461,58 @@ flights |>
     TRUE ~ "evening"
   ))
 ```
+
+## Confidende Interval
+
+I am using `wagon` dataset to calculate the confidence interval.
+
+### Some function
+
+```R
+get_mean_se <- function(x, repeats = 1000, size = 10, replace = FALSE){
+  # get the standard error of mean sampling
+  # x: variable interested
+  # repeats: number of sampling iterations
+  # size: sample size
+  # replace: sampling method
+  se <- sd(replicate(repeats, mean(sample(x, size, replace = replace))))
+  return(se)
+}
+
+get_prop_se <- function(x, c, repeats = 1000, size = 10, replace = FALSE){
+  # get the standard error of proportion sampling
+  # x: variable interested
+  # c: category interested
+  # repeats: number of sampling iterations
+  # size: sample size
+  # replace: sampling method
+  se <- sd(replicate(repeats, sum(sample(x, size, replace = replace) == c)/size))
+  return(se)
+}
+```
+
+### An example
+
+```R
+# get the mean of price
+xbar <- mean(wagon$price)
+
+# using bootstrap to get the standard error
+se <- get_mean_se(x = wagon$price, size = length(wagon$price), replace = TRUE)
+
+ci <- c(xbar-2*se, xbar+2*se) # Using vector in R to mimic tuple in Python
+sprintf("We are 95%% confident that the true price of this certain type of used sports wagon is between $%.0f and $%.0f.", ci[1], ci[2])
+```
+
+### Using Percentile Method to calculate the confidence interval
+
+```R
+# bootstrap distribution
+boot.wagon <- replicate(1000, mean(sample(wagon$price, 67, replace = TRUE)))
+
+
+data.frame(boot.wagon)
+hist(boot.wagon)
+# 95% confidence interval is from 2.5th percentile to 97.5th percentile
+quantile(x = boot.wagon, probs = c(0.025, 0.975))
+```
