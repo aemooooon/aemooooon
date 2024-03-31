@@ -6,7 +6,7 @@
 
 # Site title and description
 title:              吾日三省吾身
-description:        Hi, here is Hua's notes.
+description:        Hi, here is aemooooon's notes.
 
 # Site subpath, e.g. /blog
 baseurl:            ""
@@ -19,12 +19,12 @@ url:                ""
 
 # Site logo, image or text
 logo:               # e.g. logo.png, upload logo image file to /assets/img/ folder
-logo_text:          Hua ω      # if the above "logo:" image variable  is not set, this text logo is displayed instead
+logo_text:          aemooooon ω      # if the above "logo:" image variable  is not set, this text logo is displayed instead
 
 # Author settings, displayed on about page
 author:
-    name:           Hua WANG
-    bio:            Kia ora, I am a father, web developer and a upcoming data scientist.
+    name:           Hua
+    bio:            Kia ora, I am a father, web developer and a upcoming data engineer.
     email:          aemooooon@gmail.com
     website:        http://www.hua.nz
     github:         https://github.com/
