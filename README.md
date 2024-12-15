@@ -1,6 +1,6 @@
-## Hi, I'm Hua 👋 
+## Kia ora I'm aemon 👋 
 
-I'm a Web Developer & student! <br />Currently studying at the University of Canterbury for a Master of Applied Data Science.
+I'm a Web Developer & Software / Data Engineer! <br />
 
 # 🔭 Most Used Languages
 
