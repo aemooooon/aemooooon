@@ -1,6 +1,6 @@
-## Kia ora I'm aemon 👋 
+## Kia ora I'm Hua 👋 
 
-I'm a Web Developer & Software / Data Engineer! <br />
+I'm a web developer <br />
 
 # 🔭 Most Used Languages
 
